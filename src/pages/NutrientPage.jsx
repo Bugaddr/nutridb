@@ -59,25 +59,37 @@ export default function NutrientPage() {
       </div>
 
       <div className="np-body">
-        {/* Biological Details — tabbed */}
-        {(n.functions || n.enzymeRoles || n.hormonalRoles || n.metabolicPathways || n.organsAffected || n.cellularFunctions) && (
+
+        {/* 1. HOOK — Discovery story and fun facts to engage curiosity */}
+        {(n.history || n.funFacts?.length > 0) && (
           <div className="np-section">
-            <h2>Biological Details</h2>
+            <h2>Discovery & Background</h2>
             <Tabs tabs={[
-              { label: 'Functions', content: n.functions?.length > 0 && <List items={n.functions} /> },
-              { label: 'Enzymes', content: n.enzymeRoles?.length > 0 && <List items={n.enzymeRoles} /> },
-              { label: 'Hormones', content: n.hormonalRoles?.length > 0 && <List items={n.hormonalRoles} /> },
-              { label: 'Pathways', content: n.metabolicPathways?.length > 0 && <List items={n.metabolicPathways} /> },
-              { label: 'Organs', content: n.organsAffected?.length > 0 && <List items={n.organsAffected} /> },
-              { label: 'Cellular', content: n.cellularFunctions?.length > 0 && <List items={n.cellularFunctions} /> },
+              { label: 'History', content: n.history && <p>{n.history}</p> },
+              { label: 'Fun Facts', content: n.funFacts?.length > 0 && <List items={n.funFacts} /> },
             ]} />
           </div>
         )}
 
-        {/* RDA */}
+        {/* 2. UNDERSTAND — What does this nutrient actually do in your body? */}
+        {(n.functions || n.enzymeRoles || n.hormonalRoles || n.metabolicPathways || n.organsAffected || n.cellularFunctions) && (
+          <div className="np-section">
+            <h2>What It Does</h2>
+            <Tabs tabs={[
+              { label: 'Functions', content: n.functions?.length > 0 && <List items={n.functions} /> },
+              { label: 'Organs', content: n.organsAffected?.length > 0 && <List items={n.organsAffected} /> },
+              { label: 'Cellular', content: n.cellularFunctions?.length > 0 && <List items={n.cellularFunctions} /> },
+              { label: 'Pathways', content: n.metabolicPathways?.length > 0 && <List items={n.metabolicPathways} /> },
+              { label: 'Enzymes', content: n.enzymeRoles?.length > 0 && <List items={n.enzymeRoles} /> },
+              { label: 'Hormones', content: n.hormonalRoles?.length > 0 && <List items={n.hormonalRoles} /> },
+            ]} />
+          </div>
+        )}
+
+        {/* 3. MEASURE — How much do you need? */}
         {n.rda && (
           <div className="np-section">
-            <h2>Recommended Daily Allowance</h2>
+            <h2>How Much You Need</h2>
             <Tabs tabs={Object.keys(n.rda).map(a => ({
               label: rdaLabels[a] || a.toUpperCase(),
               content: <RDATable rows={n.rda[a]} />,
@@ -85,57 +97,57 @@ export default function NutrientPage() {
           </div>
         )}
 
-        {/* Deficiency — symptoms tabbed by severity */}
+        {/* 4. RISK — What happens if you don't get enough? */}
         {n.deficiency && (
           <div className="np-section">
-            <h2>Deficiency</h2>
+            <h2>What Happens Without It</h2>
             <Tabs tabs={[
               ...(hasSeverity ? [
-                { label: 'Early', content: sym.early?.length > 0 && <List items={sym.early} /> },
+                { label: 'Early Signs', content: sym.early?.length > 0 && <List items={sym.early} /> },
                 { label: 'Moderate', content: sym.moderate?.length > 0 && <List items={sym.moderate} /> },
                 { label: 'Severe', content: sym.severe?.length > 0 && <List items={sym.severe} /> },
                 { label: 'Long-term', content: sym.longTerm?.length > 0 && <List items={sym.longTerm} /> },
               ] : []),
               { label: 'Conditions', content: n.deficiency.conditions?.length > 0 && <List items={n.deficiency.conditions} /> },
-              { label: 'At-Risk Groups', content: n.deficiency.riskGroups?.length > 0 && <List items={n.deficiency.riskGroups} /> },
+              { label: 'Who\'s At Risk', content: n.deficiency.riskGroups?.length > 0 && <List items={n.deficiency.riskGroups} /> },
             ]} />
             {Array.isArray(sym) && <List items={sym} />}
           </div>
         )}
 
-        {/* Levels, Toxicity, Testing — tabbed */}
+        {/* 5. SAFETY — Normal ranges, testing, toxicity */}
         {(n.normalLevels || n.toxicity || n.testing) && (
           <div className="np-section">
-            <h2>Levels & Safety</h2>
+            <h2>Your Levels</h2>
             <Tabs tabs={[
-              { label: 'Normal Levels', content: n.normalLevels && (
+              { label: 'Normal Range', content: n.normalLevels && (
                 <>
                   <p><strong>Range:</strong> {n.normalLevels.bloodRange}</p>
                   {n.normalLevels.unit && <p><strong>Unit:</strong> {n.normalLevels.unit}</p>}
                   {n.normalLevels.notes && <p>{n.normalLevels.notes}</p>}
                 </>
               )},
-              { label: 'Toxicity', content: n.toxicity && (
+              { label: 'How to Test', content: n.testing && (
+                <>
+                  {n.testing.methods?.length > 0 && <List items={n.testing.methods} />}
+                  {n.testing.sampleType && <p><strong>Sample:</strong> {n.testing.sampleType}</p>}
+                </>
+              )},
+              { label: 'Too Much?', content: n.toxicity && (
                 <>
                   {n.toxicity.symptoms?.length > 0 && <List items={n.toxicity.symptoms} />}
                   {n.toxicity.upperLimit && <p><strong>Upper Limit:</strong> {n.toxicity.upperLimit}</p>}
                   {n.toxicity.notes && <p>{n.toxicity.notes}</p>}
                 </>
               )},
-              { label: 'Testing', content: n.testing && (
-                <>
-                  {n.testing.methods?.length > 0 && <List items={n.testing.methods} />}
-                  {n.testing.sampleType && <p><strong>Sample:</strong> {n.testing.sampleType}</p>}
-                </>
-              )},
             ]} />
           </div>
         )}
 
-        {/* Food Sources, Supplements, Interactions, Precautions — tabbed */}
-        {(n.sources?.length > 0 || n.supplementForms?.length > 0 || n.interactions?.length > 0 || n.precautions?.length > 0) && (
+        {/* 6. ACTION — How to get it (food first, then supplements) */}
+        {(n.sources?.length > 0 || n.supplementForms?.length > 0) && (
           <div className="np-section">
-            <h2>Practical Info</h2>
+            <h2>How to Get It</h2>
             <Tabs tabs={[
               { label: 'Food Sources', content: n.sources?.length > 0 && (
                 <div className="source-bar">
@@ -151,7 +163,7 @@ export default function NutrientPage() {
                   })}
                 </div>
               )},
-              { label: 'Supplement Forms', content: n.supplementForms?.length > 0 && (
+              { label: 'Supplements', content: n.supplementForms?.length > 0 && (
                 <table>
                   <thead><tr><th>Form</th><th>Bioavailability</th><th>Notes</th></tr></thead>
                   <tbody>
@@ -165,7 +177,16 @@ export default function NutrientPage() {
                   </tbody>
                 </table>
               )},
-              { label: 'Interactions', content: n.interactions?.length > 0 && (
+            ]} />
+          </div>
+        )}
+
+        {/* 7. CAUTION — Interactions and precautions */}
+        {(n.interactions?.length > 0 || n.precautions?.length > 0) && (
+          <div className="np-section">
+            <h2>Watch Out For</h2>
+            <Tabs tabs={[
+              { label: 'Drug Interactions', content: n.interactions?.length > 0 && (
                 <div className="interaction-list">
                   {n.interactions.map((int, i) => (
                     <div key={i} className="interaction-item">
@@ -180,30 +201,24 @@ export default function NutrientPage() {
           </div>
         )}
 
-        {/* Myths, History, Fun Facts — tabbed */}
-        {(n.myths?.length > 0 || n.history || n.funFacts?.length > 0) && (
+        {/* 8. DEBUNK — Myths vs reality */}
+        {n.myths?.length > 0 && (
           <div className="np-section">
-            <h2>More</h2>
-            <Tabs tabs={[
-              { label: 'Myths', content: n.myths?.length > 0 && (
-                <div className="myth-list">
-                  {n.myths.map((m, i) => (
-                    <div key={i} className="myth-item">
-                      <div className="label myth">Myth</div>
-                      <p>{m.myth}</p>
-                      <div className="label reality" style={{ marginTop: 8 }}>Reality</div>
-                      <p>{m.reality}</p>
-                    </div>
-                  ))}
+            <h2>Myths vs Reality</h2>
+            <div className="myth-list">
+              {n.myths.map((m, i) => (
+                <div key={i} className="myth-item">
+                  <div className="label myth">Myth</div>
+                  <p>{m.myth}</p>
+                  <div className="label reality" style={{ marginTop: 8 }}>Reality</div>
+                  <p>{m.reality}</p>
                 </div>
-              )},
-              { label: 'History', content: n.history && <p>{n.history}</p> },
-              { label: 'Fun Facts', content: n.funFacts?.length > 0 && <List items={n.funFacts} /> },
-            ]} />
+              ))}
+            </div>
           </div>
         )}
 
-        {/* Read More */}
+        {/* 9. EXPLORE — External links */}
         <div className="np-section">
           <h2>Read More</h2>
           <ul className="read-more">
