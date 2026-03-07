@@ -123,4 +123,17 @@ cellularFunctions:
   - "Cartilage and bone matrix formation"
   - "Amino acid and glucose metabolism"
   - "Wound healing"
+supplementForms:
+  - form: "Manganese bisglycinate"
+    bioavailability: "High"
+    notes: "Chelated, well absorbed"
+  - form: "Manganese gluconate"
+    bioavailability: "Moderate"
+    notes: "Common form, decent absorption"
+  - form: "Manganese sulfate"
+    bioavailability: "Moderate"
+    notes: "Inorganic form"
+  - form: "Manganese citrate"
+    bioavailability: "Moderate"
+    notes: "Organic salt form"
 ---

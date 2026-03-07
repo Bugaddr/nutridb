@@ -127,4 +127,17 @@ cellularFunctions:
   - "Toxic acyl group removal from mitochondria"
   - "CoA pool maintenance"
   - "Energy production from fat"
+supplementForms:
+  - form: "L-carnitine"
+    bioavailability: "Moderate"
+    notes: "Standard form, ~15-18% oral bioavailability"
+  - form: "Acetyl-L-carnitine (ALCAR)"
+    bioavailability: "High"
+    notes: "Crosses blood-brain barrier, neuroprotective, supports cognition"
+  - form: "L-carnitine L-tartrate"
+    bioavailability: "High"
+    notes: "Rapidly absorbed, studied for exercise recovery"
+  - form: "Propionyl-L-carnitine"
+    bioavailability: "Moderate"
+    notes: "Studied for cardiovascular and peripheral circulation"
 ---

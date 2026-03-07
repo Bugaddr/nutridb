@@ -133,4 +133,17 @@ cellularFunctions:
   - "Nerve impulse conduction"
   - "Myelin sheath maintenance"
   - "Acetylcholine synthesis support"
+supplementForms:
+  - form: "Thiamine mononitrate"
+    bioavailability: "Moderate"
+    notes: "Standard, water-soluble, absorption limited at high doses"
+  - form: "Thiamine HCl"
+    bioavailability: "Moderate"
+    notes: "Common supplement form, similar to mononitrate"
+  - form: "Benfotiamine"
+    bioavailability: "High"
+    notes: "Fat-soluble derivative, 5x higher bioavailability, crosses cell membranes better"
+  - form: "Sulbutiamine"
+    bioavailability: "High"
+    notes: "Lipophilic, crosses blood-brain barrier, used for fatigue"
 ---

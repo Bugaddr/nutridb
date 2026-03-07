@@ -135,4 +135,11 @@ cellularFunctions:
   - "Chromatin remodeling (histone biotinylation)"
   - "Cell proliferation regulation"
   - "Fatty acid elongation"
+supplementForms:
+  - form: "D-biotin"
+    bioavailability: "High"
+    notes: "Natural form, well absorbed orally"
+  - form: "Biocytin"
+    bioavailability: "Moderate"
+    notes: "Protein-bound form from food, requires biotinidase to release"
 ---

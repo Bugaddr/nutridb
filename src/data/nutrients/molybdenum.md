@@ -109,4 +109,14 @@ cellularFunctions:
   - "Sulfur amino acid metabolism"
   - "Xenobiotic metabolism"
   - "Reactive oxygen species generation (xanthine oxidase)"
+supplementForms:
+  - form: "Sodium molybdate"
+    bioavailability: "High"
+    notes: "Standard form, well absorbed (88-93%)"
+  - form: "Ammonium molybdate"
+    bioavailability: "High"
+    notes: "Used in supplements, similar absorption"
+  - form: "Molybdenum glycinate"
+    bioavailability: "High"
+    notes: "Chelated form"
 ---

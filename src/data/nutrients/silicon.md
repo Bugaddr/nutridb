@@ -103,4 +103,17 @@ cellularFunctions:
   - "Collagen fiber maturation"
   - "Extracellular matrix formation"
   - "Bone matrix calcification initiation"
+supplementForms:
+  - form: "Orthosilicic acid (OSA)"
+    bioavailability: "High"
+    notes: "Monomeric form, most bioavailable"
+  - form: "Choline-stabilized orthosilicic acid (ch-OSA)"
+    bioavailability: "High"
+    notes: "Stabilized with choline, patented (BioSil), well studied"
+  - form: "Colloidal silicon dioxide"
+    bioavailability: "Low"
+    notes: "Poorly absorbed, mainly used as excipient"
+  - form: "Horsetail extract"
+    bioavailability: "Low"
+    notes: "Natural source, silicon bound in plant matrix, poor absorption"
 ---

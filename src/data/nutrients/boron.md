@@ -106,4 +106,14 @@ cellularFunctions:
   - "Bone mineralization support"
   - "Inflammatory response modulation"
   - "Possible role in cell membrane function"
+supplementForms:
+  - form: "Boron citrate"
+    bioavailability: "High"
+    notes: "Common supplement form, well absorbed"
+  - form: "Boron glycinate"
+    bioavailability: "High"
+    notes: "Chelated, well tolerated"
+  - form: "Calcium fructoborate"
+    bioavailability: "High"
+    notes: "Patented form (FruiteX-B), mimics dietary boron"
 ---

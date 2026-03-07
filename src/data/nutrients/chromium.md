@@ -118,4 +118,17 @@ cellularFunctions:
   - "Insulin receptor sensitization"
   - "Glucose transporter activation"
   - "Macronutrient metabolism modulation"
+supplementForms:
+  - form: "Chromium picolinate"
+    bioavailability: "High"
+    notes: "Most studied form, ~2% absorbed"
+  - form: "Chromium polynicotinate"
+    bioavailability: "High"
+    notes: "Bound to niacin, patented form"
+  - form: "Chromium chloride"
+    bioavailability: "Low"
+    notes: "Poorly absorbed (~0.5%), older supplement form"
+  - form: "Chromium GTF (from yeast)"
+    bioavailability: "Moderate"
+    notes: "Glucose tolerance factor from brewer's yeast"
 ---

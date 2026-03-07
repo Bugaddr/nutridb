@@ -130,4 +130,11 @@ cellularFunctions:
   - "Energy production (FAD/FMN are electron carriers)"
   - "Glutathione recycling (antioxidant defense)"
   - "Pyridoxine (B6) activation"
+supplementForms:
+  - form: "Riboflavin"
+    bioavailability: "Moderate"
+    notes: "Standard form, absorption plateaus ~27mg per dose"
+  - form: "Riboflavin-5-phosphate (R5P/FMN)"
+    bioavailability: "High"
+    notes: "Active coenzyme form, no conversion needed"
 ---

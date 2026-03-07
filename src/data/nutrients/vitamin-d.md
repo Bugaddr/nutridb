@@ -159,4 +159,14 @@ cellularFunctions:
   - "Calcium channel regulation"
   - "Immune modulation (antimicrobial peptide cathelicidin)"
   - "Cell proliferation and differentiation control"
+supplementForms:
+  - form: "Cholecalciferol (D3)"
+    bioavailability: "High"
+    notes: "Animal-derived, raises 25(OH)D more effectively than D2"
+  - form: "Ergocalciferol (D2)"
+    bioavailability: "Moderate"
+    notes: "Plant/fungal-derived, shorter half-life than D3"
+  - form: "Calcifediol (25-OH D3)"
+    bioavailability: "High"
+    notes: "Pre-hydroxylated, 2-3x more potent at raising blood levels"
 ---

@@ -1,61 +1,82 @@
-import { useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import nutrients from 'virtual:nutrients'
 
-const filters = [
-  { key: 'all', label: 'All' },
-  { key: 'vitamin', label: 'Vitamins' },
-  { key: 'mineral', label: 'Minerals' },
-  { key: 'essential', label: 'Essential' },
-  { key: 'conditionally-essential', label: 'Conditional' },
-  { key: 'non-essential', label: 'Non-Essential' },
-]
+const vitamins = nutrients.filter(n => n.category === 'vitamin')
+const minerals = nutrients.filter(n => n.category === 'mineral')
+const others = nutrients.filter(n => n.category === 'other')
+
+function Card({ n }) {
+  return (
+    <Link to={`/nutrient/${n.id}`} className="card">
+      <div className="card-top">
+        <span className="card-symbol">{n.symbol}</span>
+      </div>
+      <h3>{n.name}</h3>
+      <div className="card-alt">{n.altName?.split('/')[0]?.trim()}</div>
+      <div className="card-desc">{n.description?.slice(0, 90)}…</div>
+      <div className="card-foot">
+        <span>{n.subcategory?.replace(/-/g, ' ')}</span>
+        <span className={`card-ess card-ess--${n.essentiality}`}>
+          {n.essentiality === 'essential' ? '●' : n.essentiality === 'conditionally-essential' ? '◐' : '○'}
+        </span>
+      </div>
+    </Link>
+  )
+}
+
+function Section({ title, subtitle, items, color }) {
+  return (
+    <div className="hp-section">
+      <div className="hp-section-head">
+        <div>
+          <h2 className="hp-section-title">{title} <span className="hp-section-count">{items.length}</span></h2>
+          <p className="hp-section-sub">{subtitle}</p>
+        </div>
+      </div>
+      <div className="grid">
+        {items.map(n => <Card key={n.id} n={n} />)}
+      </div>
+    </div>
+  )
+}
 
 export default function HomePage() {
-  const [filter, setFilter] = useState('all')
-  const [search, setSearch] = useState('')
-
-  const list = useMemo(() => {
-    let r = nutrients
-    if (filter !== 'all') r = r.filter(n => n.essentiality === filter || n.category === filter)
-    if (search) {
-      const q = search.toLowerCase()
-      r = r.filter(n => n.name.toLowerCase().includes(q) || (n.altName || '').toLowerCase().includes(q))
-    }
-    return r
-  }, [filter, search])
-
   return (
     <div className="wrap">
       <div className="home-hero">
-        <h1>Micronutrient Encyclopedia</h1>
-        <p>{nutrients.length} nutrients — vitamins, minerals, and essential compounds with RDA, deficiency data, food sources, and more.</p>
-        <input placeholder="Search nutrients…" value={search} onChange={e => setSearch(e.target.value)} />
+        <p className="hero-label">NutriDB</p>
+        <h1>The Micronutrient<br />Encyclopedia</h1>
+        <p className="hero-desc">
+          {nutrients.length} nutrients with RDA from multiple agencies, deficiency symptoms by severity,
+          biological pathways, food sources, drug interactions, myths, and more.
+        </p>
+        <div className="hero-stats">
+          <div className="hero-stat">
+            <span className="hero-stat-num">{vitamins.length}</span>
+            <span className="hero-stat-label">Vitamins</span>
+          </div>
+          <div className="hero-stat">
+            <span className="hero-stat-num">{minerals.length}</span>
+            <span className="hero-stat-label">Minerals</span>
+          </div>
+          <div className="hero-stat">
+            <span className="hero-stat-num">{others.length}</span>
+            <span className="hero-stat-label">Compounds</span>
+          </div>
+          <div className="hero-stat">
+            <span className="hero-stat-num">17+</span>
+            <span className="hero-stat-label">Data points each</span>
+          </div>
+        </div>
       </div>
 
-      <div className="filters">
-        {filters.map(f => (
-          <button key={f.key} className={filter === f.key ? 'on' : ''} onClick={() => setFilter(f.key)}>
-            {f.label}
-          </button>
-        ))}
-      </div>
-
-      <div className="count">{list.length} results</div>
-
-      <div className="grid">
-        {list.map(n => (
-          <Link key={n.id} to={`/nutrient/${n.id}`}>
-            <h3>{n.name}</h3>
-            <div className="alt">{n.altName?.split('/')[0]?.trim()}</div>
-            <div className="desc">{n.description?.slice(0, 80)}…</div>
-            <div className="meta">
-              <span>{n.subcategory?.replace(/-/g, ' ')}</span>
-              <span>{n.symbol}</span>
-            </div>
-          </Link>
-        ))}
-      </div>
+      {/* Categories */}
+      <Section title="Vitamins" subtitle="Organic compounds essential in small amounts for metabolic processes"
+            items={vitamins} color="#e8a838" />
+          <Section title="Minerals" subtitle="Inorganic elements required for enzyme function, bone structure, and fluid balance"
+            items={minerals} color="#5ab" />
+          <Section title="Other Compounds" subtitle="Conditionally essential and non-essential bioactive compounds"
+            items={others} color="#b7a" />
     </div>
   )
 }

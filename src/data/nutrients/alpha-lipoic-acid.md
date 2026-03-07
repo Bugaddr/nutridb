@@ -106,4 +106,14 @@ cellularFunctions:
   - "Antioxidant recycling (regenerates vitamin C, E, glutathione, CoQ10)"
   - "Heavy metal chelation"
   - "NF-κB modulation (anti-inflammatory)"
+supplementForms:
+  - form: "R-lipoic acid (R-ALA)"
+    bioavailability: "High"
+    notes: "Natural enantiomer, more biologically active, less stable"
+  - form: "Racemic alpha-lipoic acid (R/S-ALA)"
+    bioavailability: "Moderate"
+    notes: "Standard supplement, 50% R-form + 50% S-form"
+  - form: "Na-R-ALA (sodium R-lipoate)"
+    bioavailability: "High"
+    notes: "Stabilized R-form, better absorption and stability"
 ---

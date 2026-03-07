@@ -117,4 +117,14 @@ cellularFunctions:
   - "Antioxidant — singlet oxygen quencher"
   - "Gap junction communication enhancement"
   - "Immune cell modulation"
+supplementForms:
+  - form: "Synthetic all-trans beta-carotene"
+    bioavailability: "Moderate"
+    notes: "Crystalline form, standard supplement"
+  - form: "Natural mixed carotenoids (from algae/palm)"
+    bioavailability: "High"
+    notes: "Contains cis and trans isomers, plus other carotenoids"
+  - form: "Dunaliella salina-derived"
+    bioavailability: "High"
+    notes: "Natural algal source, contains 9-cis isomer"
 ---

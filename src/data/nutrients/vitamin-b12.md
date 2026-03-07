@@ -152,4 +152,17 @@ cellularFunctions:
   - "DNA synthesis (via folate cycle coupling)"
   - "Myelin membrane maintenance"
   - "Mitochondrial energy production (succinyl-CoA for TCA)"
+supplementForms:
+  - form: "Cyanocobalamin"
+    bioavailability: "Moderate"
+    notes: "Synthetic, cheapest, requires conversion to active forms, contains cyanide trace"
+  - form: "Methylcobalamin"
+    bioavailability: "High"
+    notes: "Active coenzyme form, used in methylation cycle"
+  - form: "Adenosylcobalamin"
+    bioavailability: "High"
+    notes: "Active coenzyme form, used in mitochondrial metabolism"
+  - form: "Hydroxocobalamin"
+    bioavailability: "High"
+    notes: "Natural form, longest retention, used in injections, cyanide antidote"
 ---

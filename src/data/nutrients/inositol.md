@@ -115,4 +115,11 @@ cellularFunctions:
   - "Insulin receptor signal transduction"
   - "Cell membrane component (phosphatidylinositol)"
   - "Osmoregulation"
+supplementForms:
+  - form: "Myo-inositol"
+    bioavailability: "High"
+    notes: "Most abundant form in body, well studied for PCOS and anxiety"
+  - form: "D-chiro-inositol"
+    bioavailability: "High"
+    notes: "Insulin signaling role, used with myo-inositol in 40:1 ratio"
 ---

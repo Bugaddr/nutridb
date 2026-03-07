@@ -133,4 +133,17 @@ cellularFunctions:
   - "Methyl group metabolism"
   - "Lipid transport and metabolism"
   - "Fetal neural development"
+supplementForms:
+  - form: "Choline bitartrate"
+    bioavailability: "Moderate"
+    notes: "Cheap, well absorbed, but poor brain penetration"
+  - form: "Alpha-GPC"
+    bioavailability: "High"
+    notes: "40% choline by weight, crosses blood-brain barrier, supports cognition"
+  - form: "CDP-choline (citicoline)"
+    bioavailability: "High"
+    notes: "Provides choline + cytidine, neuroprotective, well studied"
+  - form: "Phosphatidylcholine"
+    bioavailability: "Moderate"
+    notes: "Found in lecithin, 13% choline, food-derived"
 ---

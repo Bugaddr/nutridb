@@ -142,4 +142,17 @@ cellularFunctions:
   - "Thermogenesis"
   - "Protein synthesis stimulation"
   - "Neural development and myelination"
+supplementForms:
+  - form: "Potassium iodide"
+    bioavailability: "High"
+    notes: "Standard supplement form, well absorbed"
+  - form: "Sodium iodide"
+    bioavailability: "High"
+    notes: "Used in iodized salt"
+  - form: "Kelp/seaweed extract"
+    bioavailability: "Moderate"
+    notes: "Natural source, variable iodine content, may contain contaminants"
+  - form: "Nascent iodine"
+    bioavailability: "Moderate"
+    notes: "Atomic form, claimed better absorption — limited evidence"
 ---

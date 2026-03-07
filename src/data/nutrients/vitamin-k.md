@@ -130,4 +130,14 @@ cellularFunctions:
   - "Blood coagulation cascade (factors II, VII, IX, X)"
   - "Calcium binding to bone matrix"
   - "Cell growth regulation (Gas6 protein)"
+supplementForms:
+  - form: "Phylloquinone (K1)"
+    bioavailability: "Moderate"
+    notes: "Plant-derived, primarily supports clotting, short half-life"
+  - form: "Menaquinone-4 (MK-4)"
+    bioavailability: "Moderate"
+    notes: "Short half-life (hours), needs multiple daily doses"
+  - form: "Menaquinone-7 (MK-7)"
+    bioavailability: "High"
+    notes: "Long half-life (72h), single daily dose sufficient, best for bones"
 ---

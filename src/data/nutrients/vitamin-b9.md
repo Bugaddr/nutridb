@@ -150,4 +150,14 @@ cellularFunctions:
   - "Cell division (rapidly dividing cells especially)"
   - "Epigenetic regulation (DNA methylation)"
   - "Amino acid metabolism (serine, glycine, histidine)"
+supplementForms:
+  - form: "Folic acid"
+    bioavailability: "High"
+    notes: "Synthetic, ~85% bioavailable vs ~50% for food folate, requires DHFR conversion"
+  - form: "5-MTHF (methylfolate)"
+    bioavailability: "High"
+    notes: "Active form, bypasses MTHFR enzyme, best for MTHFR polymorphism carriers"
+  - form: "Folinic acid (5-formyl THF)"
+    bioavailability: "High"
+    notes: "Active form used in medical settings, bypasses DHFR"
 ---

@@ -137,4 +137,17 @@ cellularFunctions:
   - "Free radical defense (SOD1)"
   - "Collagen and elastin maturation"
   - "Neurotransmitter biosynthesis"
+supplementForms:
+  - form: "Copper bisglycinate"
+    bioavailability: "High"
+    notes: "Chelated, well absorbed, gentle on stomach"
+  - form: "Copper gluconate"
+    bioavailability: "High"
+    notes: "Common supplement form"
+  - form: "Cupric oxide"
+    bioavailability: "Low"
+    notes: "Very poorly absorbed, not recommended"
+  - form: "Copper sebacate"
+    bioavailability: "Moderate"
+    notes: "Less common, moderate absorption"
 ---

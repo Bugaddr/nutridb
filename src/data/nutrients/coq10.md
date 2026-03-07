@@ -129,4 +129,14 @@ cellularFunctions:
   - "Lipid-soluble antioxidant (ubiquinol form)"
   - "Vitamin E regeneration"
   - "Cell membrane protection"
+supplementForms:
+  - form: "Ubiquinone (oxidized CoQ10)"
+    bioavailability: "Low"
+    notes: "Standard form, must be reduced to ubiquinol in body, fat-soluble"
+  - form: "Ubiquinol (reduced CoQ10)"
+    bioavailability: "High"
+    notes: "Active antioxidant form, better absorbed especially in older adults"
+  - form: "CoQ10 in oil-based softgels"
+    bioavailability: "Moderate"
+    notes: "Fat-based carrier improves absorption vs powder capsules"
 ---

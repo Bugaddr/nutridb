@@ -127,4 +127,14 @@ cellularFunctions:
   - "Energy currency (ATP, GTP, CTP)"
   - "Signal transduction (protein phosphorylation)"
   - "Acid-base buffering"
+supplementForms:
+  - form: "Sodium phosphate"
+    bioavailability: "High"
+    notes: "Readily absorbed inorganic form"
+  - form: "Potassium phosphate"
+    bioavailability: "High"
+    notes: "Used in supplements and IV"
+  - form: "Calcium phosphate"
+    bioavailability: "Moderate"
+    notes: "Provides both calcium and phosphorus"
 ---

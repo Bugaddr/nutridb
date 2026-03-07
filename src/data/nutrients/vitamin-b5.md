@@ -117,4 +117,14 @@ cellularFunctions:
   - "Energy production from all macronutrients"
   - "Protein acetylation (histone modification)"
   - "Lipid metabolism"
+supplementForms:
+  - form: "Calcium D-pantothenate"
+    bioavailability: "High"
+    notes: "Standard supplement form, well absorbed"
+  - form: "Pantethine"
+    bioavailability: "High"
+    notes: "Active metabolite, may help lipid metabolism"
+  - form: "Dexpanthenol (D-panthenol)"
+    bioavailability: "High"
+    notes: "Alcohol analog, used topically and internally"
 ---

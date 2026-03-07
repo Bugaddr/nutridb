@@ -125,4 +125,11 @@ cellularFunctions:
   - "Calcium homeostasis in cardiomyocytes"
   - "Antioxidant and anti-inflammatory effects"
   - "Mitochondrial function (tRNA modification)"
+supplementForms:
+  - form: "Free-form L-taurine"
+    bioavailability: "High"
+    notes: "Standard supplement form, well absorbed orally"
+  - form: "Taurine magnesium chelate"
+    bioavailability: "High"
+    notes: "Provides both taurine and magnesium"
 ---

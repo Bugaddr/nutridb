@@ -138,4 +138,17 @@ cellularFunctions:
   - "Action potential repolarization"
   - "Cell volume regulation"
   - "Protein synthesis (ribosomal function)"
+supplementForms:
+  - form: "Potassium chloride"
+    bioavailability: "High"
+    notes: "Most common, well absorbed, can be harsh on stomach"
+  - form: "Potassium citrate"
+    bioavailability: "High"
+    notes: "Well tolerated, alkalinizing, may prevent kidney stones"
+  - form: "Potassium gluconate"
+    bioavailability: "High"
+    notes: "Low potassium per weight (16%), well tolerated"
+  - form: "Potassium bicarbonate"
+    bioavailability: "High"
+    notes: "Alkalinizing, used in effervescent tablets"
 ---

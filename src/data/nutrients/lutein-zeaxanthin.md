@@ -112,4 +112,14 @@ cellularFunctions:
   - "Singlet oxygen quenching"
   - "Lipid peroxidation prevention in retinal membranes"
   - "Neural tissue antioxidant defense"
+supplementForms:
+  - form: "Free lutein (from marigold)"
+    bioavailability: "High"
+    notes: "De-esterified, ready for absorption, most studied form"
+  - form: "Lutein esters"
+    bioavailability: "Moderate"
+    notes: "Must be de-esterified in gut, similar long-term efficacy"
+  - form: "FloraGLO lutein"
+    bioavailability: "High"
+    notes: "Patented free-form, most clinical evidence"
 ---

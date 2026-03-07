@@ -89,17 +89,17 @@ export default function NutrientPage() {
         {n.deficiency && (
           <div className="np-section">
             <h2>Deficiency</h2>
-            {hasSeverity && (
-              <Tabs tabs={[
+            <Tabs tabs={[
+              ...(hasSeverity ? [
                 { label: 'Early', content: sym.early?.length > 0 && <List items={sym.early} /> },
                 { label: 'Moderate', content: sym.moderate?.length > 0 && <List items={sym.moderate} /> },
                 { label: 'Severe', content: sym.severe?.length > 0 && <List items={sym.severe} /> },
                 { label: 'Long-term', content: sym.longTerm?.length > 0 && <List items={sym.longTerm} /> },
-              ]} />
-            )}
+              ] : []),
+              { label: 'Conditions', content: n.deficiency.conditions?.length > 0 && <List items={n.deficiency.conditions} /> },
+              { label: 'At-Risk Groups', content: n.deficiency.riskGroups?.length > 0 && <List items={n.deficiency.riskGroups} /> },
+            ]} />
             {Array.isArray(sym) && <List items={sym} />}
-            {n.deficiency.conditions?.length > 0 && <><h3>Conditions</h3><List items={n.deficiency.conditions} /></>}
-            {n.deficiency.riskGroups?.length > 0 && <><h3>At-Risk Groups</h3><List items={n.deficiency.riskGroups} /></>}
           </div>
         )}
 
@@ -132,8 +132,8 @@ export default function NutrientPage() {
           </div>
         )}
 
-        {/* Food Sources, Interactions, Precautions — tabbed */}
-        {(n.sources?.length > 0 || n.interactions?.length > 0 || n.precautions?.length > 0) && (
+        {/* Food Sources, Supplements, Interactions, Precautions — tabbed */}
+        {(n.sources?.length > 0 || n.supplementForms?.length > 0 || n.interactions?.length > 0 || n.precautions?.length > 0) && (
           <div className="np-section">
             <h2>Practical Info</h2>
             <Tabs tabs={[
@@ -150,6 +150,20 @@ export default function NutrientPage() {
                     )
                   })}
                 </div>
+              )},
+              { label: 'Supplement Forms', content: n.supplementForms?.length > 0 && (
+                <table>
+                  <thead><tr><th>Form</th><th>Bioavailability</th><th>Notes</th></tr></thead>
+                  <tbody>
+                    {n.supplementForms.map((f, i) => (
+                      <tr key={i}>
+                        <td><strong>{f.form}</strong></td>
+                        <td><span className={`bio-badge bio-badge--${f.bioavailability?.toLowerCase()}`}>{f.bioavailability}</span></td>
+                        <td>{f.notes}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
               )},
               { label: 'Interactions', content: n.interactions?.length > 0 && (
                 <div className="interaction-list">

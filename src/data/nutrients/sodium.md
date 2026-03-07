@@ -135,4 +135,14 @@ cellularFunctions:
   - "Nutrient cotransport (glucose, amino acids)"
   - "Fluid balance (extracellular volume)"
   - "Acid-base regulation"
+supplementForms:
+  - form: "Sodium chloride (table salt)"
+    bioavailability: "High"
+    notes: "Standard dietary source, ~39% sodium"
+  - form: "Sodium bicarbonate"
+    bioavailability: "High"
+    notes: "Alkalinizing, used as antacid and sports performance aid"
+  - form: "Sodium citrate"
+    bioavailability: "High"
+    notes: "Used in oral rehydration solutions"
 ---

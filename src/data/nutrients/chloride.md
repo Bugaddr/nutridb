@@ -108,4 +108,11 @@ cellularFunctions:
   - "Stomach acid production"
   - "Inhibitory neurotransmission (GABA and glycine receptor Cl⁻ channels)"
   - "Cell volume regulation"
+supplementForms:
+  - form: "Sodium chloride"
+    bioavailability: "High"
+    notes: "Primary dietary source"
+  - form: "Potassium chloride"
+    bioavailability: "High"
+    notes: "Used in salt substitutes"
 ---

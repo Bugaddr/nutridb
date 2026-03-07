@@ -146,4 +146,14 @@ cellularFunctions:
   - "Hemoglobin synthesis"
   - "Sphingolipid synthesis (cell membranes)"
   - "Gene expression modulation"
+supplementForms:
+  - form: "Pyridoxine HCl"
+    bioavailability: "Moderate"
+    notes: "Common form, needs liver conversion to active PLP"
+  - form: "Pyridoxal-5-phosphate (P5P)"
+    bioavailability: "High"
+    notes: "Active coenzyme form, no conversion needed"
+  - form: "Pyridoxamine"
+    bioavailability: "High"
+    notes: "Another active form, may have anti-glycation properties"
 ---

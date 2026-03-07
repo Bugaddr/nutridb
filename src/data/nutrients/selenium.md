@@ -133,4 +133,17 @@ cellularFunctions:
   - "Redox signaling regulation"
   - "Selenoprotein synthesis"
   - "Sperm maturation (phospholipid hydroperoxide GPx4)"
+supplementForms:
+  - form: "Selenomethionine"
+    bioavailability: "High"
+    notes: "Organic form, ~90% absorbed, stored in body proteins"
+  - form: "Sodium selenite"
+    bioavailability: "Moderate"
+    notes: "Inorganic, ~50% absorbed, not stored in proteins"
+  - form: "Selenium yeast"
+    bioavailability: "High"
+    notes: "Mixed selenoamino acids, well absorbed"
+  - form: "Methylselenocysteine"
+    bioavailability: "High"
+    notes: "Found in garlic/broccoli, studied for cancer prevention"
 ---

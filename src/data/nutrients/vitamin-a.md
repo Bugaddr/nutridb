@@ -171,4 +171,17 @@ cellularFunctions:
   - "Gene transcription regulation"
   - "Embryonic development patterning"
   - "Immune cell maturation (T-cells, B-cells)"
+supplementForms:
+  - form: "Retinyl palmitate"
+    bioavailability: "High"
+    notes: "Preformed vitamin A, well absorbed with fat"
+  - form: "Retinyl acetate"
+    bioavailability: "High"
+    notes: "Synthetic preformed A, commonly used in supplements"
+  - form: "Beta-carotene"
+    bioavailability: "Moderate"
+    notes: "Provitamin A, conversion rate varies 3:1 to 28:1 depending on source"
+  - form: "Retinol"
+    bioavailability: "High"
+    notes: "Active form, excellent absorption but less stable"
 ---
