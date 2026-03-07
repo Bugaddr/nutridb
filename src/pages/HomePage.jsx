@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { useEffect } from 'react'
 import nutrients from 'virtual:nutrients'
 
 const vitamins = nutrients.filter(n => n.category === 'vitamin')
@@ -41,6 +42,8 @@ function Section({ title, subtitle, items }) {
 }
 
 export default function HomePage() {
+  useEffect(() => { document.title = 'NutriDB — Micronutrient Encyclopedia' }, [])
+
   return (
     <div className="wrap">
       <div className="home-hero">

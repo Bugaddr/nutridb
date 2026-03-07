@@ -42,7 +42,10 @@ export default function NutrientPage() {
   const prev = idx > 0 ? nutrients[idx - 1] : null
   const next = idx < nutrients.length - 1 ? nutrients[idx + 1] : null
 
-  useEffect(() => { window.scrollTo(0, 0) }, [id])
+  useEffect(() => {
+    window.scrollTo(0, 0)
+    if (n) document.title = `${n.name} — NutriDB`
+  }, [id, n])
 
   if (!n) return <div className="wrap" style={{ padding: '80px 0', textAlign: 'center' }}><h2>Not found</h2><Link to="/">← Back</Link></div>
 

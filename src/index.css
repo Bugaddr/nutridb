@@ -177,3 +177,16 @@ td.val { font-weight: 600; color: var(--text); }
   .interaction-item .sub { min-width: 0; }
 }
 
+@media print {
+  body { background: #fff; color: #000; font-size: 11pt; }
+  .nav, footer, .np-nav, .np-header .back, .tabs-bar { display: none !important; }
+  .wrap { max-width: 100%; padding: 0; }
+  .np-body { padding: 0; }
+  .np-section { page-break-inside: avoid; margin-bottom: 20px; }
+  .tabs-body { min-height: auto; }
+  h1, h2, h3 { color: #000; border-color: #ccc; }
+  p, li, td, th { color: #333; }
+  .bio-badge { border: 1px solid #999; color: #000 !important; }
+  .myth-item, .interaction-item { border: 1px solid #ddd; background: none; }
+}
+

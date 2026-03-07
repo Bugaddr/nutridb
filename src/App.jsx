@@ -32,7 +32,12 @@ function Nav() {
         <div className="nav-search" ref={ref}>
           <input placeholder="Search…" value={q}
             onChange={e => { setQ(e.target.value); setOpen(true) }}
-            onFocus={() => setOpen(true)} />
+            onFocus={() => setOpen(true)}
+            onKeyDown={e => {
+              if (e.key === 'Enter' && results.length > 0) {
+                setQ(''); setOpen(false); navigate(`/nutrient/${results[0].id}`);
+              }
+            }} />
           {open && results.length > 0 && (
             <div className="nav-results">
               {results.map(n => (
