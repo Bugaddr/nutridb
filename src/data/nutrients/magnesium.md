@@ -1,0 +1,114 @@
+---
+name: Magnesium
+altName: Mg
+symbol: Mg
+category: mineral
+subcategory: major
+essentiality: essential
+sortOrder: 15
+description: Cofactor in 300+ enzyme systems. Essential for energy production, muscle/nerve function, blood sugar control, and blood pressure regulation.
+functions:
+  - Cofactor for 300+ enzymes (energy production, protein synthesis)
+  - Required for ATP production (Mg-ATP is the active form)
+  - Muscle relaxation (counterbalances calcium)
+  - Nerve impulse regulation
+  - Blood sugar and blood pressure control
+  - DNA/RNA synthesis
+rda:
+  nih:
+    - group: Adult males
+      amount: 400-420 mg
+    - group: Adult females
+      amount: 310-320 mg
+    - group: Pregnant
+      amount: 350-360 mg
+  who:
+    - group: Adults
+      amount: 220-260 mg
+  efsa:
+    - group: Adults
+      amount: 350 mg (men), 300 mg (women)
+deficiency:
+  symptoms:
+    - Muscle cramps and twitches
+    - Fatigue and weakness
+    - Numbness and tingling
+    - Abnormal heart rhythms
+    - Personality changes, anxiety, depression
+    - Insomnia
+  conditions:
+    - Hypomagnesemia
+    - May contribute to hypertension, type 2 diabetes, osteoporosis
+    - Migraines
+  riskGroups:
+    - People with GI diseases (Crohn's, celiac)
+    - Type 2 diabetics (30-40% are deficient)
+    - Alcoholics
+    - Elderly
+    - People on PPIs long-term
+toxicity:
+  symptoms:
+    - Diarrhea (most common from supplements)
+    - Nausea, abdominal cramping
+    - Extreme excess — low blood pressure, cardiac arrest (rare, from IV/renal failure)
+  upperLimit: 350 mg/day from supplements only (no limit from food)
+  notes: Kidneys efficiently excrete excess magnesium. Toxicity almost never occurs from food — only from supplements or medications (like magnesium-containing laxatives/antacids).
+normalLevels:
+  bloodRange: 1.7-2.2 mg/dL (0.7-0.9 mmol/L)
+  unit: mg/dL
+  notes: Serum magnesium is a poor indicator — only 1% of body magnesium is in blood. You can be deficient with normal serum levels. RBC magnesium is slightly better.
+testing:
+  methods:
+    - Serum magnesium (most common but insensitive)
+    - RBC magnesium (better reflects tissue stores)
+    - 24-hour urine magnesium
+    - Magnesium loading test (gold standard but impractical)
+  sampleType: Blood (serum)
+sources:
+  - name: Pumpkin seeds (1 oz)
+    amount: 156
+    unit: mg
+  - name: Chia seeds (1 oz)
+    amount: 111
+    unit: mg
+  - name: Almonds (1 oz)
+    amount: 80
+    unit: mg
+  - name: Spinach (½ cup, boiled)
+    amount: 78
+    unit: mg
+  - name: Black beans (½ cup)
+    amount: 60
+    unit: mg
+  - name: Dark chocolate (1 oz)
+    amount: 65
+    unit: mg
+  - name: Avocado (1 medium)
+    amount: 58
+    unit: mg
+myths:
+  - myth: Most people get enough magnesium
+    reality: Approximately 50% of Americans don't meet the RDA. Modern soil depletion and processed food diets have reduced magnesium intake significantly over the past century.
+  - myth: All magnesium supplements are the same
+    reality: Magnesium oxide has only ~4% bioavailability. Citrate, glycinate, and threonate are much better absorbed. Glycinate is gentlest on stomach; threonate may cross the blood-brain barrier.
+precautions:
+  - Magnesium glycinate causes least GI upset; oxide causes most diarrhea
+  - Required to activate vitamin D — deficiency may mask vitamin D deficiency
+  - Take at night — may improve sleep quality
+  - Epsom salt baths (magnesium sulfate) have minimal absorption through skin
+interactions:
+  - substance: PPIs (omeprazole, etc.)
+    effect: Long-term use depletes magnesium
+  - substance: Diuretics
+    effect: Loop and thiazide diuretics increase magnesium excretion
+  - substance: Antibiotics (quinolones, tetracyclines)
+    effect: Magnesium reduces their absorption — separate by 2+ hours
+  - substance: Bisphosphonates
+    effect: Magnesium reduces absorption — separate by 2+ hours
+history: Magnesium was first isolated in 1808 by Humphry Davy. Named after Magnesia, a region in Greece. Its biological importance wasn't fully appreciated until the 20th century when its role as an enzyme cofactor was elucidated.
+funFacts:
+  - Magnesium is the 4th most abundant mineral in the body and the 8th most abundant element on Earth
+  - Chlorophyll (the green pigment in plants) has magnesium at its center — like hemoglobin has iron
+  - There's more magnesium in your body (~25g) than any trace element, but less than calcium, sodium, or potassium
+  - Magnesium flares burn underwater because Mg reacts with water to produce hydrogen gas
+---
