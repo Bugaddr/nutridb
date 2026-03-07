@@ -170,4 +170,10 @@ supplementForms:
   - form: "Hydroxocobalamin"
     bioavailability: "High"
     notes: "Natural form, longest retention, used in injections, cyanide antidote"
+synergy:
+  - nutrient: "Folate (B9)"
+    effect: "Work together in the methylation cycle and DNA synthesis. B12 deficiency traps folate in an unusable form."
+antagonists:
+  - nutrient: "Vitamin C"
+    effect: "Massive doses (>1000mg) taken with meals might destroy B12 in the gut."
 ---

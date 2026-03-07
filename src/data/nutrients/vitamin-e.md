@@ -155,4 +155,14 @@ supplementForms:
   - form: "Tocotrienols"
     bioavailability: "Moderate"
     notes: "Different biological activities, emerging research"
+synergy:
+  - nutrient: "Vitamin C"
+    effect: "Regenerates oxidized Vitamin E back to its active antioxidant state."
+  - nutrient: "Selenium"
+    effect: "Works synergistically as an antioxidant protecting lipid membranes."
+antagonists:
+  - nutrient: "Vitamin K"
+    effect: "High doses of Vitamin E can block Vitamin K's coagulation effects."
+  - nutrient: "Iron"
+    effect: "Inorganic iron supplements can destroy Vitamin E in the digestive tract."
 ---

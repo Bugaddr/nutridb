@@ -195,4 +195,18 @@ supplementForms:
   - form: "Carbonyl iron"
     bioavailability: "Moderate"
     notes: "Elemental iron powder, slowly absorbed, lower toxicity risk"
+synergy:
+  - nutrient: "Vitamin C"
+    effect: "Converts iron to a vastly more absorbable form and bypasses some phytate inhibition."
+  - nutrient: "Vitamin A / Beta-Carotene"
+    effect: "Help overcome the inhibitory effects of phytic acid."
+antagonists:
+  - nutrient: "Calcium"
+    effect: "The only known substance to inhibit both heme and non-heme iron. Avoid dairy/calcium 2 hours before and after."
+  - nutrient: "Zinc"
+    effect: "Iron and zinc compete for the same absorption pathways."
+  - nutrient: "Polyphenols"
+    effect: "Found in coffee, tea, and red wine; powerfully inhibit iron absorption if consumed with meals."
+  - nutrient: "Phytic Acid"
+    effect: "Found in whole grains and legumes, tightly binds iron reducing absorption."
 ---

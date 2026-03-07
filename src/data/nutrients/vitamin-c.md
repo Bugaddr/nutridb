@@ -177,4 +177,16 @@ supplementForms:
   - form: "Ascorbyl palmitate"
     bioavailability: "Moderate"
     notes: "Fat-soluble form, used in skin products and some supplements"
+synergy:
+  - nutrient: "Iron (Non-heme)"
+    effect: "Increases plant-based iron absorption by up to 300% when taken together."
+  - nutrient: "Vitamin E"
+    effect: "Vitamin C recycles oxidized Vitamin E back to its active antioxidant form."
+  - nutrient: "Collagen"
+    effect: "Required as a cofactor for enzymes that stabilize the collagen triple helix."
+antagonists:
+  - nutrient: "Copper"
+    effect: "High doses of Vitamin C can competitively inhibit copper absorption and lower ceruloplasmin levels."
+  - nutrient: "Vitamin B12"
+    effect: "Megadoses of Vitamin C taken with B12 can potentially destroy the B12 in the digestive tract."
 ---

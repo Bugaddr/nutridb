@@ -189,4 +189,14 @@ supplementForms:
   - form: "Retinol"
     bioavailability: "High"
     notes: "Active form, excellent absorption but less stable"
+synergy:
+  - nutrient: "Zinc"
+    effect: "Required for the synthesis of retinol-binding protein to transport Vitamin A, and conversion of retinol to retinal."
+  - nutrient: "Iron"
+    effect: "Vitamin A improves iron absorption and utilization."
+  - nutrient: "Dietary Fat"
+    effect: "Required for intestinal absorption."
+antagonists:
+  - nutrient: "Vitamin E & D"
+    effect: "Competes for absorption with other fat-soluble vitamins if taken in massive, isolated doses."
 ---

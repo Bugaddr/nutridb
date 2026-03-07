@@ -185,10 +185,26 @@ export default function NutrientPage() {
         )}
 
         {/* 7. CAUTION — Interactions and precautions */}
-        {(n.interactions?.length > 0 || n.precautions?.length > 0) && (
+        {(n.interactions?.length > 0 || n.precautions?.length > 0 || n.synergy?.length > 0 || n.antagonists?.length > 0) && (
           <div className="np-section">
             <h2>Interactions & Precautions</h2>
             <Tabs tabs={[
+              { label: 'Synergy & Antagonists', content: (n.synergy?.length > 0 || n.antagonists?.length > 0) && (
+                <div className="interaction-list">
+                  {n.synergy?.length > 0 && n.synergy.map((int, i) => (
+                    <div key={`syn-${i}`} className="interaction-item" style={{ borderLeftColor: 'var(--green)' }}>
+                      <span className="sub">{int.nutrient} <span style={{fontSize:'0.8em', color:'var(--green)', marginLeft: 8}}>↑ Enhancer</span></span>
+                      <span className="eff">{int.effect}</span>
+                    </div>
+                  ))}
+                  {n.antagonists?.length > 0 && n.antagonists.map((int, i) => (
+                    <div key={`ant-${i}`} className="interaction-item" style={{ borderLeftColor: 'var(--pink)' }}>
+                      <span className="sub">{int.nutrient} <span style={{fontSize:'0.8em', color:'var(--pink)', marginLeft: 8}}>↓ Inhibitor</span></span>
+                      <span className="eff">{int.effect}</span>
+                    </div>
+                  ))}
+                </div>
+              )},
               { label: 'Drug Interactions', content: n.interactions?.length > 0 && (
                 <div className="interaction-list">
                   {n.interactions.map((int, i) => (

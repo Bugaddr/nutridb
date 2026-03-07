@@ -153,4 +153,14 @@ supplementForms:
   - form: "Copper sebacate"
     bioavailability: "Moderate"
     notes: "Less common, moderate absorption"
+synergy:
+  - nutrient: "Iron"
+    effect: "Required for iron mobilization and utilization (via ceruloplasmin). Without copper, iron accumulates in tissues."
+antagonists:
+  - nutrient: "Zinc"
+    effect: "Vastly outcompetes copper for absorption via metallothionein. High zinc intake = copper deficiency."
+  - nutrient: "Vitamin C"
+    effect: "High sustained doses can impair copper absorption and status."
+  - nutrient: "Molybdenum"
+    effect: "Forms complexes with copper preventing its absorption (used medically to treat Wilson's disease)."
 ---

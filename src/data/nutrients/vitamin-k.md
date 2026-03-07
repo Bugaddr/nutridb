@@ -143,4 +143,14 @@ supplementForms:
   - form: "Menaquinone-7 (MK-7)"
     bioavailability: "High"
     notes: "Long half-life (72h), single daily dose sufficient, best for bones"
+synergy:
+  - nutrient: "Vitamin D"
+    effect: "Works together to ensure calcium is deposited in bones rather than soft tissues."
+  - nutrient: "Dietary Fat"
+    effect: "Being fat-soluble, absorption of K1 and K2 is massively increased with dietary fats."
+antagonists:
+  - nutrient: "Vitamin E"
+    effect: "Megadoses of Vitamin E can interfere with Vitamin K functions and increase bleeding risk."
+  - nutrient: "Vitamin A"
+    effect: "High levels of Vitamin A can interfere with Vitamin K absorption."
 ---

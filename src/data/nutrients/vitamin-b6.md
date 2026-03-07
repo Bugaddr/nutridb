@@ -161,4 +161,11 @@ supplementForms:
   - form: "Pyridoxamine"
     bioavailability: "High"
     notes: "Another active form, may have anti-glycation properties"
+synergy:
+  - nutrient: "Magnesium"
+    effect: "Enhances magnesium's cellular uptake and utilization."
+  - nutrient: "Vitamin B2/B3"
+    effect: "Required for the conversion of B6 to its active PLP form."
+antagonists:
+  []
 ---

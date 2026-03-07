@@ -160,4 +160,14 @@ supplementForms:
   - form: "Nascent iodine"
     bioavailability: "Moderate"
     notes: "Atomic form, claimed better absorption — limited evidence"
+synergy:
+  - nutrient: "Selenium"
+    effect: "Required to convert thyroid hormone T4 to the active T3 form. Iodine without selenium can damage the thyroid."
+  - nutrient: "Iron"
+    effect: "Required for thyroperoxidase, the enzyme that adds iodine to thyroglobulin."
+antagonists:
+  - nutrient: "Goitrogens"
+    effect: "Compounds in raw cruciferous vegetables and soy that compete with iodine for thyroid uptake."
+  - nutrient: "Fluoride/Bromide"
+    effect: "Halogens that can compete with iodine for absorption and cellular receptors."
 ---

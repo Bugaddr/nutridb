@@ -167,4 +167,11 @@ supplementForms:
   - form: "Folinic acid (5-formyl THF)"
     bioavailability: "High"
     notes: "Active form used in medical settings, bypasses DHFR"
+synergy:
+  - nutrient: "Vitamin B12"
+    effect: "Required for the methionine synthase reaction. Without B12, folate becomes trapped."
+  - nutrient: "Vitamin C"
+    effect: "Helps prevent the oxidative degradation of folate."
+antagonists:
+  []
 ---

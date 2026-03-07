@@ -172,4 +172,16 @@ supplementForms:
   - form: "Calcifediol (25-OH D3)"
     bioavailability: "High"
     notes: "Pre-hydroxylated, 2-3x more potent at raising blood levels"
+synergy:
+  - nutrient: "Calcium"
+    effect: "Vitamin D is strictly required for calcium absorption from the gut."
+  - nutrient: "Vitamin K2"
+    effect: "While D3 absorbs calcium, K2 directs it into bones instead of arteries. They should be taken together."
+  - nutrient: "Magnesium"
+    effect: "Required to convert inactive Vitamin D into its active form (calcitriol)."
+  - nutrient: "Dietary Fat"
+    effect: "As a fat-soluble vitamin, D3 absorption is vastly improved when taken with a meal containing fats."
+antagonists:
+  - nutrient: "Vitamin A"
+    effect: "High doses of Vitamin A can compete with Vitamin D for absorption and receptor binding."
 ---

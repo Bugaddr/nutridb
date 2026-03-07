@@ -181,4 +181,18 @@ supplementForms:
   - form: "Calcium lactate"
     bioavailability: "High"
     notes: "13% elemental calcium, well tolerated"
+synergy:
+  - nutrient: "Vitamin D"
+    effect: "Increases intestinal calcium absorption from ~10% to ~30-40%."
+  - nutrient: "Protein"
+    effect: "Adequate protein intake improves calcium absorption and bone mineralization."
+antagonists:
+  - nutrient: "Iron"
+    effect: "Calcium strongly inhibits the absorption of both heme and non-heme iron. Do not take them together."
+  - nutrient: "Zinc"
+    effect: "High calcium intake can significantly reduce zinc absorption."
+  - nutrient: "Magnesium"
+    effect: "Competes for absorption. High calcium doses (without magnesium) can cause magnesium depletion."
+  - nutrient: "Phytic Acid / Oxalates"
+    effect: "Bind to calcium in the gut (found in spinach, seeds) making it completely unabsorbable."
 ---

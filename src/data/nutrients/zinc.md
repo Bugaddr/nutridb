@@ -182,4 +182,16 @@ supplementForms:
   - form: "Zinc carnosine"
     bioavailability: "Moderate"
     notes: "Specifically studied for gut health and H. pylori"
+synergy:
+  - nutrient: "Protein"
+    effect: "Animal proteins (especially from meat and eggs) enhance zinc absorption."
+antagonists:
+  - nutrient: "Copper"
+    effect: "Continuous high-dose zinc will induce metallothionein in the gut, which binds copper and causes severe copper deficiency."
+  - nutrient: "Iron"
+    effect: "High doses of supplemental iron (taken without food) reduce zinc absorption."
+  - nutrient: "Calcium"
+    effect: "Can impair zinc absorption, especially in the presence of phytic acid."
+  - nutrient: "Phytic Acid"
+    effect: "The primary inhibitor of zinc absorption in vegetarian diets."
 ---

@@ -180,4 +180,16 @@ supplementForms:
   - form: "Magnesium malate"
     bioavailability: "High"
     notes: "Bound to malic acid (energy cycle), may help fibromyalgia"
+synergy:
+  - nutrient: "Vitamin B6"
+    effect: "Enhances cellular uptake of magnesium and works together in enzyme function."
+  - nutrient: "Vitamin D"
+    effect: "Improves intestinal absorption of magnesium (while magnesium is needed to activate D)."
+antagonists:
+  - nutrient: "Calcium"
+    effect: "Competes for absorption. Taking massive doses of calcium without magnesium can cause an imbalance."
+  - nutrient: "Zinc"
+    effect: "Very high doses of zinc (142 mg/day) can decrease magnesium absorption."
+  - nutrient: "Phytic Acid"
+    effect: "Binds magnesium in the digestive tract, preventing absorption."
 ---
