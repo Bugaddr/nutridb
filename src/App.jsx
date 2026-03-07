@@ -3,7 +3,7 @@ import { Routes, Route, Link, useNavigate } from 'react-router-dom'
 import nutrients from 'virtual:nutrients'
 import HomePage from './pages/HomePage'
 import NutrientPage from './pages/NutrientPage'
-import ComparePage from './pages/ComparePage'
+
 import './index.css'
 
 function Nav() {
@@ -31,7 +31,7 @@ function Nav() {
         <Link to="/" className="nav-brand">Nutri<span>DB</span></Link>
         <div className="nav-links">
           <Link to="/">Home</Link>
-          <Link to="/compare">Compare</Link>
+
         </div>
         <div className="nav-search" ref={ref}>
           <input placeholder="Search…" value={q}
@@ -61,7 +61,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/nutrient/:id" element={<NutrientPage />} />
-          <Route path="/compare" element={<ComparePage />} />
+
         </Routes>
       </main>
       <footer>
