@@ -35,12 +35,27 @@ rda:
       amount: 95 mg
 deficiency:
   symptoms:
-    - Fatigue, weakness, irritability
-    - Swollen, bleeding gums
-    - Easy bruising, slow wound healing
-    - Dry, rough, scaly skin
-    - Joint pain, weakened bones
-    - Corkscrew-shaped body hair
+    early:
+      - "Fatigue and malaise"
+      - "Irritability"
+      - "Joint and muscle aches"
+      - "Easy bruising"
+    moderate:
+      - "Bleeding gums (gingivitis)"
+      - "Poor wound healing"
+      - "Dry, rough skin"
+      - "Petechiae (small red spots under skin)"
+      - "Weakened immune response"
+    severe:
+      - "Scurvy — swollen bleeding gums, tooth loss"
+      - "Hemorrhage (subcutaneous, intramuscular, subperiosteal)"
+      - "Anemia"
+      - "Corkscrew hairs and perifollicular hemorrhages"
+    longTerm:
+      - "Chronic anemia"
+      - "Tooth loss"
+      - "Bone pain and impaired bone formation"
+      - "Death if untreated (historically common in sailors)"
   conditions:
     - Scurvy — connective tissue breakdown (historically fatal for sailors)
     - Impaired immune response
@@ -117,4 +132,28 @@ funFacts:
   - A goat produces ~13,000 mg of vitamin C per day in its liver — 144x the human RDA
   - The highest natural concentration of vitamin C is in the Australian Kakadu plum — 100x more than oranges
   - Linus Pauling (double Nobel laureate) famously advocated mega-dosing vitamin C, taking 18,000 mg daily — this remains controversial
+enzymeRoles:
+  - "Cofactor for prolyl hydroxylase and lysyl hydroxylase (collagen synthesis)"
+  - "Cofactor for dopamine beta-hydroxylase (norepinephrine synthesis)"
+  - "Cofactor for peptidyl-glycine alpha-amidating monooxygenase"
+hormonalRoles:
+  - "Required for adrenal cortisol synthesis"
+  - "Supports catecholamine production (dopamine → norepinephrine)"
+  - "Modulates cortisol release during stress"
+metabolicPathways:
+  - "Collagen hydroxylation pathway"
+  - "Carnitine biosynthesis (fat transport)"
+  - "Iron absorption enhancement (Fe³⁺ → Fe²⁺ reduction)"
+  - "Ascorbate-glutathione cycle (antioxidant recycling)"
+organsAffected:
+  - "Adrenal glands (highest concentration)"
+  - "Skin (collagen)"
+  - "Immune system"
+  - "Brain and nervous system"
+  - "Blood vessels"
+cellularFunctions:
+  - "Electron donor for enzymatic reactions"
+  - "Free radical scavenging (water-soluble compartments)"
+  - "Regeneration of vitamin E"
+  - "Epigenetic regulation via TET enzymes (DNA demethylation)"
 ---

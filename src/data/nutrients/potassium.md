@@ -27,11 +27,29 @@ rda:
       amount: 3500 mg
 deficiency:
   symptoms:
-    - Muscle weakness and cramps
-    - Fatigue
-    - Constipation
-    - Heart palpitations, arrhythmias
-    - Tingling and numbness
+    early:
+      - "Fatigue"
+      - "Muscle weakness"
+      - "Constipation"
+      - "Muscle cramps"
+    moderate:
+      - "Heart palpitations"
+      - "Muscle aches and stiffness"
+      - "Tingling and numbness"
+      - "Mood changes"
+      - "Excessive urination and thirst"
+    severe:
+      - "Severe cardiac arrhythmias (life-threatening)"
+      - "Paralytic ileus (bowel paralysis)"
+      - "Respiratory muscle weakness"
+      - "Rhabdomyolysis"
+      - "Cardiac arrest"
+    longTerm:
+      - "Hypertension"
+      - "Kidney stones"
+      - "Glucose intolerance"
+      - "Chronic cardiac arrhythmias"
+      - "Bone loss"
   conditions:
     - Hypokalemia — can be life-threatening
     - Cardiac arrhythmias
@@ -98,4 +116,26 @@ funFacts:
   - Your body contains about 140g of potassium — more than sodium
   - Potassium-40 in your body makes you slightly radioactive — about 4,400 nuclear decays per second
   - Only 2% of Americans meet the adequate intake for potassium
+enzymeRoles:
+  - "Cofactor for pyruvate kinase"
+  - "Required for Na⁺/K⁺-ATPase (sodium-potassium pump)"
+hormonalRoles:
+  - "Directly stimulates aldosterone secretion from adrenals"
+  - "Influences insulin release from pancreatic beta cells"
+  - "Regulated by the renin-angiotensin-aldosterone system (RAAS)"
+metabolicPathways:
+  - "Na⁺/K⁺-ATPase pump (3 Na⁺ out, 2 K⁺ in per ATP)"
+  - "Action potential generation and propagation"
+  - "Acid-base balance via renal H⁺/K⁺ exchange"
+organsAffected:
+  - "Heart (cardiac rhythm)"
+  - "Skeletal muscles"
+  - "Nerves"
+  - "Kidneys (excretion/reabsorption)"
+  - "GI tract (smooth muscle)"
+cellularFunctions:
+  - "Resting membrane potential maintenance (-70 to -90 mV)"
+  - "Action potential repolarization"
+  - "Cell volume regulation"
+  - "Protein synthesis (ribosomal function)"
 ---

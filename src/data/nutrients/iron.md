@@ -37,12 +37,29 @@ rda:
       amount: 16 mg
 deficiency:
   symptoms:
-    - Fatigue, weakness, pale skin
-    - Shortness of breath, rapid heartbeat
-    - Cold hands and feet
-    - Brittle nails (koilonychia — spoon-shaped)
-    - Pica (craving non-food items like ice, dirt)
-    - Restless leg syndrome
+    early:
+      - "Fatigue and weakness"
+      - "Pale skin"
+      - "Cold hands and feet"
+      - "Brittle nails"
+      - "Headache"
+    moderate:
+      - "Koilonychia (spoon-shaped nails)"
+      - "Pica (craving for ice, dirt, starch)"
+      - "Restless leg syndrome"
+      - "Tachycardia"
+      - "Shortness of breath on exertion"
+      - "Glossitis"
+    severe:
+      - "Severe microcytic hypochromic anemia"
+      - "Plummer-Vinson syndrome (esophageal webs, dysphagia)"
+      - "High-output heart failure"
+      - "Impaired immune function"
+    longTerm:
+      - "Cognitive and developmental delays in children"
+      - "Poor pregnancy outcomes (preterm birth, low birth weight)"
+      - "Chronic heart failure"
+      - "Impaired work capacity"
   conditions:
     - Iron deficiency anemia — most common anemia worldwide
     - Impaired cognitive development in children
@@ -126,4 +143,30 @@ funFacts:
   - Popeye's spinach iron myth was partly based on a decimal point error in 1870s nutritional data
   - The Lucky Iron Fish project provides cast iron fish-shaped ingots for cooking in iron-deficient populations
   - Menstruation is a significant iron drain — premenopausal women need 2.25x more dietary iron than men
+enzymeRoles:
+  - "Component of cytochrome c oxidase (Complex IV)"
+  - "Component of catalase and peroxidases"
+  - "Component of ribonucleotide reductase (DNA synthesis)"
+  - "Cofactor for prolyl hydroxylase (collagen and HIF regulation)"
+hormonalRoles:
+  - "Component of thyroid peroxidase (thyroid hormone synthesis)"
+  - "Regulated by hepcidin (master iron regulatory hormone)"
+  - "Required for catecholamine synthesis"
+metabolicPathways:
+  - "Electron transport chain (cytochromes, iron-sulfur clusters)"
+  - "Oxygen transport (hemoglobin: Fe²⁺ + O₂)"
+  - "Heme synthesis (protoporphyrin IX + Fe²⁺)"
+  - "Iron recycling by macrophages (erythrophagocytosis)"
+organsAffected:
+  - "Bone marrow (hemoglobin production)"
+  - "Liver (ferritin storage, hepcidin)"
+  - "Spleen (RBC recycling)"
+  - "Muscles (myoglobin)"
+  - "Brain"
+cellularFunctions:
+  - "Oxygen binding and transport"
+  - "Electron transfer in redox reactions"
+  - "DNA synthesis (ribonucleotide reductase)"
+  - "Oxygen sensing (HIF-prolyl hydroxylase system)"
+  - "Mitochondrial energy production"
 ---

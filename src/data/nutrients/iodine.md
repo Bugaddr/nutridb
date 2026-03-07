@@ -30,10 +30,28 @@ rda:
       amount: 150 mcg
 deficiency:
   symptoms:
-    - Goiter (enlarged thyroid — visible neck swelling)
-    - Fatigue, weight gain, cold intolerance
-    - Dry skin, hair loss
-    - Cognitive impairment
+    early:
+      - "Fatigue"
+      - "Weight gain"
+      - "Cold sensitivity"
+      - "Dry skin"
+      - "Mild cognitive slowing"
+    moderate:
+      - "Goiter (thyroid enlargement)"
+      - "Constipation"
+      - "Puffy face"
+      - "Hair thinning"
+      - "Depression"
+      - "Irregular periods"
+    severe:
+      - "Severe hypothyroidism (myxedema)"
+      - "Cretinism in infants (profound intellectual disability, deaf-mutism)"
+      - "Myxedema coma (life-threatening)"
+    longTerm:
+      - "Endemic goiter"
+      - "Intellectual disability (cretinism — most preventable cause of brain damage worldwide)"
+      - "Impaired reproductive function"
+      - "Increased pregnancy complications (stillbirth, miscarriage)"
   conditions:
     - Goiter
     - Cretinism (severe intellectual disability in children of deficient mothers)
@@ -101,4 +119,27 @@ funFacts:
   - The "goiter belt" of the US Midwest and Great Lakes region had goiter rates of up to 70% before iodized salt
   - Japan's seaweed-rich diet provides 1,000-3,000 mcg iodine daily — 10-20x the RDA — yet thyroid disease rates aren't dramatically higher
   - Iodine deficiency remains the single most common cause of preventable brain damage in the world
+enzymeRoles:
+  - "Substrate for thyroid peroxidase (TPO) — organification of iodine"
+  - "Component of thyroid hormones used by deiodinases"
+hormonalRoles:
+  - "Structural component of T3 (triiodothyronine — 3 iodines) and T4 (thyroxine — 4 iodines)"
+  - "Thyroid hormones regulate metabolism in virtually every cell"
+  - "Influences TSH feedback loop"
+metabolicPathways:
+  - "Iodide trapping by sodium-iodide symporter (NIS)"
+  - "Organification and coupling in thyroglobulin"
+  - "T4 → T3 conversion by deiodinases (selenium-dependent)"
+  - "Wolff-Chaikoff effect (autoregulation at high iodine)"
+organsAffected:
+  - "Thyroid gland (primary)"
+  - "Brain (development)"
+  - "Breast tissue"
+  - "Salivary glands"
+  - "Gastric mucosa"
+cellularFunctions:
+  - "Basal metabolic rate regulation"
+  - "Thermogenesis"
+  - "Protein synthesis stimulation"
+  - "Neural development and myelination"
 ---

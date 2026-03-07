@@ -26,9 +26,23 @@ rda:
       amount: 3100 mg (safe and adequate)
 deficiency:
   symptoms:
-    - Metabolic alkalosis
-    - Excessive vomiting can cause chloride depletion
-    - Muscle weakness
+    early:
+      - "Fatigue"
+      - "Muscle weakness"
+      - "Excessive thirst"
+    moderate:
+      - "Metabolic alkalosis"
+      - "Shallow breathing"
+      - "Muscle cramps"
+      - "Confusion"
+    severe:
+      - "Severe metabolic alkalosis"
+      - "Hypoventilation"
+      - "Cardiac arrhythmias"
+      - "Seizures"
+    longTerm:
+      - "Chronic metabolic alkalosis"
+      - "Growth failure in infants (as seen in chloride-deficient formula incident of 1978-79)"
   conditions:
     - Hypochloremia (usually from vomiting or diuretic use)
   riskGroups:
@@ -74,4 +88,24 @@ funFacts:
   - Your stomach acid is primarily hydrochloric acid — pH of about 1.5-2.0
   - Cystic fibrosis was historically diagnosed by midwives licking babies' foreheads — salty taste indicated the disease
   - Chloride is the most abundant anion in your blood
+enzymeRoles:
+  - "Required by amylase (starch digestion)"
+  - "Activator of angiotensin-converting enzyme (ACE)"
+hormonalRoles:
+  - "Component of HCl for pepsinogen activation in stomach"
+  - "Indirectly influences RAAS via chloride-sensitive macula densa"
+metabolicPathways:
+  - "HCl production by parietal cells (H⁺/K⁺-ATPase + Cl⁻ channel)"
+  - "Chloride shift (CO₂ transport in RBCs)"
+  - "GABA-A receptor activation (Cl⁻ influx — inhibitory)"
+organsAffected:
+  - "Stomach (HCl production)"
+  - "Kidneys"
+  - "Red blood cells (chloride shift)"
+  - "Brain (GABA inhibitory signaling)"
+cellularFunctions:
+  - "Maintaining osmotic pressure"
+  - "Stomach acid production"
+  - "Inhibitory neurotransmission (GABA and glycine receptor Cl⁻ channels)"
+  - "Cell volume regulation"
 ---

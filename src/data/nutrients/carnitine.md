@@ -24,10 +24,24 @@ rda:
       amount: N/A
 deficiency:
   symptoms:
-    - Muscle weakness and fatigue
-    - Cardiomyopathy
-    - Hypoglycemia
-    - Confusion
+    early:
+      - "Fatigue, especially during exercise"
+      - "Muscle weakness"
+      - "Mild confusion"
+    moderate:
+      - "Exercise intolerance"
+      - "Muscle cramps"
+      - "Hypoglycemia (impaired fatty acid oxidation)"
+    severe:
+      - "Hypoketotic hypoglycemia (life-threatening in infants)"
+      - "Cardiomyopathy"
+      - "Encephalopathy"
+      - "Primary carnitine deficiency (genetic — SLC22A5 mutations)"
+    longTerm:
+      - "Dilated cardiomyopathy"
+      - "Chronic muscle weakness"
+      - "Recurrent metabolic crises in children"
+      - "Hepatic dysfunction"
   conditions:
     - Primary carnitine deficiency (genetic — OCTN2 transporter)
     - Secondary carnitine deficiency (from organic acidemias, dialysis)
@@ -92,4 +106,25 @@ funFacts:
   - Red meat is by far the richest dietary source — hence the name
   - Vegans have 20-30% lower plasma carnitine but their bodies compensate with increased renal reabsorption
   - Your body makes only ~20 mg/day but recycles it very efficiently through kidney reabsorption (95-99%)
+enzymeRoles:
+  - "Substrate for carnitine palmitoyltransferase I and II (CPT I/II)"
+  - "Substrate for carnitine-acylcarnitine translocase"
+hormonalRoles:
+  - "May modulate thyroid hormone cellular uptake"
+  - "Influences fuel selection (fat vs carbohydrate oxidation)"
+metabolicPathways:
+  - "Long-chain fatty acid transport across inner mitochondrial membrane"
+  - "Carnitine shuttle (acyl-CoA ↔ acylcarnitine)"
+  - "Acyl-CoA/CoA ratio buffering in mitochondria"
+  - "Branched-chain amino acid metabolism"
+organsAffected:
+  - "Heart (depends heavily on fatty acid oxidation)"
+  - "Skeletal muscles"
+  - "Liver"
+  - "Kidneys (synthesis and reabsorption)"
+cellularFunctions:
+  - "Fatty acid transport into mitochondria for beta-oxidation"
+  - "Toxic acyl group removal from mitochondria"
+  - "CoA pool maintenance"
+  - "Energy production from fat"
 ---

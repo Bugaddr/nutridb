@@ -28,10 +28,24 @@ rda:
       amount: 5 mg
 deficiency:
   symptoms:
-    - Extremely rare — "pantothenic" means "from everywhere"
-    - Fatigue, headache, irritability
-    - Numbness/burning in hands and feet (burning feet syndrome)
-    - Sleep disturbances
+    early:
+      - "Fatigue"
+      - "Irritability"
+      - "Sleep disturbance"
+      - "Numbness in feet"
+    moderate:
+      - "Burning feet syndrome (paresthesia)"
+      - "GI disturbances (nausea, cramping)"
+      - "Headache"
+      - "Restlessness"
+    severe:
+      - "Severe burning feet syndrome"
+      - "Adrenal insufficiency"
+      - "Severe fatigue and weakness"
+    longTerm:
+      - "Deficiency is extremely rare due to widespread availability in food"
+      - "Chronic adrenal dysfunction (theoretical)"
+      - "Impaired CoA-dependent metabolic processes"
   conditions:
     - Burning feet syndrome (historically seen in WWII prisoners of war)
   riskGroups:
@@ -82,4 +96,25 @@ funFacts:
   - The name means "from everywhere" — deficiency is almost impossible on a normal diet
   - Royal jelly (from honeybees) is one of the richest natural sources of B5
   - Dexpanthenol (provitamin B5) is widely used in skin care products and wound healing ointments
+enzymeRoles:
+  - "Component of Coenzyme A (CoA) — required by 4% of all known enzymes"
+  - "Component of acyl carrier protein (ACP) in fatty acid synthase"
+hormonalRoles:
+  - "Required for steroid hormone synthesis (cortisol, sex hormones via CoA)"
+  - "Supports melatonin synthesis"
+  - "Required for acetylcholine production"
+metabolicPathways:
+  - "Coenzyme A is central to TCA cycle (acetyl-CoA entry)"
+  - "Fatty acid synthesis and beta-oxidation"
+  - "Cholesterol and steroid synthesis (mevalonate pathway)"
+  - "Amino acid metabolism"
+organsAffected:
+  - "Adrenal glands (steroid synthesis)"
+  - "Liver"
+  - "All metabolically active tissues"
+cellularFunctions:
+  - "Acyl group transfer reactions"
+  - "Energy production from all macronutrients"
+  - "Protein acetylation (histone modification)"
+  - "Lipid metabolism"
 ---

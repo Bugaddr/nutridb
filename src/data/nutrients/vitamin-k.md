@@ -29,10 +29,24 @@ rda:
       amount: 70 mcg
 deficiency:
   symptoms:
-    - Easy bruising and excessive bleeding
-    - Blood in stool or urine
-    - Heavy menstrual periods
-    - Bleeding gums
+    early:
+      - "Slightly prolonged clotting time"
+      - "Easy bruising"
+      - "Minor bleeding from cuts takes longer to stop"
+    moderate:
+      - "Nosebleeds"
+      - "Bleeding gums"
+      - "Blood in urine or stool"
+      - "Heavy menstrual periods"
+    severe:
+      - "Hemorrhagic disease of the newborn (VKDB)"
+      - "Uncontrolled bleeding"
+      - "Intracranial hemorrhage in infants"
+      - "Massive bruising"
+    longTerm:
+      - "Osteoporosis (undercarboxylated osteocalcin)"
+      - "Vascular calcification (inactive MGP)"
+      - "Increased fracture risk"
   conditions:
     - Hemorrhagic disease of the newborn
     - Increased fracture risk (long-term)
@@ -95,4 +109,25 @@ funFacts:
   - Natto (fermented soybeans) contains the most K2 of any food — a Japanese breakfast staple
   - Newborn babies are born with almost no vitamin K, which is why they get a shot at birth
   - Vitamin K2 (MK-4) is the only vitamin that also acts as an electron carrier
+enzymeRoles:
+  - "Cofactor for gamma-glutamyl carboxylase (GGCX)"
+  - "Recycled by vitamin K epoxide reductase (VKORC1 — warfarin target)"
+hormonalRoles:
+  - "Activates osteocalcin (bone hormone)"
+  - "Activates matrix Gla protein (MGP — vascular calcification inhibitor)"
+  - "May influence testosterone production"
+metabolicPathways:
+  - "Vitamin K cycle (quinone → hydroquinone → epoxide)"
+  - "Gamma-carboxylation of glutamic acid residues in clotting factors"
+  - "Menaquinone synthesis by gut bacteria (K2)"
+organsAffected:
+  - "Liver (clotting factor production)"
+  - "Bones"
+  - "Blood vessels (arterial calcification prevention)"
+  - "Cartilage"
+cellularFunctions:
+  - "Post-translational modification of Gla proteins"
+  - "Blood coagulation cascade (factors II, VII, IX, X)"
+  - "Calcium binding to bone matrix"
+  - "Cell growth regulation (Gas6 protein)"
 ---

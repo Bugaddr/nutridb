@@ -30,11 +30,27 @@ rda:
       amount: 1.3 mg (men), 1.0 mg (women)
 deficiency:
   symptoms:
-    - Anemia unresponsive to iron supplementation
-    - Neutropenia (low white blood cells)
-    - Bone fragility
-    - Skin depigmentation, premature graying
-    - Neurological problems (myelopathy)
+    early:
+      - "Fatigue"
+      - "Frequent infections"
+      - "Pale skin"
+      - "Osteoporosis-like bone changes"
+    moderate:
+      - "Anemia unresponsive to iron supplementation"
+      - "Neutropenia"
+      - "Bone fractures"
+      - "Impaired wound healing"
+      - "Loss of skin pigmentation"
+    severe:
+      - "Severe neutropenia and anemia"
+      - "Menkes disease (genetic — kinky hair, severe neurodegeneration)"
+      - "Myelopathy (spinal cord degeneration)"
+      - "Ataxia"
+    longTerm:
+      - "Osteoporosis"
+      - "Cardiovascular disease (impaired collagen crosslinking)"
+      - "Neurodegeneration"
+      - "Chronic immune deficiency"
   conditions:
     - Menkes disease (genetic copper malabsorption — fatal in infancy)
     - Copper deficiency myelopathy (mimics B12 deficiency)
@@ -94,4 +110,31 @@ funFacts:
   - Copper gives octopus blood its blue color (hemocyanin uses copper instead of iron)
   - The Statue of Liberty's green patina is copper oxide — she contains 80 tons of copper
   - Copper surfaces are naturally antimicrobial — hospitals are installing copper door handles and bed rails
+enzymeRoles:
+  - "Component of ceruloplasmin (ferroxidase — iron metabolism)"
+  - "Component of cytochrome c oxidase (Complex IV)"
+  - "Component of Cu/Zn SOD (antioxidant)"
+  - "Cofactor for lysyl oxidase (collagen crosslinking)"
+  - "Cofactor for tyrosinase (melanin synthesis)"
+  - "Cofactor for dopamine beta-hydroxylase"
+hormonalRoles:
+  - "Required for catecholamine synthesis (dopamine → norepinephrine)"
+  - "Influences neuropeptide processing (peptidylglycine alpha-amidating monooxygenase)"
+metabolicPathways:
+  - "Iron metabolism (ceruloplasmin oxidizes Fe²⁺ → Fe³⁺ for transferrin loading)"
+  - "Electron transport chain (Complex IV)"
+  - "Melanin synthesis"
+  - "Connective tissue crosslinking"
+organsAffected:
+  - "Liver (ceruloplasmin synthesis, copper storage)"
+  - "Brain (neurotransmitter synthesis)"
+  - "Connective tissue"
+  - "Blood vessels (elastin crosslinking)"
+  - "Immune system"
+cellularFunctions:
+  - "Electron transfer in mitochondria"
+  - "Iron mobilization from stores"
+  - "Free radical defense (SOD1)"
+  - "Collagen and elastin maturation"
+  - "Neurotransmitter biosynthesis"
 ---

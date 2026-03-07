@@ -25,8 +25,21 @@ rda:
       amount: N/A
 deficiency:
   symptoms:
-    - Not a true deficiency
-    - Low macular pigment density associated with higher AMD risk
+    early:
+      - "Increased glare sensitivity"
+      - "Reduced contrast sensitivity"
+      - "Eye fatigue from screens"
+    moderate:
+      - "Low macular pigment optical density (MPOD)"
+      - "Blurred central vision"
+      - "Increased photo-oxidative stress in retina"
+    severe:
+      - "Not a classic deficiency syndrome"
+      - "Low lutein/zeaxanthin is a risk factor rather than a disease"
+    longTerm:
+      - "Age-related macular degeneration (AMD) — leading cause of blindness in elderly"
+      - "Cataracts"
+      - "Possible cognitive decline (low brain carotenoids)"
   riskGroups:
     - People with low fruit/vegetable intake
     - Smokers (lower blood carotenoid levels)
@@ -80,4 +93,23 @@ funFacts:
   - These are the ONLY carotenoids that accumulate in the retina — your body selectively concentrates them there
   - Kale contains about 100x more lutein than carrots
   - Egg yolk color intensity correlates with lutein/zeaxanthin content — deep orange yolks have more
+enzymeRoles:
+  - "No known enzyme cofactor roles"
+  - "May modulate lipoxygenase activity"
+hormonalRoles:
+  - "No direct hormonal roles"
+  - "May influence inflammatory signaling via NF-κB modulation"
+metabolicPathways:
+  - "Selective uptake by macular pigment (GSTP1 and StARD3 binding proteins)"
+  - "Xanthophyll cycle (not in humans — but dietary uptake)"
+  - "Lipid peroxidation chain-breaking"
+organsAffected:
+  - "Eyes (macula — highest concentration)"
+  - "Brain (concentrated in cerebral cortex)"
+  - "Skin"
+cellularFunctions:
+  - "Blue light filtering (photoprotection)"
+  - "Singlet oxygen quenching"
+  - "Lipid peroxidation prevention in retinal membranes"
+  - "Neural tissue antioxidant defense"
 ---

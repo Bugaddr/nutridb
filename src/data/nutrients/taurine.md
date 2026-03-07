@@ -27,9 +27,23 @@ rda:
       amount: N/A
 deficiency:
   symptoms:
-    - Retinal degeneration (in cats — they cannot synthesize taurine)
-    - Cardiomyopathy
-    - Growth retardation in premature infants
+    early:
+      - "Exercise intolerance"
+      - "Mild visual changes"
+      - "Anxiety"
+    moderate:
+      - "Cardiomyopathy (seen in cats — obligate taurine requirement)"
+      - "Retinal degeneration"
+      - "Impaired bile acid conjugation (fat malabsorption)"
+    severe:
+      - "Dilated cardiomyopathy (documented in vegan cats, human infants on taurine-free formula)"
+      - "Severe retinal degeneration"
+      - "Immune dysfunction"
+    longTerm:
+      - "Heart failure"
+      - "Vision loss"
+      - "Developmental delays in infants"
+      - "Accelerated aging (recent research in mice — taurine declines with age)"
   conditions:
     - Dilated cardiomyopathy (documented in cats and some human cases)
     - Retinal degeneration
@@ -86,4 +100,29 @@ funFacts:
   - Cats are the poster child for taurine essentiality — without it, they go blind and develop heart failure
   - Energy drinks contain about the same amount of taurine as a serving of shellfish
   - The name comes from Latin "taurus" (bull) — it was isolated from ox bile, not bull semen
+enzymeRoles:
+  - "Not a typical enzyme cofactor"
+  - "Conjugates bile acids (taurocholate formation)"
+  - "Modulates calcium-calmodulin-dependent protein kinase II"
+hormonalRoles:
+  - "Modulates GABAergic and glycinergic neurotransmission (inhibitory)"
+  - "Influences insulin secretion from beta cells"
+  - "May modulate growth hormone release"
+metabolicPathways:
+  - "Bile acid conjugation (fat digestion)"
+  - "Synthesized from methionine/cysteine via cysteine sulfinic acid"
+  - "Mitochondrial tRNA modification (taurine-modified uridines)"
+  - "Osmolyte regulation"
+organsAffected:
+  - "Heart (most abundant free amino acid)"
+  - "Brain and retina"
+  - "Skeletal muscle"
+  - "Liver (bile acid production)"
+  - "Developing brain"
+cellularFunctions:
+  - "Cell volume regulation (organic osmolyte)"
+  - "Membrane stabilization"
+  - "Calcium homeostasis in cardiomyocytes"
+  - "Antioxidant and anti-inflammatory effects"
+  - "Mitochondrial function (tRNA modification)"
 ---

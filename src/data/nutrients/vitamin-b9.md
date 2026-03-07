@@ -33,11 +33,28 @@ rda:
       amount: 330 mcg DFE
 deficiency:
   symptoms:
-    - Megaloblastic anemia (large, immature red blood cells)
-    - Fatigue, weakness, shortness of breath
-    - Mouth sores, swollen tongue
-    - Irritability, forgetfulness
-    - Elevated homocysteine levels
+    early:
+      - "Fatigue"
+      - "Irritability"
+      - "Forgetfulness"
+      - "Loss of appetite"
+      - "Mouth sores"
+    moderate:
+      - "Megaloblastic anemia (large immature red blood cells)"
+      - "Glossitis"
+      - "Diarrhea"
+      - "Elevated homocysteine"
+      - "Shortness of breath"
+    severe:
+      - "Severe megaloblastic anemia"
+      - "Pancytopenia (all blood cell lines reduced)"
+      - "Neural tube defects in developing fetus (spina bifida, anencephaly)"
+      - "Growth retardation in children"
+    longTerm:
+      - "Increased cardiovascular disease risk (hyperhomocysteinemia)"
+      - "Increased colorectal cancer risk"
+      - "Chronic anemia"
+      - "Birth defects if deficient during pregnancy"
   conditions:
     - Neural tube defects (spina bifida, anencephaly) in offspring
     - Megaloblastic anemia
@@ -108,4 +125,29 @@ funFacts:
   - The name comes from Latin "folium" (leaf) — dark leafy greens are among the best sources
   - MTHFR gene variants affecting folate metabolism are extremely common — up to 40% of some populations
   - Lucy Wills used Marmite to cure anemia — making it one of the most important medical discoveries from a yeast extract
+enzymeRoles:
+  - "Coenzyme (as THF) for thymidylate synthase (DNA synthesis)"
+  - "Coenzyme for methionine synthase (with B12)"
+  - "Coenzyme for serine hydroxymethyltransferase"
+  - "Substrate for dihydrofolate reductase (DHFR — methotrexate target)"
+hormonalRoles:
+  - "Indirectly supports neurotransmitter synthesis via methylation"
+  - "Required for SAM production (universal methyl donor)"
+  - "Influences homocysteine levels (cardiovascular signaling)"
+metabolicPathways:
+  - "One-carbon metabolism (folate cycle)"
+  - "Methylation cycle (methionine → SAM → homocysteine)"
+  - "De novo purine synthesis"
+  - "Thymidylate (dTMP) synthesis for DNA"
+  - "Histidine catabolism"
+organsAffected:
+  - "Bone marrow (red blood cell maturation)"
+  - "Developing embryo (neural tube)"
+  - "GI tract epithelium (rapid cell division)"
+  - "Liver (methylation)"
+cellularFunctions:
+  - "DNA synthesis and repair"
+  - "Cell division (rapidly dividing cells especially)"
+  - "Epigenetic regulation (DNA methylation)"
+  - "Amino acid metabolism (serine, glycine, histidine)"
 ---

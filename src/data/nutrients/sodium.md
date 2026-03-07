@@ -29,10 +29,29 @@ rda:
       amount: 2000 mg (safe and adequate)
 deficiency:
   symptoms:
-    - Headache, confusion
-    - Nausea, vomiting
-    - Muscle cramps, fatigue
-    - Seizures (severe)
+    early:
+      - "Headache"
+      - "Nausea"
+      - "Muscle cramps"
+      - "Fatigue"
+      - "Dizziness"
+    moderate:
+      - "Confusion"
+      - "Irritability"
+      - "Muscle weakness"
+      - "Vomiting"
+      - "Falls (loss of balance)"
+    severe:
+      - "Seizures"
+      - "Cerebral edema (brain swelling)"
+      - "Coma"
+      - "Respiratory arrest"
+      - "Death"
+    longTerm:
+      - "Chronic hyponatremia increases fall risk in elderly"
+      - "Osteoporosis (sodium lost pulls calcium with it)"
+      - "Cognitive impairment"
+      - "Gait instability"
   conditions:
     - Hyponatremia — can be life-threatening (especially exercise-associated)
   riskGroups:
@@ -92,4 +111,28 @@ funFacts:
   - Gandhi's 1930 Salt March was a pivotal moment in Indian independence
   - Your body contains ~100g of sodium — about 40% of table salt by weight
   - Only ~11% of dietary sodium comes from salt added at the table — 77% comes from processed/restaurant food
+enzymeRoles:
+  - "Required for Na⁺/K⁺-ATPase"
+  - "Cofactor for Na⁺-dependent transporters (SGLT1, SGLT2)"
+hormonalRoles:
+  - "Regulated by aldosterone (renal retention)"
+  - "Regulated by atrial natriuretic peptide (ANP — excretion)"
+  - "Regulated by antidiuretic hormone (ADH — water retention)"
+  - "Influences renin-angiotensin-aldosterone system (RAAS)"
+metabolicPathways:
+  - "Na⁺/K⁺-ATPase pump"
+  - "Sodium-glucose cotransport (SGLT) in gut and kidneys"
+  - "Na⁺/H⁺ exchanger (acid-base balance)"
+  - "Action potential depolarization (voltage-gated Na⁺ channels)"
+organsAffected:
+  - "Kidneys (primary regulation)"
+  - "Heart (blood pressure)"
+  - "Brain (osmolality sensing)"
+  - "GI tract (nutrient absorption)"
+  - "Adrenal glands (aldosterone)"
+cellularFunctions:
+  - "Action potential initiation (Na⁺ influx)"
+  - "Nutrient cotransport (glucose, amino acids)"
+  - "Fluid balance (extracellular volume)"
+  - "Acid-base regulation"
 ---

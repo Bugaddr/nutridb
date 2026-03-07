@@ -31,12 +31,29 @@ rda:
       amount: 4 mcg
 deficiency:
   symptoms:
-    - Megaloblastic anemia
-    - Peripheral neuropathy (tingling, numbness)
-    - Difficulty walking, balance problems
-    - Memory loss, cognitive decline, dementia-like symptoms
-    - Glossitis (swollen, inflamed tongue)
-    - Mood changes, depression
+    early:
+      - "Fatigue and weakness"
+      - "Pale or jaundiced skin"
+      - "Pins and needles (paresthesia)"
+      - "Mouth ulcers"
+      - "Mood disturbance"
+    moderate:
+      - "Megaloblastic anemia"
+      - "Glossitis (beefy red tongue)"
+      - "Difficulty walking and balance problems"
+      - "Cognitive changes (memory problems, confusion)"
+      - "Breathlessness"
+    severe:
+      - "Subacute combined degeneration of spinal cord"
+      - "Severe peripheral neuropathy"
+      - "Psychosis and severe dementia"
+      - "Pancytopenia"
+      - "Optic neuropathy"
+    longTerm:
+      - "Irreversible neurological damage (if untreated >6 months)"
+      - "Permanent spinal cord damage"
+      - "Increased cardiovascular risk (homocysteine)"
+      - "Pernicious anemia (autoimmune — lifelong B12 injections needed)"
   conditions:
     - Pernicious anemia (autoimmune destruction of intrinsic factor)
     - Subacute combined degeneration of the spinal cord
@@ -113,4 +130,26 @@ funFacts:
   - Your liver stores enough B12 to last 3-5 years, which is why vegans may not notice deficiency for years
   - Dorothy Hodgkin's X-ray crystallography of B12 was considered one of the greatest achievements in structural chemistry
   - Nitrous oxide ('laughing gas') permanently destroys B12 — recreational users can develop acute neurological damage
+enzymeRoles:
+  - "Cofactor for methionine synthase (methylcobalamin form)"
+  - "Cofactor for methylmalonyl-CoA mutase (adenosylcobalamin form)"
+hormonalRoles:
+  - "Required for SAM production (methylation of hormones, neurotransmitters)"
+  - "Indirectly supports myelin synthesis"
+  - "Influences homocysteine-mediated vascular signaling"
+metabolicPathways:
+  - "Methylation cycle (homocysteine → methionine → SAM)"
+  - "Propionate pathway (methylmalonyl-CoA → succinyl-CoA)"
+  - "Folate trap release (methyl-THF → THF)"
+organsAffected:
+  - "Nervous system (myelin sheath)"
+  - "Bone marrow (red blood cell maturation)"
+  - "Brain (cognitive function)"
+  - "Liver (storage — 2-5 mg)"
+  - "GI tract"
+cellularFunctions:
+  - "Methyl group transfer"
+  - "DNA synthesis (via folate cycle coupling)"
+  - "Myelin membrane maintenance"
+  - "Mitochondrial energy production (succinyl-CoA for TCA)"
 ---

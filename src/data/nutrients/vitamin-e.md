@@ -29,10 +29,25 @@ rda:
       amount: 13 mg (men), 11 mg (women)
 deficiency:
   symptoms:
-    - Peripheral neuropathy (nerve damage in hands/feet)
-    - Muscle weakness and ataxia (loss of coordination)
-    - Vision problems (retinopathy)
-    - Impaired immune response
+    early:
+      - "Mild fatigue"
+      - "Poor concentration"
+      - "Increased oxidative stress markers"
+    moderate:
+      - "Peripheral neuropathy (numbness, tingling in hands/feet)"
+      - "Muscle weakness"
+      - "Impaired immune response"
+      - "Retinopathy"
+    severe:
+      - "Spinocerebellar ataxia (loss of coordination)"
+      - "Skeletal myopathy"
+      - "Hemolytic anemia (especially in premature infants)"
+      - "Severe neuropathy"
+    longTerm:
+      - "Progressive neurodegeneration"
+      - "Chronic hemolytic anemia"
+      - "Retinal damage"
+      - "Cognitive decline"
   conditions:
     - Spinocerebellar ataxia (from genetic vitamin E deficiency)
     - Hemolytic anemia in premature infants
@@ -96,4 +111,27 @@ funFacts:
   - Vitamin E exists in 8 forms but only alpha-tocopherol is maintained in human blood
   - Palm oil and wheat germ oil are among the richest natural sources
   - The recommended amount is expressed in "alpha-tocopherol equivalents" because synthetic forms are half as bioavailable
+enzymeRoles:
+  - "Inhibitor of protein kinase C (cell signaling)"
+  - "Modulator of 5-lipoxygenase and cyclooxygenase"
+  - "Substrate for alpha-tocopherol transfer protein (α-TTP)"
+hormonalRoles:
+  - "Modulates prostaglandin synthesis"
+  - "Influences sex hormone metabolism"
+  - "May affect thyroid hormone economy"
+metabolicPathways:
+  - "Lipid peroxidation chain-breaking"
+  - "Vitamin E recycling via vitamin C and glutathione"
+  - "Hepatic metabolism via CYP4F2 and CYP3A4"
+organsAffected:
+  - "Cell membranes (all tissues)"
+  - "Brain and nervous system"
+  - "Red blood cells"
+  - "Liver"
+  - "Reproductive organs"
+cellularFunctions:
+  - "Lipid-soluble chain-breaking antioxidant"
+  - "Cell membrane integrity protection"
+  - "Inhibition of platelet aggregation"
+  - "Protection of polyunsaturated fatty acids (PUFAs) from oxidation"
 ---

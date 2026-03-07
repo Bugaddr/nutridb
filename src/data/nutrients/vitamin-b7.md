@@ -29,11 +29,27 @@ rda:
       amount: 40 mcg
 deficiency:
   symptoms:
-    - Thinning hair, hair loss
-    - Scaly red rash around eyes, nose, mouth
-    - Brittle nails
-    - Depression, lethargy, hallucinations
-    - Numbness/tingling in extremities
+    early:
+      - "Thinning hair"
+      - "Scaly skin around eyes, nose, mouth"
+      - "Fatigue"
+      - "Mild depression"
+    moderate:
+      - "Hair loss (alopecia)"
+      - "Conjunctivitis"
+      - "Dermatitis (periorificial)"
+      - "Numbness and tingling in extremities"
+      - "Brittle nails"
+    severe:
+      - "Total alopecia"
+      - "Severe dermatitis"
+      - "Ataxia"
+      - "Seizures in infants"
+      - "Immune dysfunction"
+    longTerm:
+      - "Developmental delays in infants"
+      - "Chronic skin conditions"
+      - "Neurological damage in severe prolonged deficiency"
   conditions:
     - Biotinidase deficiency (genetic — screened at birth)
     - Egg white injury (from raw avidin binding biotin)
@@ -97,4 +113,26 @@ funFacts:
   - You'd need to eat about 12 raw egg whites daily to develop biotin deficiency
   - The biotin supplement industry is worth hundreds of millions despite limited evidence for its marketed benefit
   - Rocky's raw egg habit would eventually cause biotin deficiency if sustained
+enzymeRoles:
+  - "Cofactor for pyruvate carboxylase (gluconeogenesis)"
+  - "Cofactor for acetyl-CoA carboxylase (fatty acid synthesis)"
+  - "Cofactor for propionyl-CoA carboxylase"
+  - "Cofactor for 3-methylcrotonyl-CoA carboxylase (leucine catabolism)"
+hormonalRoles:
+  - "Influences gene expression via histone biotinylation"
+  - "May modulate insulin signaling"
+metabolicPathways:
+  - "Gluconeogenesis (pyruvate → oxaloacetate)"
+  - "Fatty acid synthesis (acetyl-CoA → malonyl-CoA)"
+  - "Leucine catabolism"
+  - "Propionate metabolism (odd-chain fatty acids)"
+organsAffected:
+  - "Liver (gluconeogenesis)"
+  - "Skin, hair, and nails (keratin)"
+  - "Pancreas"
+cellularFunctions:
+  - "CO₂ transfer in carboxylation reactions"
+  - "Chromatin remodeling (histone biotinylation)"
+  - "Cell proliferation regulation"
+  - "Fatty acid elongation"
 ---

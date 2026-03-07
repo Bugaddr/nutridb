@@ -25,7 +25,19 @@ rda:
       amount: N/A
 deficiency:
   symptoms:
-    - Not a true deficiency — leads to vitamin A deficiency if no other retinol source
+    early:
+      - "Vitamin A deficiency symptoms (night blindness, dry eyes) if no other vitamin A sources"
+      - "Increased oxidative stress"
+    moderate:
+      - "Impaired antioxidant defense"
+      - "Poor skin health"
+      - "Reduced immune function (if vitamin A is also low)"
+    severe:
+      - "Severe vitamin A deficiency if sole provitamin A source is missing (xerophthalmia, blindness)"
+      - "Unlike preformed vitamin A, beta-carotene alone cannot cause toxicity"
+    longTerm:
+      - "All vitamin A deficiency long-term complications apply if no preformed vitamin A intake"
+      - "Increased cancer risk (epidemiological — low dietary carotenoid intake)"
   riskGroups:
     - People with low fruit/vegetable intake
 toxicity:
@@ -83,4 +95,26 @@ funFacts:
   - Flamingos, salmon, and lobsters get their color from carotenoids closely related to beta-carotene
   - If you eat enough carrots, your skin will literally turn orange — this is called carotenodermia and is harmless
   - The body's conversion of beta-carotene to vitamin A has a built-in safety mechanism — it downregulates as stores fill up
+enzymeRoles:
+  - "Substrate for beta-carotene 15,15-oxygenase (BCMO1 — central cleavage → 2 retinal)"
+  - "Substrate for BCO2 (eccentric cleavage → apocarotenoids)"
+hormonalRoles:
+  - "Provitamin A — converted to retinol which acts via RAR/RXR nuclear receptors"
+  - "Conversion rate regulated by vitamin A status (feedback inhibition)"
+metabolicPathways:
+  - "Central cleavage: beta-carotene → 2 retinal (BCMO1)"
+  - "Eccentric cleavage: beta-carotene → apocarotenoids (BCO2)"
+  - "Retinal → retinol (vitamin A) or retinoic acid"
+  - "Singlet oxygen quenching"
+organsAffected:
+  - "Small intestine (absorption and cleavage)"
+  - "Liver (storage as retinyl esters)"
+  - "Skin (photoprotection, carotenodermia)"
+  - "Adipose tissue (storage)"
+  - "Lungs"
+cellularFunctions:
+  - "Provitamin A conversion"
+  - "Antioxidant — singlet oxygen quencher"
+  - "Gap junction communication enhancement"
+  - "Immune cell modulation"
 ---

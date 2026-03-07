@@ -45,12 +45,26 @@ rda:
       amount: 750 mcg RE (men), 650 mcg RE (women)
 deficiency:
   symptoms:
-    - Night blindness (nyctalopia) — earliest symptom
-    - Dry eyes (xerophthalmia), potentially leading to blindness
-    - Increased susceptibility to infections
-    - Rough, dry, scaly skin (follicular hyperkeratosis)
-    - Delayed growth in children
-    - Poor wound healing
+    early:
+      - "Night blindness (nyctalopia)"
+      - "Dry eyes"
+      - "Dry skin and poor wound healing"
+      - "Frequent minor infections"
+    moderate:
+      - "Bitot spots on conjunctiva (foamy white patches)"
+      - "Rough, scaly skin (follicular hyperkeratosis)"
+      - "Impaired immune response"
+      - "Loss of taste and smell"
+    severe:
+      - "Xerophthalmia (corneal drying and ulceration)"
+      - "Keratomalacia (corneal melting — irreversible blindness)"
+      - "Severe immunodeficiency"
+      - "Growth retardation in children"
+    longTerm:
+      - "Permanent blindness"
+      - "Increased childhood mortality from measles and diarrhea"
+      - "Impaired fetal development"
+      - "Iron-deficiency anemia (vitamin A aids iron mobilization)"
   conditions:
     - Xerophthalmia — leading cause of preventable childhood blindness worldwide
     - Keratomalacia — corneal necrosis
@@ -135,4 +149,26 @@ funFacts:
   - Flamingos get their pink color from carotenoids (vitamin A precursors) in the shrimp and algae they eat
   - Your body stores 80-90% of its vitamin A in the liver — up to a 2-year supply
   - The WWII carrot propaganda was so effective that British citizens actually increased carrot consumption, eating carrot jam, carrot cake, and "Dr. Carrot" became a cartoon mascot
+enzymeRoles:
+  - "Cofactor for retinal reductase (vision cycle)"
+  - "Involved in glycoprotein synthesis enzymes"
+hormonalRoles:
+  - "Regulates gene expression via retinoic acid receptors (RAR/RXR)"
+  - "Modulates growth hormone signaling"
+  - "Influences thyroid hormone metabolism"
+metabolicPathways:
+  - "Retinol → retinal → retinoic acid conversion"
+  - "Visual cycle (retinal ↔ rhodopsin in rod cells)"
+  - "Carotenoid cleavage pathway (beta-carotene → retinal)"
+organsAffected:
+  - "Eyes (retina)"
+  - "Skin and mucous membranes"
+  - "Liver (primary storage)"
+  - "Lungs"
+  - "Immune organs (thymus, spleen)"
+cellularFunctions:
+  - "Cell differentiation (epithelial cells)"
+  - "Gene transcription regulation"
+  - "Embryonic development patterning"
+  - "Immune cell maturation (T-cells, B-cells)"
 ---

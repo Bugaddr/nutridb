@@ -25,9 +25,22 @@ rda:
       amount: N/A
 deficiency:
   symptoms:
-    - Fatigue, exercise intolerance
-    - Muscle weakness
-    - Not a true deficiency since body makes it
+    early:
+      - "Fatigue"
+      - "Exercise intolerance"
+      - "Mild muscle weakness"
+    moderate:
+      - "Increasing fatigue"
+      - "Statin-induced myalgia (muscle pain)"
+      - "Reduced stamina"
+    severe:
+      - "Primary CoQ10 deficiency (genetic) — cerebellar ataxia, seizures, kidney failure"
+      - "Encephalomyopathy"
+      - "Severe myopathy"
+    longTerm:
+      - "Progressive neurodegeneration (in genetic deficiency)"
+      - "Heart failure risk (in elderly with declining production)"
+      - "Chronic fatigue"
   conditions:
     - Primary CoQ10 deficiency (rare genetic)
     - Statin-induced CoQ10 depletion (controversial)
@@ -92,4 +105,28 @@ funFacts:
   - Your body produces about 500 mg of CoQ10 per day at peak, declining to ~250 mg by age 80
   - Organ meats (heart, liver, kidney) are the richest sources because mitochondria are densest there
   - Japan was the first country to approve CoQ10 for clinical use in heart failure (1974)
+enzymeRoles:
+  - "Electron carrier between Complex I → Complex III"
+  - "Electron carrier between Complex II → Complex III"
+  - "Cofactor for dihydroorotate dehydrogenase (pyrimidine synthesis)"
+hormonalRoles:
+  - "No direct hormonal roles"
+  - "Supports cellular energy production underlying all hormonal processes"
+metabolicPathways:
+  - "Mitochondrial electron transport chain"
+  - "Oxidative phosphorylation (ATP production)"
+  - "Pyrimidine synthesis (de novo)"
+  - "Mevalonate pathway (shared with cholesterol — blocked by statins)"
+organsAffected:
+  - "Heart (highest mitochondrial density)"
+  - "Liver"
+  - "Kidneys"
+  - "Skeletal muscle"
+  - "Brain"
+cellularFunctions:
+  - "Mitochondrial electron shuttling"
+  - "ATP synthesis"
+  - "Lipid-soluble antioxidant (ubiquinol form)"
+  - "Vitamin E regeneration"
+  - "Cell membrane protection"
 ---

@@ -28,10 +28,23 @@ rda:
       amount: 40 mcg (AI) — EFSA has questioned whether chromium is truly essential
 deficiency:
   symptoms:
-    - Impaired glucose tolerance
-    - Elevated blood lipids
-    - Peripheral neuropathy
-    - Weight loss, confusion
+    early:
+      - "Impaired glucose tolerance"
+      - "Mild insulin resistance"
+      - "Fatigue after meals"
+    moderate:
+      - "Elevated blood glucose"
+      - "Weight gain"
+      - "Increased triglycerides and cholesterol"
+      - "Anxiety and mood changes"
+    severe:
+      - "Severe glucose intolerance"
+      - "Peripheral neuropathy (seen in patients on long-term TPN without chromium)"
+      - "Weight loss and confusion"
+    longTerm:
+      - "Type 2 diabetes progression"
+      - "Cardiovascular disease risk (dyslipidemia)"
+      - "Note: chromium essentiality is debated — some researchers question whether true deficiency exists outside of TPN patients"
   conditions:
     - Only documented in TPN (IV nutrition) patients
   riskGroups:
@@ -86,4 +99,23 @@ funFacts:
   - Chromium's essentiality is one of the most debated topics in nutrition science
   - The "glucose tolerance factor" reportedly discovered in the 1950s has never been conclusively identified
   - Brewer's yeast is one of the best food sources — it's where chromium's biological role was first discovered
+enzymeRoles:
+  - "May enhance insulin receptor tyrosine kinase activity"
+  - "Component of low-molecular-weight chromium-binding substance (LMWCr/chromodulin)"
+hormonalRoles:
+  - "Enhances insulin signaling (amplifies insulin action)"
+  - "May influence glucose transporter (GLUT4) translocation"
+metabolicPathways:
+  - "Insulin signaling amplification"
+  - "Glucose uptake and metabolism"
+  - "Lipid metabolism (cholesterol, triglycerides)"
+organsAffected:
+  - "Pancreas (insulin signaling)"
+  - "Skeletal muscle (glucose uptake)"
+  - "Adipose tissue"
+  - "Liver"
+cellularFunctions:
+  - "Insulin receptor sensitization"
+  - "Glucose transporter activation"
+  - "Macronutrient metabolism modulation"
 ---

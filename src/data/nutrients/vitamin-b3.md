@@ -28,10 +28,27 @@ rda:
       amount: 1.6 mg NE per MJ energy intake
 deficiency:
   symptoms:
-    - The 4 D's — Dermatitis, Diarrhea, Dementia, Death
-    - Photosensitive skin rash (resembling a necklace — Casal's necklace)
-    - Swollen mouth and bright red tongue
-    - Fatigue, apathy, depression
+    early:
+      - "Fatigue"
+      - "Poor appetite"
+      - "Indigestion"
+      - "Headache"
+    moderate:
+      - "Skin sensitivity to sunlight"
+      - "Mouth sores"
+      - "Diarrhea"
+      - "Depression and anxiety"
+      - "Brain fog"
+    severe:
+      - "Pellagra — the 4 Ds: Dermatitis, Diarrhea, Dementia, Death"
+      - "Casal necklace (photosensitive skin rash on neck)"
+      - "Severe psychosis and hallucinations"
+      - "Bright red swollen tongue"
+    longTerm:
+      - "Permanent cognitive damage"
+      - "Chronic GI dysfunction"
+      - "Death if untreated"
+      - "Skin scarring from chronic dermatitis"
   conditions:
     - Pellagra — historically endemic in corn-dependent populations
     - Hartnup disease (genetic impaired tryptophan absorption)
@@ -92,4 +109,29 @@ funFacts:
   - NAD+ is being heavily researched as an anti-aging molecule — levels decline with age
   - 60 mg of dietary tryptophan can be converted to about 1 mg of niacin
   - Goldberger's "filth parties" where volunteers ate pellagra patients' scabs to prove it wasn't contagious are legendary in medical history
+enzymeRoles:
+  - "Component of NAD⁺ — cofactor for 400+ enzymes"
+  - "Component of NADP⁺ — cofactor for anabolic reactions"
+  - "Substrate for sirtuins (SIRT1-7) and PARPs"
+hormonalRoles:
+  - "NAD⁺-dependent sirtuins regulate metabolic hormones"
+  - "Influences insulin sensitivity"
+  - "Modulates cortisol metabolism"
+metabolicPathways:
+  - "Glycolysis (glyceraldehyde-3-phosphate dehydrogenase)"
+  - "TCA cycle (multiple NAD⁺-dependent steps)"
+  - "Pentose phosphate pathway (NADP⁺)"
+  - "NAD⁺ salvage pathway"
+  - "Fatty acid synthesis (NADPH-dependent)"
+organsAffected:
+  - "All tissues (universal energy metabolism)"
+  - "Liver"
+  - "Brain"
+  - "Skin"
+  - "GI tract"
+cellularFunctions:
+  - "Central electron carrier in metabolism (NAD⁺/NADH)"
+  - "DNA repair (PARP enzymes consume NAD⁺)"
+  - "Gene silencing and aging regulation (sirtuins)"
+  - "Calcium signaling (CD38 consumes NAD⁺)"
 ---

@@ -27,11 +27,27 @@ rda:
       amount: 550 mg
 deficiency:
   symptoms:
-    - Bone pain and fragile bones
-    - Fatigue, weakness
-    - Loss of appetite
-    - Numbness, anxiety
-    - Impaired growth in children
+    early:
+      - "Fatigue"
+      - "Weakness"
+      - "Loss of appetite"
+      - "Bone pain"
+    moderate:
+      - "Irritability"
+      - "Numbness"
+      - "Confusion"
+      - "Muscle weakness"
+      - "Increased susceptibility to infection"
+    severe:
+      - "Hemolytic anemia"
+      - "Respiratory failure (diaphragm weakness)"
+      - "Heart failure"
+      - "Rhabdomyolysis"
+      - "Seizures"
+    longTerm:
+      - "Rickets/osteomalacia"
+      - "Growth retardation in children"
+      - "Chronic bone demineralization"
   conditions:
     - Hypophosphatemia
     - Refeeding syndrome (dangerous drop when malnourished patients start eating)
@@ -88,4 +104,27 @@ funFacts:
   - Every cell in your body contains phosphorus
   - Your DNA backbone is literally made of phosphorus atoms linking nucleotides together
   - Phosphorus glows in the dark (white phosphorus) — hence the name "light bearer"
+enzymeRoles:
+  - "Substrate for kinases (phosphorylation reactions)"
+  - "Component of phosphatases"
+  - "Required by ATP synthase"
+hormonalRoles:
+  - "Regulated by PTH, vitamin D, and FGF23"
+  - "Phosphorylation cascades transduce hormonal signals"
+metabolicPathways:
+  - "ATP synthesis and hydrolysis"
+  - "Glycolysis (multiple phosphorylated intermediates)"
+  - "Oxidative phosphorylation"
+  - "2,3-BPG synthesis in red blood cells (oxygen delivery)"
+organsAffected:
+  - "Bones and teeth (with calcium)"
+  - "All cells (phospholipid membranes)"
+  - "Kidneys (excretion regulation)"
+  - "Red blood cells (2,3-BPG)"
+cellularFunctions:
+  - "DNA and RNA backbone (phosphodiester bonds)"
+  - "Cell membrane structure (phospholipids)"
+  - "Energy currency (ATP, GTP, CTP)"
+  - "Signal transduction (protein phosphorylation)"
+  - "Acid-base buffering"
 ---

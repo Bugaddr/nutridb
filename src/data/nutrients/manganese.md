@@ -27,10 +27,25 @@ rda:
       amount: 3 mg (AI)
 deficiency:
   symptoms:
-    - Impaired growth, skeletal abnormalities
-    - Altered carbohydrate and lipid metabolism
-    - Skin rash
-    - Extremely rare from diet alone
+    early:
+      - "Impaired glucose tolerance"
+      - "Altered fat metabolism"
+      - "Skeletal abnormalities"
+      - "Slowed growth"
+    moderate:
+      - "Bone demineralization"
+      - "Skin rash"
+      - "Altered hair and nail growth"
+      - "Reduced fertility"
+    severe:
+      - "Severe skeletal abnormalities"
+      - "Ataxia"
+      - "Seizures (rare)"
+      - "Deficiency is extremely rare in humans"
+    longTerm:
+      - "Osteoporosis"
+      - "Impaired cartilage formation"
+      - "Metabolic syndrome features"
   riskGroups:
     - People with epilepsy (lower levels observed)
     - People with osteoporosis
@@ -85,4 +100,27 @@ funFacts:
   - Manganism (manganese toxicity) causes symptoms nearly identical to Parkinson's disease
   - Tea is a significant dietary source of manganese — 1 cup provides ~0.5 mg
   - Manganese dioxide was used in cave paintings 30,000 years ago as a black pigment
+enzymeRoles:
+  - "Component of MnSOD (mitochondrial superoxide dismutase — SOD2)"
+  - "Activator of glycosyltransferases (proteoglycan synthesis)"
+  - "Cofactor for arginase (urea cycle)"
+  - "Cofactor for pyruvate carboxylase"
+hormonalRoles:
+  - "Influences insulin metabolism"
+  - "Required for proper bone matrix formation"
+metabolicPathways:
+  - "Mitochondrial antioxidant defense (MnSOD)"
+  - "Urea cycle (arginase)"
+  - "Gluconeogenesis (pyruvate carboxylase)"
+  - "Proteoglycan and glycosaminoglycan synthesis"
+organsAffected:
+  - "Mitochondria (all tissues)"
+  - "Bones and cartilage"
+  - "Liver (urea cycle)"
+  - "Brain (accumulates in basal ganglia when excess)"
+cellularFunctions:
+  - "Mitochondrial superoxide scavenging"
+  - "Cartilage and bone matrix formation"
+  - "Amino acid and glucose metabolism"
+  - "Wound healing"
 ---

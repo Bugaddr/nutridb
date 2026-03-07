@@ -31,9 +31,24 @@ rda:
       amount: 400 mg (AI)
 deficiency:
   symptoms:
-    - Liver damage (fatty liver / NAFLD)
-    - Muscle damage (elevated CK)
-    - Cognitive impairment
+    early:
+      - "Fatigue"
+      - "Memory problems"
+      - "Muscle aches"
+    moderate:
+      - "Fatty liver (hepatosteatosis)"
+      - "Elevated liver enzymes (ALT)"
+      - "Muscle damage"
+      - "Cognitive decline"
+    severe:
+      - "Non-alcoholic fatty liver disease (NAFLD)"
+      - "Liver damage/necrosis"
+      - "Severe muscle breakdown (rhabdomyolysis in some cases)"
+    longTerm:
+      - "Liver fibrosis and cirrhosis"
+      - "Increased cardiovascular risk (homocysteine elevation)"
+      - "Neural tube defects in offspring"
+      - "Cognitive decline and dementia risk"
   conditions:
     - Non-alcoholic fatty liver disease
     - Neural tube defects in offspring (supplements folate's role)
@@ -94,4 +109,28 @@ funFacts:
   - 90% of Americans don't get enough choline
   - Eggs were demonized for cholesterol but they're one of the best choline sources
   - Phosphatidylcholine (lecithin) is used as an emulsifier in chocolate and many processed foods
+enzymeRoles:
+  - "Substrate for choline acetyltransferase (acetylcholine synthesis)"
+  - "Substrate for choline kinase (phospholipid synthesis)"
+  - "Oxidized by choline oxidase → betaine (methyl donor)"
+hormonalRoles:
+  - "Precursor to acetylcholine (neurotransmitter)"
+  - "Methyl donor via betaine (epigenetic regulation)"
+  - "Required for VLDL assembly (lipid transport hormone)"
+metabolicPathways:
+  - "Phosphatidylcholine synthesis (Kennedy pathway)"
+  - "Acetylcholine synthesis and degradation"
+  - "Betaine-homocysteine methyltransferase pathway (methyl donation)"
+  - "VLDL lipid packaging in liver"
+organsAffected:
+  - "Brain (cholinergic neurons)"
+  - "Liver (phospholipid and VLDL production)"
+  - "Cell membranes (all tissues)"
+  - "Developing fetus"
+cellularFunctions:
+  - "Cell membrane structure (phosphatidylcholine)"
+  - "Neurotransmission (acetylcholine)"
+  - "Methyl group metabolism"
+  - "Lipid transport and metabolism"
+  - "Fetal neural development"
 ---

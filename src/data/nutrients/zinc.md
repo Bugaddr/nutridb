@@ -34,13 +34,30 @@ rda:
       amount: 9.4-16.3 mg (men), 7.5-12.7 mg (women) — phytate-dependent
 deficiency:
   symptoms:
-    - Impaired immune function (frequent infections)
-    - Hair loss
-    - Loss of taste and smell
-    - Delayed wound healing
-    - Diarrhea
-    - Skin lesions (acrodermatitis)
-    - Growth retardation in children
+    early:
+      - "Loss of appetite"
+      - "Impaired taste (hypogeusia) and smell"
+      - "Slow wound healing"
+      - "Frequent mild infections"
+    moderate:
+      - "Hair loss"
+      - "Diarrhea"
+      - "Skin lesions (especially around mouth, eyes, perineum)"
+      - "Night blindness"
+      - "Growth retardation in children"
+      - "Impaired immunity"
+    severe:
+      - "Acrodermatitis enteropathica (severe skin rash — genetic or acquired)"
+      - "Severe diarrhea and wasting"
+      - "Alopecia (total)"
+      - "Severe immune dysfunction"
+      - "Hypogonadism"
+    longTerm:
+      - "Stunted growth"
+      - "Chronic immune deficiency"
+      - "Impaired cognitive development in children"
+      - "Increased infection mortality"
+      - "Delayed sexual maturation"
   conditions:
     - Acrodermatitis enteropathica (genetic zinc malabsorption)
     - Hypogonadism in males
@@ -113,4 +130,32 @@ funFacts:
   - Zinc "fingers" in DNA-binding proteins were named for their finger-like structure held together by zinc ions
   - The practice of eating clay (geophagia) observed in zinc-deficient populations may be an instinctive attempt to obtain minerals
   - The "zinc taste test" (holding zinc sulfate in your mouth) was once used diagnostically — deficient people couldn't taste it
+enzymeRoles:
+  - "Catalytic component of carbonic anhydrase"
+  - "Component of carboxypeptidases"
+  - "Required for alcohol dehydrogenase"
+  - "Component of Cu/Zn superoxide dismutase (SOD1)"
+  - "Required for alkaline phosphatase"
+hormonalRoles:
+  - "Required for insulin storage and secretion (Zn²⁺ in insulin granules)"
+  - "Required for testosterone synthesis"
+  - "Thymulin (thymic hormone) requires zinc"
+  - "Influences growth hormone and IGF-1 signaling"
+metabolicPathways:
+  - "DNA synthesis and repair"
+  - "Protein synthesis"
+  - "Alcohol metabolism"
+  - "CO₂ hydration (carbonic anhydrase in RBCs)"
+organsAffected:
+  - "Prostate (highest zinc concentration)"
+  - "Immune system (thymus)"
+  - "Skin (wound healing)"
+  - "Eyes (retina)"
+  - "Pancreas (insulin)"
+cellularFunctions:
+  - "Zinc finger protein structure (1000+ transcription factors)"
+  - "Gene expression regulation"
+  - "Apoptosis signaling"
+  - "Cell division"
+  - "Antioxidant defense (SOD1, metallothionein)"
 ---

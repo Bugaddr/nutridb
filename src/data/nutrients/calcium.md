@@ -31,11 +31,29 @@ rda:
       amount: 950 mg
 deficiency:
   symptoms:
-    - Muscle cramps and spasms
-    - Numbness/tingling in fingers
-    - Fatigue, poor appetite
-    - Abnormal heart rhythms
-    - Brittle nails, dry skin
+    early:
+      - "Muscle cramps"
+      - "Numbness and tingling in fingers"
+      - "Fatigue"
+      - "Poor appetite"
+    moderate:
+      - "Muscle spasms (tetany)"
+      - "Brittle nails"
+      - "Dental problems"
+      - "Difficulty swallowing"
+      - "Perioral numbness"
+    severe:
+      - "Tetany (sustained muscle contraction)"
+      - "Seizures"
+      - "Cardiac arrhythmias (prolonged QT interval)"
+      - "Laryngospasm"
+      - "Heart failure"
+    longTerm:
+      - "Osteoporosis (low bone mineral density)"
+      - "Osteopenia"
+      - "Increased fracture risk"
+      - "Tooth loss"
+      - "Rickets in children (with vitamin D deficiency)"
   conditions:
     - Osteoporosis — fragile, porous bones
     - Osteopenia — reduced bone density (precursor)
@@ -118,4 +136,30 @@ funFacts:
   - The body contains about 1 kg (2.2 lbs) of calcium, more than any other mineral
   - Coral calcium was a 2000s supplement fad with no proven advantages over regular calcium
   - Astronauts lose 1-2% of bone mass per month in space due to lack of weight-bearing stress
+enzymeRoles:
+  - "Activator of protein kinase C"
+  - "Required by calpains (calcium-dependent proteases)"
+  - "Activator of calcineurin (phosphatase)"
+  - "Cofactor for blood clotting enzymes (factors in coagulation cascade)"
+hormonalRoles:
+  - "Regulated by PTH, calcitonin, and vitamin D"
+  - "Required for insulin secretion from beta cells"
+  - "Triggers oxytocin and other hormone release (exocytosis)"
+metabolicPathways:
+  - "Calcium-PTH-vitamin D homeostatic axis"
+  - "Hydroxyapatite formation (Ca₁₀(PO₄)₆(OH)₂) in bone"
+  - "Calcium-calmodulin signaling cascade"
+  - "Blood coagulation cascade"
+organsAffected:
+  - "Bones and teeth (99% of body calcium)"
+  - "Heart (cardiac muscle contraction)"
+  - "Nerves"
+  - "Skeletal muscles"
+  - "Kidneys"
+cellularFunctions:
+  - "Intracellular second messenger"
+  - "Muscle contraction (troponin C binding)"
+  - "Neurotransmitter release (synaptic vesicle fusion)"
+  - "Apoptosis regulation"
+  - "Cell adhesion"
 ---

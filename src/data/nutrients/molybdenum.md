@@ -25,9 +25,23 @@ rda:
       amount: 65 mcg
 deficiency:
   symptoms:
-    - Rapid heart rate, rapid breathing
-    - Night blindness, mental confusion
-    - Only documented in ONE case — a TPN patient
+    early:
+      - "Headache"
+      - "Tachycardia"
+      - "Night blindness"
+    moderate:
+      - "Nausea"
+      - "Mental confusion"
+      - "Sulfite sensitivity (sulfite oxidase impaired)"
+      - "Visual disturbance"
+    severe:
+      - "Molybdenum cofactor deficiency (genetic) — seizures, brain damage, lens dislocation"
+      - "Sulfite toxicity"
+      - "Severe neurological dysfunction"
+    longTerm:
+      - "Deficiency from diet alone is essentially unknown"
+      - "Genetic Moco deficiency is fatal without treatment"
+      - "Increased sulfite toxicity risk"
   conditions:
     - Sulfite oxidase deficiency (genetic — devastating neurological disease)
   riskGroups:
@@ -73,4 +87,26 @@ funFacts:
   - Only ONE case of dietary molybdenum deficiency has ever been documented in a human
   - The word comes from Greek "molybdos" (lead) because it was confused with lead ore
   - Cattle are far more sensitive to molybdenum imbalance than humans — excess causes "teart" disease
+enzymeRoles:
+  - "Cofactor (as molybdopterin/Moco) for xanthine oxidase"
+  - "Cofactor for sulfite oxidase"
+  - "Cofactor for aldehyde oxidase"
+  - "Cofactor for mitochondrial amidoxime reducing component (mARC)"
+hormonalRoles:
+  - "No direct hormonal roles"
+  - "Xanthine oxidase influences purine metabolism and uric acid (gout)"
+metabolicPathways:
+  - "Purine catabolism (hypoxanthine → xanthine → uric acid)"
+  - "Sulfite detoxification (sulfite → sulfate)"
+  - "Drug metabolism (aldehyde oxidase)"
+  - "Nitrite reduction (mARC)"
+organsAffected:
+  - "Liver (primary metabolism)"
+  - "Kidneys (excretion)"
+  - "All cells (sulfite detoxification)"
+cellularFunctions:
+  - "Purine degradation"
+  - "Sulfur amino acid metabolism"
+  - "Xenobiotic metabolism"
+  - "Reactive oxygen species generation (xanthine oxidase)"
 ---

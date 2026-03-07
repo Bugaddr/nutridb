@@ -35,12 +35,26 @@ rda:
       amount: 600 IU (15 mcg)
 deficiency:
   symptoms:
-    - Bone pain and muscle weakness
-    - Fatigue and general tiredness
-    - Frequent infections
-    - Depression and mood changes
-    - Slow wound healing
-    - Hair loss
+    early:
+      - "Fatigue"
+      - "Muscle weakness"
+      - "General aches and pains"
+      - "Frequent infections"
+    moderate:
+      - "Bone pain (especially lower back, hips)"
+      - "Mood changes and depression"
+      - "Impaired wound healing"
+      - "Hair loss"
+    severe:
+      - "Rickets in children (bowed legs, soft skull, growth plate deformities)"
+      - "Osteomalacia in adults (bone softening)"
+      - "Severe muscle weakness (proximal myopathy)"
+      - "Hypocalcemic tetany"
+    longTerm:
+      - "Osteoporosis and increased fracture risk"
+      - "Increased risk of autoimmune diseases"
+      - "Cardiovascular disease risk elevation"
+      - "Increased cancer risk (colon, breast, prostate — epidemiological)"
   conditions:
     - Rickets (children) — soft, weak bones
     - Osteomalacia (adults) — bone softening
@@ -120,4 +134,29 @@ funFacts:
   - About 1 billion people worldwide are vitamin D deficient — making it the most common nutritional deficiency
   - Glass blocks UVB rays, so sitting by a sunny window does NOT produce vitamin D
   - Some lizards have been shown to seek UV light specifically to produce vitamin D, suggesting its importance across evolution
+enzymeRoles:
+  - "Substrate for CYP2R1 (25-hydroxylase in liver)"
+  - "Substrate for CYP27B1 (1-alpha-hydroxylase in kidney)"
+  - "Degraded by CYP24A1 (24-hydroxylase)"
+hormonalRoles:
+  - "Functions as a steroid hormone (calcitriol)"
+  - "Activates Vitamin D Receptor (VDR) — a nuclear transcription factor"
+  - "Regulates parathyroid hormone (PTH) secretion"
+  - "Modulates insulin secretion from beta cells"
+metabolicPathways:
+  - "Cholecalciferol → 25(OH)D (liver) → 1,25(OH)₂D (kidney)"
+  - "Calcium-phosphorus homeostasis axis"
+  - "PTH-vitamin D-FGF23 feedback loop"
+organsAffected:
+  - "Bones"
+  - "Kidneys"
+  - "Intestines (calcium absorption)"
+  - "Parathyroid glands"
+  - "Immune cells"
+  - "Skin (synthesis site)"
+cellularFunctions:
+  - "Gene transcription regulation (200+ genes)"
+  - "Calcium channel regulation"
+  - "Immune modulation (antimicrobial peptide cathelicidin)"
+  - "Cell proliferation and differentiation control"
 ---

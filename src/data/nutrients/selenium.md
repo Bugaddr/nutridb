@@ -28,11 +28,27 @@ rda:
       amount: 70 mcg
 deficiency:
   symptoms:
-    - Muscle weakness and pain
-    - Fatigue
-    - Mental fog
-    - Weakened immune function
-    - Hair loss, nail discoloration
+    early:
+      - "Fatigue"
+      - "Muscle weakness"
+      - "Brain fog"
+      - "Increased susceptibility to illness"
+    moderate:
+      - "Hair loss"
+      - "White nail beds"
+      - "Hypothyroid symptoms (T4→T3 conversion impaired)"
+      - "Recurrent infections"
+      - "Infertility (male — sperm motility)"
+    severe:
+      - "Keshan disease (cardiomyopathy — endemic in selenium-poor regions of China)"
+      - "Kashin-Beck disease (osteoarthropathy)"
+      - "Severe myopathy"
+      - "Myxedematous cretinism"
+    longTerm:
+      - "Chronic cardiomyopathy"
+      - "Joint degeneration"
+      - "Increased cancer risk (prostate, lung, colorectal)"
+      - "Chronic thyroid dysfunction"
   conditions:
     - Keshan disease (cardiomyopathy in selenium-deficient regions of China)
     - Kashin-Beck disease (osteoarthropathy)
@@ -92,4 +108,29 @@ funFacts:
   - A single Brazil nut contains more selenium than any other food — one nut exceeds the daily requirement
   - Selenium was named after Selene, the Greek goddess of the moon
   - Selenium-containing soil varies so dramatically that crops from different regions can have 100x different selenium levels
+enzymeRoles:
+  - "Component of glutathione peroxidases (GPx1-6)"
+  - "Component of thioredoxin reductases (TrxR)"
+  - "Component of iodothyronine deiodinases (DIO1-3)"
+  - "Component of selenophosphate synthetase (SPS2)"
+hormonalRoles:
+  - "Required for T4 → T3 conversion (thyroid hormone activation)"
+  - "Required for T3 → T2 inactivation"
+  - "Protects thyroid from oxidative damage during hormone synthesis"
+metabolicPathways:
+  - "Selenocysteine incorporation (21st amino acid, UGA codon)"
+  - "Glutathione antioxidant cycle"
+  - "Thyroid hormone metabolism (deiodination)"
+  - "Thioredoxin system (redox regulation)"
+organsAffected:
+  - "Thyroid gland"
+  - "Liver"
+  - "Kidneys"
+  - "Testes (selenoprotein P)"
+  - "Immune system"
+cellularFunctions:
+  - "Antioxidant defense (glutathione peroxidase)"
+  - "Redox signaling regulation"
+  - "Selenoprotein synthesis"
+  - "Sperm maturation (phospholipid hydroperoxide GPx4)"
 ---

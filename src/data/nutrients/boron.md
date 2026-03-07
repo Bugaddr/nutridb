@@ -25,9 +25,20 @@ rda:
       amount: N/A
 deficiency:
   symptoms:
-    - Not classified as a deficiency condition
-    - Low boron intake associated with poorer bone health
-    - May impair cognitive function
+    early:
+      - "Impaired cognitive performance (reduced attention, memory)"
+      - "Mild joint stiffness"
+    moderate:
+      - "Altered calcium and magnesium metabolism"
+      - "Impaired bone health markers"
+      - "Reduced steroid hormone levels"
+    severe:
+      - "Not well-characterized — no RDA established"
+      - "In animal models: impaired bone development, reproductive failure"
+    longTerm:
+      - "Possibly: osteoporosis risk"
+      - "Arthritis risk (low boron regions correlate with higher arthritis)"
+      - "Impaired vitamin D utilization"
   riskGroups:
     - N/A (not considered essential)
 toxicity:
@@ -75,4 +86,24 @@ funFacts:
   - Boron is essential for plants but its essentiality in humans is still debated
   - Borax (sodium borate) was once used as a food preservative before being banned
   - Boron is formed primarily in cosmic ray spallation — it's cosmically rare
+enzymeRoles:
+  - "May inhibit serine proteases"
+  - "Possible role in hydroxylase enzymes"
+hormonalRoles:
+  - "Influences estrogen and testosterone metabolism"
+  - "Enhances vitamin D hydroxylation (activation)"
+  - "May modulate PTH and calcitonin effects on bone"
+metabolicPathways:
+  - "Steroid hormone metabolism"
+  - "Vitamin D metabolism"
+  - "Calcium and magnesium utilization"
+organsAffected:
+  - "Bones"
+  - "Brain (cognitive function)"
+  - "Joints"
+  - "Immune system"
+cellularFunctions:
+  - "Bone mineralization support"
+  - "Inflammatory response modulation"
+  - "Possible role in cell membrane function"
 ---

@@ -30,12 +30,30 @@ rda:
       amount: 350 mg (men), 300 mg (women)
 deficiency:
   symptoms:
-    - Muscle cramps and twitches
-    - Fatigue and weakness
-    - Numbness and tingling
-    - Abnormal heart rhythms
-    - Personality changes, anxiety, depression
-    - Insomnia
+    early:
+      - "Loss of appetite"
+      - "Nausea"
+      - "Fatigue"
+      - "Mild muscle cramps"
+      - "Weakness"
+    moderate:
+      - "Muscle twitching and cramps"
+      - "Numbness and tingling"
+      - "Personality changes"
+      - "Abnormal heart rhythms"
+      - "Insomnia"
+    severe:
+      - "Tetany"
+      - "Seizures"
+      - "Severe cardiac arrhythmias"
+      - "Coronary artery spasm"
+      - "Hypocalcemia (Mg required for PTH function)"
+    longTerm:
+      - "Osteoporosis"
+      - "Type 2 diabetes risk (insulin resistance)"
+      - "Cardiovascular disease"
+      - "Hypertension"
+      - "Chronic migraines"
   conditions:
     - Hypomagnesemia
     - May contribute to hypertension, type 2 diabetes, osteoporosis
@@ -111,4 +129,31 @@ funFacts:
   - Chlorophyll (the green pigment in plants) has magnesium at its center — like hemoglobin has iron
   - There's more magnesium in your body (~25g) than any trace element, but less than calcium, sodium, or potassium
   - Magnesium flares burn underwater because Mg reacts with water to produce hydrogen gas
+enzymeRoles:
+  - "Cofactor for 300+ enzymes"
+  - "Required by all kinases (Mg-ATP is the true substrate)"
+  - "Cofactor for DNA/RNA polymerases"
+  - "Cofactor for glutathione synthetase"
+hormonalRoles:
+  - "Required for vitamin D activation (25-hydroxylase and 1-alpha-hydroxylase)"
+  - "Modulates PTH secretion"
+  - "Influences insulin receptor sensitivity"
+  - "Regulates aldosterone release"
+metabolicPathways:
+  - "ATP production and utilization (Mg-ATP complex)"
+  - "DNA replication and transcription"
+  - "Protein synthesis (ribosomal function)"
+  - "Glycolysis (hexokinase, phosphofructokinase)"
+organsAffected:
+  - "Heart (rhythm regulation)"
+  - "Brain (excitability modulation)"
+  - "Skeletal muscles"
+  - "Bones (60% of body Mg)"
+  - "Kidneys"
+cellularFunctions:
+  - "Stabilizes ATP for enzymatic reactions"
+  - "Ion channel regulation (Ca²⁺ and K⁺ channels)"
+  - "DNA and RNA stabilization"
+  - "Muscle relaxation (counterbalances calcium)"
+  - "Nerve impulse modulation (NMDA receptor block)"
 ---

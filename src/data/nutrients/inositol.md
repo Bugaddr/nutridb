@@ -25,8 +25,22 @@ rda:
       amount: N/A
 deficiency:
   symptoms:
-    - Not a true deficiency condition since body produces it
-    - Potential sub-optimal insulin signaling
+    early:
+      - "Mild anxiety"
+      - "Sleep difficulties"
+      - "Skin dryness"
+    moderate:
+      - "Eczema-like skin changes"
+      - "Mood disturbances"
+      - "Insulin resistance features"
+      - "Hair loss"
+    severe:
+      - "True deficiency is extremely rare"
+      - "In animal models: intestinal lipodystrophy, fatty liver"
+    longTerm:
+      - "PCOS symptom worsening (insulin resistance)"
+      - "Mental health impacts (anxiety, OCD — inositol used therapeutically)"
+      - "Metabolic syndrome features"
   conditions:
     - Associated with PCOS
     - Associated with metabolic syndrome
@@ -79,4 +93,26 @@ funFacts:
   - Your kidneys produce about 4 grams of inositol per day from glucose
   - The 40:1 myo-inositol to D-chiro-inositol ratio mirrors the ratio found naturally in human ovarian tissue
   - Inositol exists in 9 different stereoisomers, but myo-inositol is the most abundant biological form
+enzymeRoles:
+  - "Substrate for phosphatidylinositol kinases (PI3K pathway)"
+  - "Component of IP3 (inositol trisphosphate) — second messenger"
+hormonalRoles:
+  - "Second messenger for insulin signaling (IP3/DAG pathway)"
+  - "Mediates serotonin and dopamine receptor signaling"
+  - "Required for FSH signaling in ovaries"
+metabolicPathways:
+  - "Phosphoinositide signaling (PIP2 → IP3 + DAG)"
+  - "Insulin signal transduction"
+  - "Calcium release from endoplasmic reticulum (IP3-gated)"
+  - "GPI anchor synthesis (cell surface proteins)"
+organsAffected:
+  - "Brain (neurotransmitter signaling)"
+  - "Ovaries (follicular development)"
+  - "Pancreas (insulin signaling)"
+  - "Kidneys (synthesis site)"
+cellularFunctions:
+  - "Second messenger signaling (IP3 → Ca²⁺ release)"
+  - "Insulin receptor signal transduction"
+  - "Cell membrane component (phosphatidylinositol)"
+  - "Osmoregulation"
 ---

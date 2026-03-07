@@ -29,11 +29,27 @@ rda:
       amount: 1.6 mg (men), 1.3 mg (women)
 deficiency:
   symptoms:
-    - Cracked, sore lips (cheilosis)
-    - Sore throat, mouth/tongue inflammation
-    - Sensitivity to light, watery eyes
-    - Skin rashes (seborrheic dermatitis)
-    - Anemia
+    early:
+      - "Cracked lips (cheilosis)"
+      - "Sore throat"
+      - "Mouth sores"
+      - "Fatigue"
+    moderate:
+      - "Angular stomatitis (cracks at mouth corners)"
+      - "Glossitis (inflamed, magenta-colored tongue)"
+      - "Seborrheic dermatitis (especially nasolabial folds)"
+      - "Red, itchy eyes"
+      - "Photophobia (light sensitivity)"
+    severe:
+      - "Severe oral-ocular-genital syndrome"
+      - "Corneal vascularization (blood vessels growing into cornea)"
+      - "Normocytic anemia"
+      - "Impaired iron absorption"
+    longTerm:
+      - "Cataract development"
+      - "Impaired fetal development (cleft palate risk)"
+      - "Chronic skin conditions"
+      - "Secondary folate and B6 deficiency"
   conditions:
     - Ariboflavinosis
     - Angular stomatitis
@@ -90,4 +106,28 @@ funFacts:
   - Riboflavin is the reason your multivitamin turns your urine neon yellow
   - It's used as a food coloring (E101) — giving some cheeses and sauces their yellow color
   - High-dose riboflavin (400 mg/day) is an evidence-based migraine preventive
+enzymeRoles:
+  - "Part of FAD — cofactor for succinate dehydrogenase (Complex II)"
+  - "Part of FMN — cofactor for NADH dehydrogenase (Complex I)"
+  - "Cofactor for glutathione reductase"
+  - "Cofactor for MTHFR (folate metabolism)"
+hormonalRoles:
+  - "Required for thyroid hormone activation (iodothyronine deiodinase)"
+  - "Supports adrenal function"
+metabolicPathways:
+  - "Electron transport chain (Complexes I and II)"
+  - "Beta-oxidation of fatty acids (acyl-CoA dehydrogenases)"
+  - "Folate cycle (MTHFR requires FAD)"
+  - "Drug and xenobiotic metabolism (cytochrome P450 reductase)"
+organsAffected:
+  - "Mitochondria (all tissues)"
+  - "Eyes (cornea and lens)"
+  - "Skin and mucous membranes"
+  - "Liver"
+  - "Red blood cells"
+cellularFunctions:
+  - "Electron transfer in redox reactions"
+  - "Energy production (FAD/FMN are electron carriers)"
+  - "Glutathione recycling (antioxidant defense)"
+  - "Pyridoxine (B6) activation"
 ---

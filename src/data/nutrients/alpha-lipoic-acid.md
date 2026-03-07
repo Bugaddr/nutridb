@@ -25,7 +25,18 @@ rda:
       amount: N/A
 deficiency:
   symptoms:
-    - Not a concern — body produces it
+    early:
+      - "Increased oxidative stress markers"
+      - "Mild fatigue"
+    moderate:
+      - "Body synthesizes ALA, so dietary deficiency is not well-documented"
+      - "Theoretically: decreased antioxidant capacity, increased oxidative damage"
+    severe:
+      - "True deficiency not documented in humans (body synthesizes it)"
+      - "Lipoic acid synthase defects (genetic) cause severe metabolic disease"
+    longTerm:
+      - "Genetic deficiency: lactic acidosis, seizures, developmental regression"
+      - "Theoretical: accelerated aging from reduced antioxidant recycling"
   riskGroups:
     - N/A
 toxicity:
@@ -72,4 +83,27 @@ funFacts:
   - ALA is the only antioxidant that works in both water and fat — earning it the name "universal antioxidant"
   - It can regenerate other antioxidants (vitamin C, E, glutathione, CoQ10) — a recycler of recyclers
   - Germany has approved ALA as a prescription drug for diabetic neuropathy since the 1960s
+enzymeRoles:
+  - "Cofactor for pyruvate dehydrogenase complex"
+  - "Cofactor for alpha-ketoglutarate dehydrogenase complex"
+  - "Cofactor for branched-chain keto acid dehydrogenase"
+hormonalRoles:
+  - "Enhances insulin signaling (AMPK activation)"
+  - "Activates AMPK (cellular energy sensor)"
+metabolicPathways:
+  - "Pyruvate dehydrogenase complex (pyruvate → acetyl-CoA)"
+  - "TCA cycle (alpha-ketoglutarate step)"
+  - "Branched-chain amino acid catabolism"
+  - "Glutathione recycling"
+organsAffected:
+  - "Mitochondria (all tissues)"
+  - "Liver"
+  - "Peripheral nerves"
+  - "Brain"
+cellularFunctions:
+  - "Mitochondrial energy metabolism"
+  - "Universal antioxidant (both aqueous and lipid phases)"
+  - "Antioxidant recycling (regenerates vitamin C, E, glutathione, CoQ10)"
+  - "Heavy metal chelation"
+  - "NF-κB modulation (anti-inflammatory)"
 ---

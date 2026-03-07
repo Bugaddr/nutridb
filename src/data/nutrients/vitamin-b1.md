@@ -28,10 +28,28 @@ rda:
       amount: 0.1 mg per MJ of energy intake
 deficiency:
   symptoms:
-    - Fatigue, irritability, poor memory
-    - Peripheral neuropathy (tingling, numbness)
-    - Muscle weakness, poor coordination
-    - Rapid heart rate, enlarged heart
+    early:
+      - "Fatigue and low energy"
+      - "Irritability"
+      - "Poor concentration"
+      - "Loss of appetite"
+      - "Mild muscle weakness"
+    moderate:
+      - "Peripheral neuropathy (tingling, numbness in extremities)"
+      - "Muscle wasting"
+      - "Tachycardia"
+      - "Emotional disturbance"
+      - "Constipation"
+    severe:
+      - "Wet beriberi (congestive heart failure, edema)"
+      - "Dry beriberi (severe peripheral neuropathy, paralysis)"
+      - "Wernicke encephalopathy (confusion, ataxia, eye movement paralysis)"
+      - "Korsakoff syndrome (severe memory loss, confabulation)"
+    longTerm:
+      - "Permanent brain damage (Korsakoff psychosis)"
+      - "Chronic heart failure"
+      - "Permanent nerve damage"
+      - "Death from cardiac failure if untreated"
   conditions:
     - Beriberi — wet (cardiovascular) or dry (neurological)
     - Wernicke-Korsakoff syndrome — brain damage from alcohol-related deficiency
@@ -92,4 +110,27 @@ funFacts:
   - Beriberi means "I can't, I can't" in Sinhalese — referring to the difficulty of walking
   - Thiamine triphosphate acts as a neurotransmitter activator independent of its coenzyme role
   - Japanese navy eliminated beriberi in the 1880s by adding barley to the sailors' rice diet
+enzymeRoles:
+  - "Coenzyme (as TPP) for pyruvate dehydrogenase"
+  - "Coenzyme for alpha-ketoglutarate dehydrogenase"
+  - "Coenzyme for branched-chain keto acid dehydrogenase"
+  - "Coenzyme for transketolase (pentose phosphate pathway)"
+hormonalRoles:
+  - "No direct hormonal roles"
+  - "Indirectly supports neurotransmitter synthesis via energy production"
+metabolicPathways:
+  - "Pyruvate → acetyl-CoA (gateway to TCA cycle)"
+  - "TCA cycle (alpha-ketoglutarate step)"
+  - "Pentose phosphate pathway (NADPH and ribose production)"
+  - "Branched-chain amino acid catabolism"
+organsAffected:
+  - "Brain and nervous system (high glucose demand)"
+  - "Heart"
+  - "Skeletal muscle"
+  - "Liver"
+cellularFunctions:
+  - "ATP production from carbohydrates"
+  - "Nerve impulse conduction"
+  - "Myelin sheath maintenance"
+  - "Acetylcholine synthesis support"
 ---

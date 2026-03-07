@@ -31,11 +31,27 @@ rda:
       amount: 1.6 mg (men), 1.3 mg (women)
 deficiency:
   symptoms:
-    - Microcytic anemia
-    - Dermatitis, cracked lip corners
-    - Swollen tongue (glossitis)
-    - Depression, confusion, weakened immune system
-    - Peripheral neuropathy
+    early:
+      - "Mood changes (irritability, depression)"
+      - "Confusion"
+      - "Mouth sores"
+      - "Fatigue"
+    moderate:
+      - "Glossitis (swollen tongue)"
+      - "Angular cheilitis"
+      - "Seborrheic dermatitis"
+      - "Weakened immune function"
+      - "Microcytic anemia"
+    severe:
+      - "Peripheral neuropathy"
+      - "Seizures (especially in infants — impaired GABA synthesis)"
+      - "Severe anemia"
+      - "EEG abnormalities"
+    longTerm:
+      - "Chronic peripheral neuropathy"
+      - "Elevated homocysteine (cardiovascular risk)"
+      - "Cognitive decline"
+      - "Chronic microcytic anemia"
   conditions:
     - Sideroblastic anemia
     - Seizures in infants (B6-dependent epilepsy)
@@ -102,4 +118,32 @@ funFacts:
   - Your body stores only about 100 mg of B6, mostly in muscle tissue
   - B6-dependent seizures in newborns are a medical emergency treated with IV pyridoxine
   - Chickpeas are among the best plant sources — hummus is essentially a B6 superfood
+enzymeRoles:
+  - "Coenzyme (as PLP) for aminotransferases (transamination)"
+  - "Coenzyme for glycogen phosphorylase"
+  - "Coenzyme for serine hydroxymethyltransferase"
+  - "Coenzyme for aromatic L-amino acid decarboxylase"
+hormonalRoles:
+  - "Required for serotonin synthesis (tryptophan → 5-HTP → serotonin)"
+  - "Required for dopamine synthesis"
+  - "Required for GABA synthesis (glutamate decarboxylase)"
+  - "Modulates steroid hormone receptor activity"
+metabolicPathways:
+  - "Transamination reactions (amino acid interconversion)"
+  - "Gluconeogenesis (glycogen breakdown)"
+  - "One-carbon metabolism (with folate)"
+  - "Heme synthesis (ALA synthase)"
+  - "Tryptophan-niacin conversion"
+organsAffected:
+  - "Brain (neurotransmitter production)"
+  - "Liver (amino acid metabolism)"
+  - "Muscle (glycogen phosphorylase)"
+  - "Bone marrow (heme synthesis)"
+  - "Immune system"
+cellularFunctions:
+  - "Amino acid metabolism (100+ reactions)"
+  - "Neurotransmitter biosynthesis"
+  - "Hemoglobin synthesis"
+  - "Sphingolipid synthesis (cell membranes)"
+  - "Gene expression modulation"
 ---

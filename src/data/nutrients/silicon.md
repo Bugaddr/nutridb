@@ -25,8 +25,21 @@ rda:
       amount: N/A
 deficiency:
   symptoms:
-    - Not defined in humans
-    - Animal studies show poor bone and connective tissue formation
+    early:
+      - "Brittle nails"
+      - "Dry hair"
+      - "Slow wound healing"
+    moderate:
+      - "Weakened connective tissue"
+      - "Poor bone mineralization"
+      - "Skin elasticity loss"
+    severe:
+      - "Not well-characterized in humans"
+      - "Animal models: skeletal deformities, reduced collagen content"
+    longTerm:
+      - "Osteoporosis risk"
+      - "Poor connective tissue integrity"
+      - "Arterial stiffness"
   riskGroups:
     - N/A
 toxicity:
@@ -71,4 +84,23 @@ funFacts:
   - Beer is actually one of the richest dietary sources of bioavailable silicon
   - Silicon is the second most abundant element in Earth's crust after oxygen
   - Diatoms (single-celled algae) build their shells entirely from silicon — they create 20% of Earth's oxygen
+enzymeRoles:
+  - "May activate prolyl hydroxylase (collagen synthesis)"
+  - "Possible involvement in glycosaminoglycan synthesis enzymes"
+hormonalRoles:
+  - "No established direct hormonal roles"
+  - "May influence connective tissue growth factors"
+metabolicPathways:
+  - "Collagen crosslinking"
+  - "Glycosaminoglycan synthesis"
+  - "Bone mineralization (hydroxyapatite nucleation)"
+organsAffected:
+  - "Connective tissue (skin, tendons, cartilage)"
+  - "Bones"
+  - "Blood vessels (aorta — high silicon content)"
+  - "Hair and nails"
+cellularFunctions:
+  - "Collagen fiber maturation"
+  - "Extracellular matrix formation"
+  - "Bone matrix calcification initiation"
 ---
