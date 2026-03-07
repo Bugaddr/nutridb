@@ -31,6 +31,13 @@ rda:
   efsa:
     - group: Adults
       amount: 330 mcg DFE
+  nin:
+    - group: Adult males
+      amount: 300 mcg
+    - group: Adult females
+      amount: 220 mcg
+    - group: Pregnancy
+      amount: 570 mcg
 deficiency:
   symptoms:
     early:

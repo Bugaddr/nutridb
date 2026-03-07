@@ -26,6 +26,9 @@ rda:
   efsa:
     - group: Adults
       amount: 5 mg
+  nin:
+    - group: Adults
+      amount: 5 mg
 deficiency:
   symptoms:
     early:

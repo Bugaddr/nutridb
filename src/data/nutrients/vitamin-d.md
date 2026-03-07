@@ -33,6 +33,9 @@ rda:
   efsa:
     - group: Adults
       amount: 600 IU (15 mcg)
+  nin:
+    - group: Adults
+      amount: 600 IU
 deficiency:
   symptoms:
     early:

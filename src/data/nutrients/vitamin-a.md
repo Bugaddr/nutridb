@@ -43,6 +43,11 @@ rda:
   efsa:
     - group: Adults
       amount: 750 mcg RE (men), 650 mcg RE (women)
+  nin:
+    - group: Adult males
+      amount: 1000 mcg
+    - group: Adult females
+      amount: 840 mcg
 deficiency:
   symptoms:
     early:

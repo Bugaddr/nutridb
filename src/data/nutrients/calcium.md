@@ -29,6 +29,9 @@ rda:
   efsa:
     - group: Adults
       amount: 950 mg
+  nin:
+    - group: Adults
+      amount: 1000 mg
 deficiency:
   symptoms:
     early:

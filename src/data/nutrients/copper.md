@@ -28,6 +28,9 @@ rda:
   efsa:
     - group: Adults
       amount: 1.3 mg (men), 1.0 mg (women)
+  nin:
+    - group: Adults
+      amount: 1.7 mg
 deficiency:
   symptoms:
     early:

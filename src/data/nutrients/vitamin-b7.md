@@ -27,6 +27,9 @@ rda:
   efsa:
     - group: Adults
       amount: 40 mcg
+  nin:
+    - group: Adults
+      amount: 30 mcg
 deficiency:
   symptoms:
     early:

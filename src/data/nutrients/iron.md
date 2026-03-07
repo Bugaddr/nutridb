@@ -35,6 +35,13 @@ rda:
       amount: 11 mg
     - group: Premenopausal females
       amount: 16 mg
+  nin:
+    - group: Adult males
+      amount: 19 mg
+    - group: Adult females
+      amount: 29 mg
+    - group: Pregnancy
+      amount: 27 mg
 deficiency:
   symptoms:
     early:

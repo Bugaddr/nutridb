@@ -33,6 +33,11 @@ rda:
       amount: 110 mg
     - group: Adults female
       amount: 95 mg
+  nin:
+    - group: Adult males
+      amount: 80 mg
+    - group: Adult females
+      amount: 65 mg
 deficiency:
   symptoms:
     early:

@@ -28,6 +28,11 @@ rda:
   efsa:
     - group: Adults
       amount: 150 mcg
+  nin:
+    - group: Adults
+      amount: 140 mcg
+    - group: Pregnancy
+      amount: 200 mcg
 deficiency:
   symptoms:
     early:

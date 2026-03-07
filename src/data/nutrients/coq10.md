@@ -23,6 +23,9 @@ rda:
   efsa:
     - group: No recommendation
       amount: N/A
+  nin:
+    - group: No recommendation
+      amount: N/A
 deficiency:
   symptoms:
     early:

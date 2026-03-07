@@ -27,6 +27,9 @@ rda:
   efsa:
     - group: Adults
       amount: 2000 mg (safe and adequate)
+  nin:
+    - group: Adults
+      amount: 2000 mg
 deficiency:
   symptoms:
     early:

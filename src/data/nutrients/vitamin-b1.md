@@ -26,6 +26,11 @@ rda:
   efsa:
     - group: Adults
       amount: 0.1 mg per MJ of energy intake
+  nin:
+    - group: Adult males
+      amount: 1.4-1.8 mg
+    - group: Adult females
+      amount: 1.4-1.9 mg
 deficiency:
   symptoms:
     early:

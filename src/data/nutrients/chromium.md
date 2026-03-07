@@ -26,6 +26,9 @@ rda:
   efsa:
     - group: Adults
       amount: 40 mcg (AI) — EFSA has questioned whether chromium is truly essential
+  nin:
+    - group: Adults
+      amount: 50 mcg
 deficiency:
   symptoms:
     early:

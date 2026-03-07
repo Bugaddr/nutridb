@@ -29,6 +29,9 @@ rda:
   efsa:
     - group: Adults
       amount: 400 mg (AI)
+  nin:
+    - group: Adults
+      amount: 400 mg
 deficiency:
   symptoms:
     early:

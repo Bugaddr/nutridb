@@ -32,6 +32,11 @@ rda:
   efsa:
     - group: Adults
       amount: 9.4-16.3 mg (men), 7.5-12.7 mg (women) — phytate-dependent
+  nin:
+    - group: Adult males
+      amount: 17 mg
+    - group: Adult females
+      amount: 13 mg
 deficiency:
   symptoms:
     early:

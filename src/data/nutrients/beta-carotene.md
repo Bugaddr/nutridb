@@ -23,6 +23,9 @@ rda:
   efsa:
     - group: No recommendation
       amount: N/A
+  nin:
+    - group: Adults
+      amount: 4800 mcg
 deficiency:
   symptoms:
     early:
