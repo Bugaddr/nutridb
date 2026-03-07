@@ -24,7 +24,7 @@ function Card({ n }) {
   )
 }
 
-function Section({ title, subtitle, items, color }) {
+function Section({ title, subtitle, items }) {
   return (
     <div className="hp-section">
       <div className="hp-section-head">
@@ -72,11 +72,11 @@ export default function HomePage() {
 
       {/* Categories */}
       <Section title="Vitamins" subtitle="Organic compounds essential in small amounts for metabolic processes"
-            items={vitamins} color="#e8a838" />
+            items={vitamins} />
           <Section title="Minerals" subtitle="Inorganic elements required for enzyme function, bone structure, and fluid balance"
-            items={minerals} color="#5ab" />
+            items={minerals} />
           <Section title="Other Compounds" subtitle="Conditionally essential and non-essential bioactive compounds"
-            items={others} color="#b7a" />
+            items={others} />
     </div>
   )
 }

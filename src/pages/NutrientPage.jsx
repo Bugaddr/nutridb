@@ -111,7 +111,6 @@ export default function NutrientPage() {
               { label: 'Conditions', content: n.deficiency.conditions?.length > 0 && <List items={n.deficiency.conditions} /> },
               { label: 'Who\'s At Risk', content: n.deficiency.riskGroups?.length > 0 && <List items={n.deficiency.riskGroups} /> },
             ]} />
-            {Array.isArray(sym) && <List items={sym} />}
           </div>
         )}
 

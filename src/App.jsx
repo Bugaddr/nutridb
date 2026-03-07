@@ -29,10 +29,6 @@ function Nav() {
     <nav className="nav">
       <div className="nav-inner wrap">
         <Link to="/" className="nav-brand">Nutri<span>DB</span></Link>
-        <div className="nav-links">
-          <Link to="/">Home</Link>
-
-        </div>
         <div className="nav-search" ref={ref}>
           <input placeholder="Search…" value={q}
             onChange={e => { setQ(e.target.value); setOpen(true) }}
@@ -61,7 +57,6 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/nutrient/:id" element={<NutrientPage />} />
-
         </Routes>
       </main>
       <footer>
