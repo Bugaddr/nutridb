@@ -189,6 +189,7 @@ export default function NutrientPage() {
           <div className="np-section">
             <h2>Interactions & Precautions</h2>
             <Tabs tabs={[
+              { label: 'Precautions', content: n.precautions?.length > 0 && <List items={n.precautions} /> },
               { label: 'Synergy & Antagonists', content: (n.synergy?.length > 0 || n.antagonists?.length > 0) && (
                 <div className="interaction-list">
                   {n.synergy?.length > 0 && n.synergy.map((int, i) => (
@@ -215,7 +216,6 @@ export default function NutrientPage() {
                   ))}
                 </div>
               )},
-              { label: 'Precautions', content: n.precautions?.length > 0 && <List items={n.precautions} /> },
             ]} />
           </div>
         )}

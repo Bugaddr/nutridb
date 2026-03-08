@@ -67,7 +67,7 @@ export default function App() {
       <footer>
         <div className="wrap">
           <p>NutriDB — Educational resource. Not medical advice.</p>
-          <p>Data sourced from NIH, WHO, EFSA.</p>
+          <p>Data sourced from NIH, WHO, EFSA, ICMR.</p>
         </div>
       </footer>
     </>
