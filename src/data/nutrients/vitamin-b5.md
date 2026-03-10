@@ -85,6 +85,15 @@ sources:
   - name: Sweet potato (1 medium)
     amount: 1.0
     unit: mg
+  - name: "Sunflower seeds (1 oz)"
+    amount: "2.0"
+    unit: "mg"
+  - name: "Avocado (1/2 fruit)"
+    amount: "1.4"
+    unit: "mg"
+  - name: "Lentils / Dal (1 cup, cooked)"
+    amount: "1.3"
+    unit: "mg"
 myths:
   - myth: You need B5 supplements for acne
     reality: While some studies suggest mega-dose pantothenic acid (5-10g/day) may reduce acne, the evidence is limited and such high doses are unnecessary for most people.

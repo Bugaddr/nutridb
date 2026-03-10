@@ -90,6 +90,15 @@ sources:
   - name: Brussels sprouts (½ cup)
     amount: 109
     unit: mcg (K1)
+  - name: "Spinach / Palak (1/2 cup, boiled)"
+    amount: "444"
+    unit: "mcg"
+  - name: "Cabbage / Patta Gobi (1/2 cup, boiled)"
+    amount: "82"
+    unit: "mcg"
+  - name: "Mustard greens / Sarson (1/2 cup, boiled)"
+    amount: "415"
+    unit: "mcg"
 myths:
   - myth: K1 and K2 are the same
     reality: K1 (phylloquinone) primarily supports clotting, while K2 (menaquinone) is more involved in calcium metabolism, bone and cardiovascular health.

@@ -126,6 +126,15 @@ sources:
   - name: Cod liver oil (1 tsp)
     amount: 1350
     unit: mcg RAE
+  - name: "Mango (100g)"
+    amount: "54"
+    unit: "µg RAE (Beta-carotene)"
+  - name: "Papaya (100g)"
+    amount: "47"
+    unit: "µg RAE"
+  - name: "Carrot (1 cup, chopped)"
+    amount: "1069"
+    unit: "µg RAE"
 myths:
   - myth: Eating carrots gives you super vision
     reality: Carrots provide beta-carotene which supports normal vision, but won't give you superhuman sight. This myth originated from WWII British propaganda to hide their radar technology.

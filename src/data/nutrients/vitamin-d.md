@@ -110,6 +110,15 @@ sources:
   - name: Sunlight (10-30 min midday)
     amount: 10000-25000
     unit: IU equivalent
+  - name: "Sunlight exposure"
+    amount: "Varies"
+    unit: "IU (best natural source)"
+  - name: "Fortified Milk (1 cup)"
+    amount: "115-120"
+    unit: "IU"
+  - name: "Mushrooms (sun-dried)"
+    amount: "Varies"
+    unit: "IU"
 myths:
   - myth: You get enough vitamin D from sunlight alone
     reality: At latitudes above 37°N (e.g., most of Europe, Canada, northern US), UVB is insufficient for synthesis during winter months. Sunscreen, dark skin, age, and indoor lifestyles further reduce production.

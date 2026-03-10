@@ -84,6 +84,15 @@ sources:
   - name: Turkey breast (3 oz)
     amount: 1.7
     unit: mcg
+  - name: "Broccoli (1/2 cup)"
+    amount: "11"
+    unit: "mcg"
+  - name: "Potatoes (1 cup, mashed)"
+    amount: "2.7"
+    unit: "mcg"
+  - name: "Garlic (1 tsp)"
+    amount: "Varies"
+    unit: "mcg"
 myths:
   - myth: Chromium picolinate supplements help you lose weight
     reality: Meta-analyses show chromium supplements produce minimal weight loss (~0.5 kg) at best. Marketing has far outpaced the science.

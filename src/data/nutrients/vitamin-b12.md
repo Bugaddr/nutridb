@@ -107,6 +107,15 @@ sources:
   - name: Egg (1 large)
     amount: 0.6
     unit: mcg
+  - name: "Milk (1 cup)"
+    amount: "1.2"
+    unit: "mcg"
+  - name: "Paneer (100g)"
+    amount: "0.8"
+    unit: "mcg"
+  - name: "Curd / Dahi (1 cup)"
+    amount: "0.9"
+    unit: "mcg"
 myths:
   - myth: Spirulina and seaweed provide B12
     reality: They contain B12 ANALOGUES (pseudovitamin B12) that are inactive in humans and may actually block real B12 absorption. Vegans MUST use supplements or fortified foods.

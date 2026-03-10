@@ -84,6 +84,15 @@ sources:
   - name: Beef (3 oz)
     amount: 33
     unit: mg
+  - name: "Chicken"
+    amount: "Varies"
+    unit: "High amounts in dark meat"
+  - name: "Fish"
+    amount: "Varies"
+    unit: "Moderate to high"
+  - name: "Milk / Dairy"
+    amount: "Varies"
+    unit: "Trace amounts"
 myths:
   - myth: Taurine in energy drinks comes from bull semen
     reality: This urban legend is false. Taurine in energy drinks is synthetic. The name comes from "taurus" (bull) because it was first isolated from ox bile in 1827, not from reproductive organs.

@@ -73,6 +73,15 @@ sources:
   - name: Mineral water (1 L)
     amount: 0-40
     unit: mg (varies)
+  - name: "Oats (1/2 cup)"
+    amount: "Varies"
+    unit: "High amounts"
+  - name: "Bananas (1 medium)"
+    amount: "4.7"
+    unit: "mg"
+  - name: "Beans (various)"
+    amount: "Varies"
+    unit: "Moderate amounts"
 myths:
   - myth: Silicon supplements dramatically improve hair and nails
     reality: While silicon plays a role in connective tissue, clinical evidence for supplement benefits in people with adequate diets is limited. Most claims are marketing-driven.

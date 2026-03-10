@@ -109,6 +109,15 @@ sources:
   - name: Fortified cereal (1 cup)
     amount: 400
     unit: mcg DFE
+  - name: "Spinach / Palak (1/2 cup, boiled)"
+    amount: "131"
+    unit: "mcg DFE"
+  - name: "Black-eyed peas / Lobia (1/2 cup, boiled)"
+    amount: "105"
+    unit: "mcg DFE"
+  - name: "Ladyfinger / Bhindi (100g)"
+    amount: "60"
+    unit: "mcg DFE"
 myths:
   - myth: Folate and folic acid are the same thing
     reality: Folate is the natural form found in food. Folic acid is the synthetic form used in supplements and fortification — it requires enzymatic conversion. People with MTHFR mutations may not convert folic acid efficiently.

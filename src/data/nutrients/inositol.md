@@ -80,6 +80,15 @@ sources:
   - name: Brown rice (1 cup)
     amount: 300
     unit: mg
+  - name: "Beans / Rajma, Chole"
+    amount: "Varies"
+    unit: "mg"
+  - name: "Brown rice (1/2 cup)"
+    amount: "Varies"
+    unit: "mg"
+  - name: "Citrus fruits (Oranges, Sweet lime/Mosambi)"
+    amount: "Varies"
+    unit: "mg"
 myths:
   - myth: Inositol is a B vitamin
     reality: It was once called vitamin B8, but since the body can synthesize it from glucose, it doesn't meet the definition of a vitamin. The name persists in some supplement marketing.

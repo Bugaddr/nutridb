@@ -86,6 +86,15 @@ sources:
   - name: Broccoli (½ cup)
     amount: 0.5
     unit: mg
+  - name: "Peanuts (1 oz)"
+    amount: "0.8"
+    unit: "mg"
+  - name: "Sesame seeds / Til (1 oz)"
+    amount: "Varies"
+    unit: "Moderate amounts"
+  - name: "Soybeans (1/2 cup)"
+    amount: "1.2"
+    unit: "mg"
 myths:
   - myth: CoQ10 is a miracle anti-aging supplement
     reality: While CoQ10 declines with age and plays a role in energy production, no human studies have proven it extends lifespan. It may benefit heart failure patients, but broader anti-aging claims are unproven.

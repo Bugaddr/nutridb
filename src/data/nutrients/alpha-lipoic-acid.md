@@ -67,6 +67,15 @@ sources:
   - name: Tomatoes (1 cup)
     amount: 0.06
     unit: mg
+  - name: "Spinach / Palak"
+    amount: "Varies"
+    unit: "Low amounts"
+  - name: "Broccoli"
+    amount: "Varies"
+    unit: "Low amounts"
+  - name: "Potatoes"
+    amount: "Varies"
+    unit: "Low amounts"
 myths:
   - myth: ALA is a powerful weight loss supplement
     reality: While some studies show modest effects on weight (1-2 kg), it's not a significant weight loss agent. Its primary evidence-based use is for diabetic neuropathy.

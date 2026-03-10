@@ -101,6 +101,15 @@ sources:
   - name: Potato (1 medium, baked)
     amount: 0.4
     unit: mg
+  - name: "Chickpeas / Kabuli Chana (1 cup, cooked)"
+    amount: "1.1"
+    unit: "mg"
+  - name: "Banana (1 medium)"
+    amount: "0.4"
+    unit: "mg"
+  - name: "Potato (1 medium)"
+    amount: "0.5"
+    unit: "mg"
 myths:
   - myth: B6 is only needed in tiny amounts
     reality: While the RDA is small, many people — especially women on hormonal contraceptives, elderly, and alcoholics — are mildly deficient. It's one of the most common B-vitamin deficiencies.

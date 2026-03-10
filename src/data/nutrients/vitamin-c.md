@@ -110,6 +110,18 @@ sources:
   - name: Kakadu plum (1 fruit)
     amount: 530
     unit: mg
+  - name: "Amla / Indian Gooseberry (100g)"
+    amount: "300"
+    unit: "mg"
+  - name: "Guava / Amrood (1 medium)"
+    amount: "125"
+    unit: "mg"
+  - name: "Lemon juice (1 tbsp)"
+    amount: "6"
+    unit: "mg"
+  - name: "Green Chilli (1 pepper)"
+    amount: "109"
+    unit: "mg"
 myths:
   - myth: Mega-doses of vitamin C prevent colds
     reality: Research shows vitamin C may reduce cold duration by 8% in adults but does NOT prevent colds. Regular supplementation, not post-onset dosing, shows the modest benefit.

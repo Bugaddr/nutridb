@@ -120,6 +120,18 @@ sources:
   - name: Lentils (½ cup)
     amount: 3.3
     unit: mg (non-heme)
+  - name: "Spinach / Palak (100g)"
+    amount: "2.7"
+    unit: "mg (non-heme)"
+  - name: "Moong Dal / Lentils (100g raw)"
+    amount: "5-7"
+    unit: "mg (non-heme)"
+  - name: "Jaggery / Gur (100g)"
+    amount: "2.6"
+    unit: "mg (non-heme; varies by iron vessel usage)"
+  - name: "Bajra / Pearl Millet (100g)"
+    amount: "8.0"
+    unit: "mg (non-heme)"
 myths:
   - myth: Spinach is the best source of iron
     reality: While spinach contains iron, it also contains oxalates that inhibit absorption by up to 90%. Red meat, oysters, and fortified cereals are far more effective sources.

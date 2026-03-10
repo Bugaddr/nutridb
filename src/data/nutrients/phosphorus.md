@@ -89,6 +89,18 @@ sources:
   - name: Milk (1 cup)
     amount: 226
     unit: mg
+  - name: "Milk (1 cup)"
+    amount: "226"
+    unit: "mg"
+  - name: "Paneer (100g)"
+    amount: "190"
+    unit: "mg"
+  - name: "Lentils / Dal (1 cup, cooked)"
+    amount: "356"
+    unit: "mg"
+  - name: "Pumpkin seeds (1 oz)"
+    amount: "332"
+    unit: "mg"
 myths:
   - myth: Phosphorus deficiency is common
     reality: The opposite — most people get too much phosphorus from processed foods, soft drinks, and food additives. Deficiency is extremely rare.

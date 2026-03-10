@@ -94,6 +94,18 @@ sources:
   - name: Sunflower seeds (¼ cup)
     amount: 519
     unit: mcg
+  - name: "Cashews / Kaju (1 oz)"
+    amount: "622"
+    unit: "mcg"
+  - name: "Sesame seeds / Til (1 oz)"
+    amount: "1160"
+    unit: "mcg"
+  - name: "Lentils / Dal (1/2 cup, cooked)"
+    amount: "249"
+    unit: "mcg"
+  - name: "Dark chocolate (1 oz)"
+    amount: "500"
+    unit: "mcg"
 myths:
   - myth: Copper bracelets help with arthritis
     reality: No scientific evidence supports copper absorption through the skin from bracelets helping arthritis. It's a persistent folk remedy with no proven mechanism.

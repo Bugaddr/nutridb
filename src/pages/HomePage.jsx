@@ -10,9 +10,8 @@ function Card({ n }) {
   return (
     <Link to={`/nutrient/${n.id}`} className="card">
       <div className="card-top">
-        <span className="card-symbol">{n.symbol}</span>
+        <h3>{n.name}</h3>
       </div>
-      <h3>{n.name}</h3>
       <div className="card-alt">{n.altName?.split('/')[0]?.trim()}</div>
       <div className="card-desc">{n.description?.slice(0, 90)}…</div>
       <div className="card-foot">

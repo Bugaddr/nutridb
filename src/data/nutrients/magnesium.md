@@ -109,6 +109,18 @@ sources:
   - name: Avocado (1 medium)
     amount: 58
     unit: mg
+  - name: "Pumpkin seeds (1 oz)"
+    amount: "156"
+    unit: "mg"
+  - name: "Spinach / Palak (1/2 cup, boiled)"
+    amount: "78"
+    unit: "mg"
+  - name: "Almonds (1 oz)"
+    amount: "80"
+    unit: "mg"
+  - name: "Cashews / Kaju (1 oz)"
+    amount: "74"
+    unit: "mg"
 myths:
   - myth: Most people get enough magnesium
     reality: Approximately 50% of Americans don't meet the RDA. Modern soil depletion and processed food diets have reduced magnesium intake significantly over the past century.

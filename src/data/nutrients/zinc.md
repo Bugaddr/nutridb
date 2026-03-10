@@ -110,6 +110,15 @@ sources:
   - name: Cashews (1 oz)
     amount: 1.6
     unit: mg
+  - name: "Pumpkin seeds (1 oz)"
+    amount: "2.2"
+    unit: "mg"
+  - name: "Chickpeas / Chole (1 cup, cooked)"
+    amount: "2.5"
+    unit: "mg"
+  - name: "Cashews / Kaju (1 oz)"
+    amount: "1.6"
+    unit: "mg"
 myths:
   - myth: Zinc lozenges cure the common cold
     reality: Zinc lozenges may reduce cold duration by 1-2 days IF started within 24 hours of symptom onset. They don't prevent colds or cure them — the effect is modest.

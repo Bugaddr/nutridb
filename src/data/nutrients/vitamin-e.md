@@ -95,6 +95,15 @@ sources:
   - name: Avocado (½)
     amount: 2.1
     unit: mg
+  - name: "Almonds / Badam (1 oz)"
+    amount: "7.3"
+    unit: "mg"
+  - name: "Sunflower seeds (1 oz)"
+    amount: "7.4"
+    unit: "mg"
+  - name: "Peanut oil (1 tbsp)"
+    amount: "2.1"
+    unit: "mg"
 myths:
   - myth: Vitamin E supplements prevent heart disease
     reality: Large clinical trials (HOPE, GISEE) found no cardiovascular benefit from vitamin E supplementation and potential harm at high doses.

@@ -93,6 +93,15 @@ sources:
   - name: Sunflower seeds (1 oz)
     amount: 0.41
     unit: mg
+  - name: "Sunflower seeds (1 oz)"
+    amount: "0.4"
+    unit: "mg"
+  - name: "Dry roasted peanuts (1 oz)"
+    amount: "0.1"
+    unit: "mg"
+  - name: "Green Peas / Matar (1 cup)"
+    amount: "0.4"
+    unit: "mg"
 myths:
   - myth: Thiamine deficiency is only a problem in developing countries
     reality: Wernicke-Korsakoff syndrome from alcohol-related thiamine deficiency is a significant concern in developed nations. Up to 80% of alcoholics have some degree of thiamine deficiency.

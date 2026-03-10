@@ -109,6 +109,15 @@ sources:
   - name: Fortified orange juice (1 cup)
     amount: 349
     unit: mg
+  - name: "Ragi (Finger Millet) (100g)"
+    amount: "344"
+    unit: "mg"
+  - name: "Paneer (Indian Cottage Cheese) (100g)"
+    amount: "200-250"
+    unit: "mg"
+  - name: "Curry leaves (100g)"
+    amount: "800"
+    unit: "mg"
 myths:
   - myth: Milk is the only good source of calcium
     reality: Many non-dairy foods are excellent sources — sardines with bones, tofu, kale, fortified plant milks, and sesame seeds. Some Asian populations get adequate calcium without dairy.

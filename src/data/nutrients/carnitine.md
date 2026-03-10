@@ -87,6 +87,15 @@ sources:
   - name: Asparagus (½ cup)
     amount: 0.1
     unit: mg
+  - name: "Chicken breast (4 oz)"
+    amount: "3-5"
+    unit: "mg"
+  - name: "Milk (1 cup)"
+    amount: "8"
+    unit: "mg"
+  - name: "Cheese"
+    amount: "1-2"
+    unit: "mg (per oz)"
 myths:
   - myth: L-carnitine supplements help you burn more fat and lose weight
     reality: For healthy people who produce adequate carnitine, supplements do NOT increase fat burning or cause weight loss. Muscle carnitine levels are already saturated.

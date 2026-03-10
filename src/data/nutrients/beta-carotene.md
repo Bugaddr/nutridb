@@ -75,6 +75,18 @@ sources:
   - name: Dried apricots (½ cup)
     amount: 4.7
     unit: mg
+  - name: "Carrots (1/2 cup, raw)"
+    amount: "5000"
+    unit: "mcg"
+  - name: "Sweet potatoes / Shakarkandi (1/2 cup, baked)"
+    amount: "14000"
+    unit: "mcg"
+  - name: "Spinach / Palak (1/2 cup, boiled)"
+    amount: "5700"
+    unit: "mcg"
+  - name: "Mango (1 cup)"
+    amount: "1000"
+    unit: "mcg"
 myths:
   - myth: Beta-carotene supplements prevent cancer
     reality: The ATBC and CARET trials showed that beta-carotene supplements INCREASED lung cancer risk in smokers by 18-28%. This was one of the most shocking findings in nutrition research. Food sources remain protective.

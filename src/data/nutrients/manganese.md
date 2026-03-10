@@ -86,6 +86,18 @@ sources:
   - name: Black tea (1 cup)
     amount: 0.5
     unit: mg
+  - name: "Tea / Chai (1 cup, brewed)"
+    amount: "0.5"
+    unit: "mg"
+  - name: "Chickpeas / Chole (1/2 cup, cooked)"
+    amount: "0.8"
+    unit: "mg"
+  - name: "Brown rice (1/2 cup, cooked)"
+    amount: "1.1"
+    unit: "mg"
+  - name: "Pineapple (1/2 cup)"
+    amount: "0.8"
+    unit: "mg"
 myths:
   - myth: Manganese and magnesium are the same
     reality: Despite similar names, they are completely different elements with different functions. Manganese (Mn) is a trace mineral needed in mg amounts; magnesium (Mg) is a major mineral needed in hundreds of mg.

@@ -94,6 +94,15 @@ sources:
   - name: Egg (1 large)
     amount: 15
     unit: mcg
+  - name: "Mustard seeds / Sarson (1 tbsp)"
+    amount: "20"
+    unit: "mcg"
+  - name: "Fish (Sardines, 3 oz)"
+    amount: "45"
+    unit: "mcg"
+  - name: "Eggs (1 whole)"
+    amount: "15"
+    unit: "mcg"
 myths:
   - myth: Selenium supplements prevent cancer
     reality: The SELECT trial found selenium supplements did NOT reduce cancer risk and may increase type 2 diabetes risk. Early promising results from the NPC trial have not been replicated.

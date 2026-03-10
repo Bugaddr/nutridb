@@ -89,13 +89,13 @@ footer { margin-top: auto; padding: 32px 0 16px; border-top: 1px solid var(--bor
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px,1fr)); gap: 8px; }
 .card { display: flex; flex-direction: column; gap: 4px; padding: 14px; border: 1px solid var(--border); border-radius: 8px; transition: border-color 0.15s; text-decoration: none; color: inherit; }
 .card:hover { border-color: #444; }
-.card-top { display: flex; justify-content: space-between; align-items: center; }
-.card-symbol { font-size: 0.7rem; color: var(--text3); font-weight: 600; letter-spacing: 0.04em; }
+.card-top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.card-symbol { font-size: 1.1rem; color: var(--text3); font-weight: 700; letter-spacing: 0.02em; }
 .card-dot { width: 6px; height: 6px; border-radius: 50%; }
 .card-dot--vitamin { background: #e8a838; }
 .card-dot--mineral { background: #5ab; }
 .card-dot--other { background: #b7a; }
-.card h3 { font-size: 0.95rem; font-weight: 600; }
+.card h3 { font-size: 1.15rem; font-weight: 700; }
 .card-alt { font-size: 0.7rem; color: var(--text3); font-style: italic; min-height: 1em; }
 .card-desc { font-size: 0.75rem; color: var(--text2); margin-top: 4px; flex: 1; line-height: 1.5; }
 .card-foot { display: flex; justify-content: space-between; align-items: center; margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--border); font-size: 0.65rem; color: var(--text3); text-transform: uppercase; letter-spacing: 0.04em; }

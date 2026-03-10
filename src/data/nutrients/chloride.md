@@ -74,6 +74,12 @@ sources:
   - name: Celery (1 stalk)
     amount: 32
     unit: mg
+  - name: "Table salt (1 tsp)"
+    amount: "3400"
+    unit: "mg"
+  - name: "Sea salt (1 tsp)"
+    amount: "3400"
+    unit: "mg"
 myths:
   - myth: Chloride deficiency is a common concern
     reality: Since most people consume excess sodium chloride (salt), chloride deficiency is extremely rare in normal diets.

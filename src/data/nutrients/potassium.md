@@ -99,6 +99,18 @@ sources:
   - name: White beans (½ cup)
     amount: 502
     unit: mg
+  - name: "Coconut water (1 cup)"
+    amount: "600"
+    unit: "mg"
+  - name: "Banana (1 medium)"
+    amount: "422"
+    unit: "mg"
+  - name: "Potato (1 medium, baked)"
+    amount: "610"
+    unit: "mg"
+  - name: "Sweet potato / Shakarkandi (1 medium)"
+    amount: "542"
+    unit: "mg"
 myths:
   - myth: Bananas are the best source of potassium
     reality: Potatoes have over 2x more potassium than bananas. White beans, sweet potatoes, and avocados also beat bananas.

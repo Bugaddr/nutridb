@@ -76,6 +76,15 @@ sources:
   - name: Potato (1 medium)
     amount: 36
     unit: mcg
+  - name: "Lentils / Dal (1/2 cup, cooked)"
+    amount: "74"
+    unit: "mcg"
+  - name: "Kidney beans / Rajma (1/2 cup, cooked)"
+    amount: "30"
+    unit: "mcg"
+  - name: "Peas / Matar (1/2 cup)"
+    amount: "20"
+    unit: "mcg"
 myths:
   - myth: You need to worry about molybdenum intake
     reality: Natural deficiency has never been documented in free-living humans. If you eat any variety of food, you get enough.

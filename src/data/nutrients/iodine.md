@@ -102,6 +102,18 @@ sources:
   - name: Egg (1 large)
     amount: 24
     unit: mcg
+  - name: "Iodized salt (1/4 tsp)"
+    amount: "71"
+    unit: "mcg"
+  - name: "Milk (1 cup)"
+    amount: "56"
+    unit: "mcg"
+  - name: "Eggs (1 whole)"
+    amount: "24"
+    unit: "mcg"
+  - name: "Prawns/Shrimp (3 oz)"
+    amount: "35"
+    unit: "mcg"
 myths:
   - myth: Iodine deficiency is no longer a problem
     reality: ~2 billion people worldwide remain at risk. Even in developed countries, pregnant women are often mildly deficient. Only 71% of the world's households use iodized salt.

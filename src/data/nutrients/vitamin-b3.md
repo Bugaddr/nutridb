@@ -92,6 +92,12 @@ sources:
   - name: Fortified cereal (1 cup)
     amount: 20.0
     unit: mg
+  - name: "Peanuts (1 oz)"
+    amount: "4.2"
+    unit: "mg"
+  - name: "Brown rice (1 cup, cooked)"
+    amount: "5.2"
+    unit: "mg"
 myths:
   - myth: Niacin flush is dangerous
     reality: The flushing from nicotinic acid (warmth, redness) is harmless and temporary — it's caused by prostaglandin release. Taking aspirin 30 min before or using the nicotinamide form avoids it.

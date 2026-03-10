@@ -94,6 +94,15 @@ sources:
   - name: Almonds (¼ cup)
     amount: 1.5
     unit: mcg
+  - name: "Sweet potato (1/2 cup, cooked)"
+    amount: "2.4"
+    unit: "mcg"
+  - name: "Eggs (1 whole)"
+    amount: "10"
+    unit: "mcg"
+  - name: "Roasted almonds (1/4 cup)"
+    amount: "1.5"
+    unit: "mcg"
 myths:
   - myth: Biotin supplements make hair grow faster
     reality: Biotin supplements only help hair if you are deficient (rare). For people with normal biotin levels, supplements provide no hair growth benefit — a massive industry built on weak evidence.

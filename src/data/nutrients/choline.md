@@ -94,6 +94,15 @@ sources:
   - name: Cauliflower (1 cup)
     amount: 47
     unit: mg
+  - name: "Eggs (1 whole)"
+    amount: "147"
+    unit: "mg"
+  - name: "Soybeans (1/2 cup, roasted)"
+    amount: "107"
+    unit: "mg"
+  - name: "Kidney beans / Rajma (1/2 cup)"
+    amount: "45"
+    unit: "mg"
 myths:
   - myth: Choline isn't important because the body can make it
     reality: The body's synthesis is far below requirements. Only ~10% of Americans meet the adequate intake. It was only recognized as essential by the IOM in 1998.

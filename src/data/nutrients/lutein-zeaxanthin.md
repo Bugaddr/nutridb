@@ -78,6 +78,15 @@ sources:
   - name: Orange bell pepper (1 medium)
     amount: 1.7
     unit: mg
+  - name: "Spinach / Palak (1/2 cup, boiled)"
+    amount: "14600"
+    unit: "mcg"
+  - name: "Peas / Matar (1/2 cup)"
+    amount: "2000"
+    unit: "mcg"
+  - name: "Egg yolk (1 large)"
+    amount: "250"
+    unit: "mcg"
 myths:
   - myth: Carrots are the best food for eye health
     reality: For macular protection, dark leafy greens (kale, spinach) are far superior to carrots. Carrots provide beta-carotene for night vision, but lutein and zeaxanthin are the macular protectors.

@@ -94,6 +94,18 @@ sources:
   - name: Canned soup (1 cup)
     amount: 700-1200
     unit: mg
+  - name: "Table salt (1 tsp)"
+    amount: "2325"
+    unit: "mg"
+  - name: "Pickles / Achaar (1 oz)"
+    amount: "Varies"
+    unit: "mg (typically high)"
+  - name: "Papad (1 piece)"
+    amount: "Varies"
+    unit: "mg (typically high)"
+  - name: "Buttermilk / Chaas (1 cup)"
+    amount: "Varies"
+    unit: "mg (if salted)"
 myths:
   - myth: Sea salt is healthier than table salt
     reality: Sea salt contains the same amount of sodium as table salt by weight. The trace minerals in sea salt are negligible. Table salt is usually fortified with iodine, which is actually beneficial.

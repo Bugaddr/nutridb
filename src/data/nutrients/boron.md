@@ -73,6 +73,15 @@ sources:
   - name: Red wine (5 oz)
     amount: 0.36
     unit: mg
+  - name: "Apples (1 medium)"
+    amount: "0.6"
+    unit: "mg"
+  - name: "Peanuts (1 oz)"
+    amount: "0.5"
+    unit: "mg"
+  - name: "Raisins / Kishmish (1.5 oz)"
+    amount: "0.9"
+    unit: "mg"
 myths:
   - myth: Boron is a powerful testosterone booster
     reality: One small study showed increases in free testosterone, but the effects are modest. It's heavily marketed by supplement companies beyond what the evidence supports.

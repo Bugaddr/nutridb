@@ -95,6 +95,15 @@ sources:
   - name: Eggs (1 large)
     amount: 0.23
     unit: mg
+  - name: "Milk (1 cup)"
+    amount: "0.4"
+    unit: "mg"
+  - name: "Curd / Dahi (1 cup)"
+    amount: "0.3"
+    unit: "mg"
+  - name: "Almonds (1 oz)"
+    amount: "0.3"
+    unit: "mg"
 myths:
   - myth: If your urine is yellow from B2, you're overdosing
     reality: Bright yellow urine from riboflavin is normal and harmless — it just means your body excreted what it didn't need. It's one of the safest vitamins.
