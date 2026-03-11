@@ -45,4 +45,5 @@ function markdownNutrientsPlugin() {
 
 export default defineConfig({
   plugins: [react(), markdownNutrientsPlugin()],
+  base: '/nutridb/',
 })
