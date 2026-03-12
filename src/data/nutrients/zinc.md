@@ -6,7 +6,7 @@ category: mineral
 subcategory: trace
 essentiality: essential
 sortOrder: 21
-description: Essential trace mineral involved in immune function, wound healing, DNA synthesis, and cell division. Required by 300+ enzymes and 1000+ transcription factors.
+description: 'Essential trace mineral involved in immune function, wound healing, DNA synthesis, and cell division. Required by 300+ enzymes and 1000+ transcription factors.'
 functions:
   - Catalytic component of 300+ enzymes
   - Structural role in 1000+ transcription factors (zinc fingers)
@@ -31,7 +31,7 @@ rda:
       amount: 4.2-14 mg depending on diet bioavailability
   efsa:
     - group: Adults
-      amount: 9.4-16.3 mg (men), 7.5-12.7 mg (women) — phytate-dependent
+      amount: '9.4-16.3 mg (men), 7.5-12.7 mg (women) — phytate-dependent'
   nin:
     - group: Adult males
       amount: 17 mg
@@ -40,37 +40,37 @@ rda:
 deficiency:
   symptoms:
     early:
-      - "Loss of appetite"
-      - "Impaired taste (hypogeusia) and smell"
-      - "Slow wound healing"
-      - "Frequent mild infections"
+      - Loss of appetite
+      - Impaired taste (hypogeusia) and smell
+      - Slow wound healing
+      - Frequent mild infections
     moderate:
-      - "Hair loss"
-      - "Diarrhea"
-      - "Skin lesions (especially around mouth, eyes, perineum)"
-      - "Night blindness"
-      - "Growth retardation in children"
-      - "Impaired immunity"
+      - Hair loss
+      - Diarrhea
+      - 'Skin lesions (especially around mouth, eyes, perineum)'
+      - Night blindness
+      - Growth retardation in children
+      - Impaired immunity
     severe:
-      - "Acrodermatitis enteropathica (severe skin rash — genetic or acquired)"
-      - "Severe diarrhea and wasting"
-      - "Alopecia (total)"
-      - "Severe immune dysfunction"
-      - "Hypogonadism"
+      - Acrodermatitis enteropathica (severe skin rash — genetic or acquired)
+      - Severe diarrhea and wasting
+      - Alopecia (total)
+      - Severe immune dysfunction
+      - Hypogonadism
     longTerm:
-      - "Stunted growth"
-      - "Chronic immune deficiency"
-      - "Impaired cognitive development in children"
-      - "Increased infection mortality"
-      - "Delayed sexual maturation"
+      - Stunted growth
+      - Chronic immune deficiency
+      - Impaired cognitive development in children
+      - Increased infection mortality
+      - Delayed sexual maturation
   conditions:
     - Acrodermatitis enteropathica (genetic zinc malabsorption)
     - Hypogonadism in males
     - Growth stunting
   mimickingConditions:
-    - "Hypothyroidism (can cause similar hair loss and dry skin)"
-    - "Alopecia areata (hair loss)"
-    - "COVID-19 or viral infections (can cause similar loss of taste/smell)"
+    - Hypothyroidism (can cause similar hair loss and dry skin)
+    - Alopecia areata (hair loss)
+    - COVID-19 or viral infections (can cause similar loss of taste/smell)
   riskGroups:
     - Vegetarians/vegans (phytates reduce absorption)
     - Pregnant/lactating women
@@ -79,9 +79,9 @@ deficiency:
     - Elderly
 toxicity:
   symptoms:
-    - Nausea, vomiting, diarrhea
+    - 'Nausea, vomiting, diarrhea'
     - Copper deficiency (zinc inhibits copper absorption)
-    - Impaired immune function (paradoxically, at high doses)
+    - 'Impaired immune function (paradoxically, at high doses)'
     - Reduced HDL cholesterol
   upperLimit: 40 mg/day for adults
   notes: Chronic zinc supplementation above 50 mg/day depletes copper. Zinc nasal sprays have caused permanent anosmia (loss of smell).
@@ -97,10 +97,10 @@ testing:
   sampleType: Blood (serum)
 sources:
   - name: Oysters (3 oz)
-    amount: 74.0
+    amount: 74
     unit: mg
   - name: Beef (3 oz)
-    amount: 7.0
+    amount: 7
     unit: mg
   - name: Crab (3 oz)
     amount: 6.5
@@ -114,20 +114,20 @@ sources:
   - name: Cashews (1 oz)
     amount: 1.6
     unit: mg
-  - name: "Pumpkin seeds (1 oz)"
-    amount: "2.2"
-    unit: "mg"
-  - name: "Chickpeas / Chole (1 cup, cooked)"
-    amount: "2.5"
-    unit: "mg"
-  - name: "Cashews / Kaju (1 oz)"
-    amount: "1.6"
-    unit: "mg"
+  - name: Pumpkin seeds (1 oz)
+    amount: '2.2'
+    unit: mg
+  - name: 'Chickpeas / Chole (1 cup, cooked)'
+    amount: '2.5'
+    unit: mg
+  - name: Cashews / Kaju (1 oz)
+    amount: '1.6'
+    unit: mg
 myths:
   - myth: Zinc lozenges cure the common cold
     reality: Zinc lozenges may reduce cold duration by 1-2 days IF started within 24 hours of symptom onset. They don't prevent colds or cure them — the effect is modest.
   - myth: Zinc is only important for immune health
-    reality: Zinc is involved in virtually every cellular process — over 1000 transcription factors require zinc. It's equally critical for taste, smell, wound healing, and DNA synthesis.
+    reality: 'Zinc is involved in virtually every cellular process — over 1000 transcription factors require zinc. It''s equally critical for taste, smell, wound healing, and DNA synthesis.'
 precautions:
   - Long-term zinc supplementation (>40 mg/day) requires copper supplementation to prevent deficiency
   - Don't use zinc nasal sprays — linked to permanent loss of smell
@@ -142,69 +142,70 @@ interactions:
     effect: Zinc reduces absorption — separate by 2 hours
   - substance: Penicillamine (Wilson's disease drug)
     effect: Mutual absorption reduction
-history: Zinc deficiency in humans was first described in 1961 by Ananda Prasad, who discovered growth-stunted, hypogonadal men in Iran eating clay and leavened bread (high phytate). This was initially met with skepticism but is now recognized as a landmark discovery. Zinc's role in enzyme function was identified through discoveries of zinc-containing enzymes starting in the 1940s.
+history: 'Zinc deficiency in humans was first described in 1961 by Ananda Prasad, who discovered growth-stunted, hypogonadal men in Iran eating clay and leavened bread (high phytate). This was initially met with skepticism but is now recognized as a landmark discovery. Zinc''s role in enzyme function was identified through discoveries of zinc-containing enzymes starting in the 1940s.'
 funFacts:
   - Oysters contain more zinc per serving than any other food — 6x the daily requirement in 3 oz
   - Zinc "fingers" in DNA-binding proteins were named for their finger-like structure held together by zinc ions
   - The practice of eating clay (geophagia) observed in zinc-deficient populations may be an instinctive attempt to obtain minerals
   - The "zinc taste test" (holding zinc sulfate in your mouth) was once used diagnostically — deficient people couldn't taste it
 enzymeRoles:
-  - "Catalytic component of carbonic anhydrase"
-  - "Component of carboxypeptidases"
-  - "Required for alcohol dehydrogenase"
-  - "Component of Cu/Zn superoxide dismutase (SOD1)"
-  - "Required for alkaline phosphatase"
+  - Catalytic component of carbonic anhydrase
+  - Component of carboxypeptidases
+  - Required for alcohol dehydrogenase
+  - Component of Cu/Zn superoxide dismutase (SOD1)
+  - Required for alkaline phosphatase
 hormonalRoles:
-  - "Required for insulin storage and secretion (Zn²⁺ in insulin granules)"
-  - "Required for testosterone synthesis"
-  - "Thymulin (thymic hormone) requires zinc"
-  - "Influences growth hormone and IGF-1 signaling"
+  - Required for insulin storage and secretion (Zn²⁺ in insulin granules)
+  - Required for testosterone synthesis
+  - Thymulin (thymic hormone) requires zinc
+  - Influences growth hormone and IGF-1 signaling
 metabolicPathways:
-  - "DNA synthesis and repair"
-  - "Protein synthesis"
-  - "Alcohol metabolism"
-  - "CO₂ hydration (carbonic anhydrase in RBCs)"
+  - DNA synthesis and repair
+  - Protein synthesis
+  - Alcohol metabolism
+  - CO₂ hydration (carbonic anhydrase in RBCs)
 organsAffected:
-  - "Prostate (highest zinc concentration)"
-  - "Immune system (thymus)"
-  - "Skin (wound healing)"
-  - "Eyes (retina)"
-  - "Pancreas (insulin)"
+  - Prostate (highest zinc concentration)
+  - Immune system (thymus)
+  - Skin (wound healing)
+  - Eyes (retina)
+  - Pancreas (insulin)
 cellularFunctions:
-  - "Zinc finger protein structure (1000+ transcription factors)"
-  - "Gene expression regulation"
-  - "Apoptosis signaling"
-  - "Cell division"
-  - "Antioxidant defense (SOD1, metallothionein)"
+  - Zinc finger protein structure (1000+ transcription factors)
+  - Gene expression regulation
+  - Apoptosis signaling
+  - Cell division
+  - 'Antioxidant defense (SOD1, metallothionein)'
 supplementForms:
-  - form: "Zinc picolinate"
-    bioavailability: "High"
-    notes: "Chelated to picolinic acid, may have best absorption"
-  - form: "Zinc bisglycinate"
-    bioavailability: "High"
-    notes: "Chelated, well tolerated, good absorption"
-  - form: "Zinc citrate"
-    bioavailability: "High"
-    notes: "Well absorbed, decent taste"
-  - form: "Zinc gluconate"
-    bioavailability: "Moderate"
-    notes: "Common in lozenges for cold treatment"
-  - form: "Zinc oxide"
-    bioavailability: "Low"
-    notes: "Cheap, poorly absorbed, mainly for topical zinc sunscreen"
-  - form: "Zinc carnosine"
-    bioavailability: "Moderate"
-    notes: "Specifically studied for gut health and H. pylori"
+  - form: Zinc picolinate
+    bioavailability: High
+    notes: 'Chelated to picolinic acid, may have best absorption'
+  - form: Zinc bisglycinate
+    bioavailability: High
+    notes: 'Chelated, well tolerated, good absorption'
+  - form: Zinc citrate
+    bioavailability: High
+    notes: 'Well absorbed, decent taste'
+  - form: Zinc gluconate
+    bioavailability: Moderate
+    notes: Common in lozenges for cold treatment
+  - form: Zinc oxide
+    bioavailability: Low
+    notes: 'Cheap, poorly absorbed, mainly for topical zinc sunscreen'
+  - form: Zinc carnosine
+    bioavailability: Moderate
+    notes: Specifically studied for gut health and H. pylori
 synergy:
-  - nutrient: "Protein"
-    effect: "Animal proteins (especially from meat and eggs) enhance zinc absorption."
+  - nutrient: Protein
+    effect: Animal proteins (especially from meat and eggs) enhance zinc absorption.
 antagonists:
-  - nutrient: "Copper"
-    effect: "Continuous high-dose zinc will induce metallothionein in the gut, which binds copper and causes severe copper deficiency."
-  - nutrient: "Iron"
-    effect: "High doses of supplemental iron (taken without food) reduce zinc absorption."
-  - nutrient: "Calcium"
-    effect: "Can impair zinc absorption, especially in the presence of phytic acid."
-  - nutrient: "Phytic Acid"
-    effect: "The primary inhibitor of zinc absorption in vegetarian diets."
+  - nutrient: Copper
+    effect: 'Continuous high-dose zinc will induce metallothionein in the gut, which binds copper and causes severe copper deficiency.'
+  - nutrient: Iron
+    effect: High doses of supplemental iron (taken without food) reduce zinc absorption.
+  - nutrient: Calcium
+    effect: 'Can impair zinc absorption, especially in the presence of phytic acid.'
+  - nutrient: Phytic Acid
+    effect: The primary inhibitor of zinc absorption in vegetarian diets.
 ---
+

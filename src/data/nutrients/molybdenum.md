@@ -29,22 +29,22 @@ rda:
 deficiency:
   symptoms:
     early:
-      - "Headache"
-      - "Tachycardia"
-      - "Night blindness"
+      - Headache
+      - Tachycardia
+      - Night blindness
     moderate:
-      - "Nausea"
-      - "Mental confusion"
-      - "Sulfite sensitivity (sulfite oxidase impaired)"
-      - "Visual disturbance"
+      - Nausea
+      - Mental confusion
+      - Sulfite sensitivity (sulfite oxidase impaired)
+      - Visual disturbance
     severe:
-      - "Molybdenum cofactor deficiency (genetic) — seizures, brain damage, lens dislocation"
-      - "Sulfite toxicity"
-      - "Severe neurological dysfunction"
+      - 'Molybdenum cofactor deficiency (genetic) — seizures, brain damage, lens dislocation'
+      - Sulfite toxicity
+      - Severe neurological dysfunction
     longTerm:
-      - "Deficiency from diet alone is essentially unknown"
-      - "Genetic Moco deficiency is fatal without treatment"
-      - "Increased sulfite toxicity risk"
+      - Deficiency from diet alone is essentially unknown
+      - Genetic Moco deficiency is fatal without treatment
+      - Increased sulfite toxicity risk
   conditions:
     - Sulfite oxidase deficiency (genetic — devastating neurological disease)
   riskGroups:
@@ -70,24 +70,24 @@ sources:
   - name: Lima beans (½ cup)
     amount: 104
     unit: mcg
-  - name: Oats (1 cup, cooked)
+  - name: 'Oats (1 cup, cooked)'
     amount: 68
     unit: mcg
   - name: Potato (1 medium)
     amount: 36
     unit: mcg
-  - name: "Lentils / Dal (1/2 cup, cooked)"
-    amount: "74"
-    unit: "mcg"
-  - name: "Kidney beans / Rajma (1/2 cup, cooked)"
-    amount: "30"
-    unit: "mcg"
-  - name: "Peas / Matar (1/2 cup)"
-    amount: "20"
-    unit: "mcg"
+  - name: 'Lentils / Dal (1/2 cup, cooked)'
+    amount: '74'
+    unit: mcg
+  - name: 'Kidney beans / Rajma (1/2 cup, cooked)'
+    amount: '30'
+    unit: mcg
+  - name: Peas / Matar (1/2 cup)
+    amount: '20'
+    unit: mcg
 myths:
   - myth: You need to worry about molybdenum intake
-    reality: Natural deficiency has never been documented in free-living humans. If you eat any variety of food, you get enough.
+    reality: 'Natural deficiency has never been documented in free-living humans. If you eat any variety of food, you get enough.'
 precautions:
   - High doses may interfere with copper metabolism
   - Legumes are the richest source — a single serving of lentils exceeds the daily need
@@ -100,35 +100,36 @@ funFacts:
   - The word comes from Greek "molybdos" (lead) because it was confused with lead ore
   - Cattle are far more sensitive to molybdenum imbalance than humans — excess causes "teart" disease
 enzymeRoles:
-  - "Cofactor (as molybdopterin/Moco) for xanthine oxidase"
-  - "Cofactor for sulfite oxidase"
-  - "Cofactor for aldehyde oxidase"
-  - "Cofactor for mitochondrial amidoxime reducing component (mARC)"
+  - Cofactor (as molybdopterin/Moco) for xanthine oxidase
+  - Cofactor for sulfite oxidase
+  - Cofactor for aldehyde oxidase
+  - Cofactor for mitochondrial amidoxime reducing component (mARC)
 hormonalRoles:
-  - "No direct hormonal roles"
-  - "Xanthine oxidase influences purine metabolism and uric acid (gout)"
+  - No direct hormonal roles
+  - Xanthine oxidase influences purine metabolism and uric acid (gout)
 metabolicPathways:
-  - "Purine catabolism (hypoxanthine → xanthine → uric acid)"
-  - "Sulfite detoxification (sulfite → sulfate)"
-  - "Drug metabolism (aldehyde oxidase)"
-  - "Nitrite reduction (mARC)"
+  - Purine catabolism (hypoxanthine → xanthine → uric acid)
+  - Sulfite detoxification (sulfite → sulfate)
+  - Drug metabolism (aldehyde oxidase)
+  - Nitrite reduction (mARC)
 organsAffected:
-  - "Liver (primary metabolism)"
-  - "Kidneys (excretion)"
-  - "All cells (sulfite detoxification)"
+  - Liver (primary metabolism)
+  - Kidneys (excretion)
+  - All cells (sulfite detoxification)
 cellularFunctions:
-  - "Purine degradation"
-  - "Sulfur amino acid metabolism"
-  - "Xenobiotic metabolism"
-  - "Reactive oxygen species generation (xanthine oxidase)"
+  - Purine degradation
+  - Sulfur amino acid metabolism
+  - Xenobiotic metabolism
+  - Reactive oxygen species generation (xanthine oxidase)
 supplementForms:
-  - form: "Sodium molybdate"
-    bioavailability: "High"
-    notes: "Standard form, well absorbed (88-93%)"
-  - form: "Ammonium molybdate"
-    bioavailability: "High"
-    notes: "Used in supplements, similar absorption"
-  - form: "Molybdenum glycinate"
-    bioavailability: "High"
-    notes: "Chelated form"
+  - form: Sodium molybdate
+    bioavailability: High
+    notes: 'Standard form, well absorbed (88-93%)'
+  - form: Ammonium molybdate
+    bioavailability: High
+    notes: 'Used in supplements, similar absorption'
+  - form: Molybdenum glycinate
+    bioavailability: High
+    notes: Chelated form
 ---
+

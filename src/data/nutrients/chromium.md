@@ -6,7 +6,7 @@ category: mineral
 subcategory: trace
 essentiality: essential
 sortOrder: 26
-description: Trace mineral that enhances insulin action. Its essentiality has been debated, but it plays a role in macronutrient metabolism and blood sugar regulation.
+description: 'Trace mineral that enhances insulin action. Its essentiality has been debated, but it plays a role in macronutrient metabolism and blood sugar regulation.'
 functions:
   - Enhances insulin signaling (chromodulin/LMWCr)
   - Supports glucose metabolism
@@ -32,22 +32,22 @@ rda:
 deficiency:
   symptoms:
     early:
-      - "Impaired glucose tolerance"
-      - "Mild insulin resistance"
-      - "Fatigue after meals"
+      - Impaired glucose tolerance
+      - Mild insulin resistance
+      - Fatigue after meals
     moderate:
-      - "Elevated blood glucose"
-      - "Weight gain"
-      - "Increased triglycerides and cholesterol"
-      - "Anxiety and mood changes"
+      - Elevated blood glucose
+      - Weight gain
+      - Increased triglycerides and cholesterol
+      - Anxiety and mood changes
     severe:
-      - "Severe glucose intolerance"
-      - "Peripheral neuropathy (seen in patients on long-term TPN without chromium)"
-      - "Weight loss and confusion"
+      - Severe glucose intolerance
+      - Peripheral neuropathy (seen in patients on long-term TPN without chromium)
+      - Weight loss and confusion
     longTerm:
-      - "Type 2 diabetes progression"
-      - "Cardiovascular disease risk (dyslipidemia)"
-      - "Note: chromium essentiality is debated — some researchers question whether true deficiency exists outside of TPN patients"
+      - Type 2 diabetes progression
+      - Cardiovascular disease risk (dyslipidemia)
+      - 'Note: chromium essentiality is debated — some researchers question whether true deficiency exists outside of TPN patients'
   conditions:
     - Only documented in TPN (IV nutrition) patients
   riskGroups:
@@ -65,7 +65,7 @@ normalLevels:
   unit: mcg/L
 testing:
   methods:
-    - Serum/plasma chromium (difficult, contamination-prone)
+    - 'Serum/plasma chromium (difficult, contamination-prone)'
     - Urinary chromium
   sampleType: Blood/Urine
 sources:
@@ -84,15 +84,15 @@ sources:
   - name: Turkey breast (3 oz)
     amount: 1.7
     unit: mcg
-  - name: "Broccoli (1/2 cup)"
-    amount: "11"
-    unit: "mcg"
-  - name: "Potatoes (1 cup, mashed)"
-    amount: "2.7"
-    unit: "mcg"
-  - name: "Garlic (1 tsp)"
-    amount: "Varies"
-    unit: "mcg"
+  - name: Broccoli (1/2 cup)
+    amount: '11'
+    unit: mcg
+  - name: 'Potatoes (1 cup, mashed)'
+    amount: '2.7'
+    unit: mcg
+  - name: Garlic (1 tsp)
+    amount: Varies
+    unit: mcg
 myths:
   - myth: Chromium picolinate supplements help you lose weight
     reality: Meta-analyses show chromium supplements produce minimal weight loss (~0.5 kg) at best. Marketing has far outpaced the science.
@@ -106,41 +106,42 @@ interactions:
     effect: May enhance their blood sugar-lowering effects
   - substance: NSAIDs
     effect: May increase chromium absorption
-history: Chromium's biological role was discovered in 1959 by Walter Mertz and Klaus Schwarz, who identified a "glucose tolerance factor" in brewer's yeast. The essentiality of chromium in humans remains debated — EFSA removed it from the list of essential nutrients in 2014.
+history: 'Chromium''s biological role was discovered in 1959 by Walter Mertz and Klaus Schwarz, who identified a "glucose tolerance factor" in brewer''s yeast. The essentiality of chromium in humans remains debated — EFSA removed it from the list of essential nutrients in 2014.'
 funFacts:
   - Chromium's essentiality is one of the most debated topics in nutrition science
   - The "glucose tolerance factor" reportedly discovered in the 1950s has never been conclusively identified
   - Brewer's yeast is one of the best food sources — it's where chromium's biological role was first discovered
 enzymeRoles:
-  - "May enhance insulin receptor tyrosine kinase activity"
-  - "Component of low-molecular-weight chromium-binding substance (LMWCr/chromodulin)"
+  - May enhance insulin receptor tyrosine kinase activity
+  - Component of low-molecular-weight chromium-binding substance (LMWCr/chromodulin)
 hormonalRoles:
-  - "Enhances insulin signaling (amplifies insulin action)"
-  - "May influence glucose transporter (GLUT4) translocation"
+  - Enhances insulin signaling (amplifies insulin action)
+  - May influence glucose transporter (GLUT4) translocation
 metabolicPathways:
-  - "Insulin signaling amplification"
-  - "Glucose uptake and metabolism"
-  - "Lipid metabolism (cholesterol, triglycerides)"
+  - Insulin signaling amplification
+  - Glucose uptake and metabolism
+  - 'Lipid metabolism (cholesterol, triglycerides)'
 organsAffected:
-  - "Pancreas (insulin signaling)"
-  - "Skeletal muscle (glucose uptake)"
-  - "Adipose tissue"
-  - "Liver"
+  - Pancreas (insulin signaling)
+  - Skeletal muscle (glucose uptake)
+  - Adipose tissue
+  - Liver
 cellularFunctions:
-  - "Insulin receptor sensitization"
-  - "Glucose transporter activation"
-  - "Macronutrient metabolism modulation"
+  - Insulin receptor sensitization
+  - Glucose transporter activation
+  - Macronutrient metabolism modulation
 supplementForms:
-  - form: "Chromium picolinate"
-    bioavailability: "High"
-    notes: "Most studied form, ~2% absorbed"
-  - form: "Chromium polynicotinate"
-    bioavailability: "High"
-    notes: "Bound to niacin, patented form"
-  - form: "Chromium chloride"
-    bioavailability: "Low"
-    notes: "Poorly absorbed (~0.5%), older supplement form"
-  - form: "Chromium GTF (from yeast)"
-    bioavailability: "Moderate"
-    notes: "Glucose tolerance factor from brewer's yeast"
+  - form: Chromium picolinate
+    bioavailability: High
+    notes: 'Most studied form, ~2% absorbed'
+  - form: Chromium polynicotinate
+    bioavailability: High
+    notes: 'Bound to niacin, patented form'
+  - form: Chromium chloride
+    bioavailability: Low
+    notes: 'Poorly absorbed (~0.5%), older supplement form'
+  - form: Chromium GTF (from yeast)
+    bioavailability: Moderate
+    notes: Glucose tolerance factor from brewer's yeast
 ---
+

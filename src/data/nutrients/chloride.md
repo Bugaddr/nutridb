@@ -6,7 +6,7 @@ category: mineral
 subcategory: major
 essentiality: essential
 sortOrder: 19
-description: The most abundant anion in extracellular fluid. Essential for fluid balance, stomach acid (HCl) production, and nerve function. Usually consumed as sodium chloride (table salt).
+description: 'The most abundant anion in extracellular fluid. Essential for fluid balance, stomach acid (HCl) production, and nerve function. Usually consumed as sodium chloride (table salt).'
 functions:
   - Maintains fluid and electrolyte balance
   - Component of stomach acid (hydrochloric acid / HCl) for digestion
@@ -27,22 +27,22 @@ rda:
 deficiency:
   symptoms:
     early:
-      - "Fatigue"
-      - "Muscle weakness"
-      - "Excessive thirst"
+      - Fatigue
+      - Muscle weakness
+      - Excessive thirst
     moderate:
-      - "Metabolic alkalosis"
-      - "Shallow breathing"
-      - "Muscle cramps"
-      - "Confusion"
+      - Metabolic alkalosis
+      - Shallow breathing
+      - Muscle cramps
+      - Confusion
     severe:
-      - "Severe metabolic alkalosis"
-      - "Hypoventilation"
-      - "Cardiac arrhythmias"
-      - "Seizures"
+      - Severe metabolic alkalosis
+      - Hypoventilation
+      - Cardiac arrhythmias
+      - Seizures
     longTerm:
-      - "Chronic metabolic alkalosis"
-      - "Growth failure in infants (as seen in chloride-deficient formula incident of 1978-79)"
+      - Chronic metabolic alkalosis
+      - Growth failure in infants (as seen in chloride-deficient formula incident of 1978-79)
   conditions:
     - Hypochloremia (usually from vomiting or diuretic use)
   riskGroups:
@@ -51,7 +51,7 @@ deficiency:
 toxicity:
   symptoms:
     - Same as sodium excess (usually consumed together)
-    - Hypertension, fluid retention
+    - 'Hypertension, fluid retention'
   upperLimit: 3600 mg/day
 normalLevels:
   bloodRange: 98-106 mEq/L
@@ -74,15 +74,15 @@ sources:
   - name: Celery (1 stalk)
     amount: 32
     unit: mg
-  - name: "Table salt (1 tsp)"
-    amount: "3400"
-    unit: "mg"
-  - name: "Sea salt (1 tsp)"
-    amount: "3400"
-    unit: "mg"
+  - name: Table salt (1 tsp)
+    amount: '3400'
+    unit: mg
+  - name: Sea salt (1 tsp)
+    amount: '3400'
+    unit: mg
 myths:
   - myth: Chloride deficiency is a common concern
-    reality: Since most people consume excess sodium chloride (salt), chloride deficiency is extremely rare in normal diets.
+    reality: 'Since most people consume excess sodium chloride (salt), chloride deficiency is extremely rare in normal diets.'
 precautions:
   - Chloride intake closely tracks sodium intake — reducing salt reduces both
   - The sweat chloride test is the diagnostic standard for cystic fibrosis
@@ -95,30 +95,31 @@ funFacts:
   - Cystic fibrosis was historically diagnosed by midwives licking babies' foreheads — salty taste indicated the disease
   - Chloride is the most abundant anion in your blood
 enzymeRoles:
-  - "Required by amylase (starch digestion)"
-  - "Activator of angiotensin-converting enzyme (ACE)"
+  - Required by amylase (starch digestion)
+  - Activator of angiotensin-converting enzyme (ACE)
 hormonalRoles:
-  - "Component of HCl for pepsinogen activation in stomach"
-  - "Indirectly influences RAAS via chloride-sensitive macula densa"
+  - Component of HCl for pepsinogen activation in stomach
+  - Indirectly influences RAAS via chloride-sensitive macula densa
 metabolicPathways:
-  - "HCl production by parietal cells (H⁺/K⁺-ATPase + Cl⁻ channel)"
-  - "Chloride shift (CO₂ transport in RBCs)"
-  - "GABA-A receptor activation (Cl⁻ influx — inhibitory)"
+  - HCl production by parietal cells (H⁺/K⁺-ATPase + Cl⁻ channel)
+  - Chloride shift (CO₂ transport in RBCs)
+  - GABA-A receptor activation (Cl⁻ influx — inhibitory)
 organsAffected:
-  - "Stomach (HCl production)"
-  - "Kidneys"
-  - "Red blood cells (chloride shift)"
-  - "Brain (GABA inhibitory signaling)"
+  - Stomach (HCl production)
+  - Kidneys
+  - Red blood cells (chloride shift)
+  - Brain (GABA inhibitory signaling)
 cellularFunctions:
-  - "Maintaining osmotic pressure"
-  - "Stomach acid production"
-  - "Inhibitory neurotransmission (GABA and glycine receptor Cl⁻ channels)"
-  - "Cell volume regulation"
+  - Maintaining osmotic pressure
+  - Stomach acid production
+  - Inhibitory neurotransmission (GABA and glycine receptor Cl⁻ channels)
+  - Cell volume regulation
 supplementForms:
-  - form: "Sodium chloride"
-    bioavailability: "High"
-    notes: "Primary dietary source"
-  - form: "Potassium chloride"
-    bioavailability: "High"
-    notes: "Used in salt substitutes"
+  - form: Sodium chloride
+    bioavailability: High
+    notes: Primary dietary source
+  - form: Potassium chloride
+    bioavailability: High
+    notes: Used in salt substitutes
 ---
+

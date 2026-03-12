@@ -28,26 +28,26 @@ rda:
 deficiency:
   symptoms:
     early:
-      - "Fatigue, especially during exercise"
-      - "Muscle weakness"
-      - "Mild confusion"
+      - 'Fatigue, especially during exercise'
+      - Muscle weakness
+      - Mild confusion
     moderate:
-      - "Exercise intolerance"
-      - "Muscle cramps"
-      - "Hypoglycemia (impaired fatty acid oxidation)"
+      - Exercise intolerance
+      - Muscle cramps
+      - Hypoglycemia (impaired fatty acid oxidation)
     severe:
-      - "Hypoketotic hypoglycemia (life-threatening in infants)"
-      - "Cardiomyopathy"
-      - "Encephalopathy"
-      - "Primary carnitine deficiency (genetic — SLC22A5 mutations)"
+      - Hypoketotic hypoglycemia (life-threatening in infants)
+      - Cardiomyopathy
+      - Encephalopathy
+      - Primary carnitine deficiency (genetic — SLC22A5 mutations)
     longTerm:
-      - "Dilated cardiomyopathy"
-      - "Chronic muscle weakness"
-      - "Recurrent metabolic crises in children"
-      - "Hepatic dysfunction"
+      - Dilated cardiomyopathy
+      - Chronic muscle weakness
+      - Recurrent metabolic crises in children
+      - Hepatic dysfunction
   conditions:
     - Primary carnitine deficiency (genetic — OCTN2 transporter)
-    - Secondary carnitine deficiency (from organic acidemias, dialysis)
+    - 'Secondary carnitine deficiency (from organic acidemias, dialysis)'
   riskGroups:
     - Premature infants
     - Hemodialysis patients
@@ -57,7 +57,7 @@ deficiency:
 toxicity:
   symptoms:
     - Fishy body odor (trimethylamine)
-    - Nausea, diarrhea
+    - 'Nausea, diarrhea'
     - Possible increased TMAO (linked to cardiovascular risk — controversial)
   upperLimit: No established UL. Doses of 2-6 g/day used in clinical studies.
 normalLevels:
@@ -78,7 +78,7 @@ sources:
   - name: Chicken breast (4 oz)
     amount: 3-5
     unit: mg
-  - name: Cheese, cheddar (2 oz)
+  - name: 'Cheese, cheddar (2 oz)'
     amount: 2
     unit: mg
   - name: Whole wheat bread (2 slices)
@@ -87,20 +87,20 @@ sources:
   - name: Asparagus (½ cup)
     amount: 0.1
     unit: mg
-  - name: "Chicken breast (4 oz)"
-    amount: "3-5"
-    unit: "mg"
-  - name: "Milk (1 cup)"
-    amount: "8"
-    unit: "mg"
-  - name: "Cheese"
-    amount: "1-2"
-    unit: "mg (per oz)"
+  - name: Chicken breast (4 oz)
+    amount: 3-5
+    unit: mg
+  - name: Milk (1 cup)
+    amount: '8'
+    unit: mg
+  - name: Cheese
+    amount: 1-2
+    unit: mg (per oz)
 myths:
   - myth: L-carnitine supplements help you burn more fat and lose weight
-    reality: For healthy people who produce adequate carnitine, supplements do NOT increase fat burning or cause weight loss. Muscle carnitine levels are already saturated.
+    reality: 'For healthy people who produce adequate carnitine, supplements do NOT increase fat burning or cause weight loss. Muscle carnitine levels are already saturated.'
   - myth: All carnitine supplements are safe long-term
-    reality: L-carnitine is metabolized by gut bacteria to TMAO (trimethylamine N-oxide), which some studies link to increased cardiovascular risk. Long-term high-dose supplementation may be harmful.
+    reality: 'L-carnitine is metabolized by gut bacteria to TMAO (trimethylamine N-oxide), which some studies link to increased cardiovascular risk. Long-term high-dose supplementation may be harmful.'
 precautions:
   - D-carnitine (inactive form) can actually cause carnitine deficiency — only use L-carnitine
   - TMAO concerns are real but the clinical significance is still being studied
@@ -119,37 +119,38 @@ funFacts:
   - Vegans have 20-30% lower plasma carnitine but their bodies compensate with increased renal reabsorption
   - Your body makes only ~20 mg/day but recycles it very efficiently through kidney reabsorption (95-99%)
 enzymeRoles:
-  - "Substrate for carnitine palmitoyltransferase I and II (CPT I/II)"
-  - "Substrate for carnitine-acylcarnitine translocase"
+  - Substrate for carnitine palmitoyltransferase I and II (CPT I/II)
+  - Substrate for carnitine-acylcarnitine translocase
 hormonalRoles:
-  - "May modulate thyroid hormone cellular uptake"
-  - "Influences fuel selection (fat vs carbohydrate oxidation)"
+  - May modulate thyroid hormone cellular uptake
+  - Influences fuel selection (fat vs carbohydrate oxidation)
 metabolicPathways:
-  - "Long-chain fatty acid transport across inner mitochondrial membrane"
-  - "Carnitine shuttle (acyl-CoA ↔ acylcarnitine)"
-  - "Acyl-CoA/CoA ratio buffering in mitochondria"
-  - "Branched-chain amino acid metabolism"
+  - Long-chain fatty acid transport across inner mitochondrial membrane
+  - Carnitine shuttle (acyl-CoA ↔ acylcarnitine)
+  - Acyl-CoA/CoA ratio buffering in mitochondria
+  - Branched-chain amino acid metabolism
 organsAffected:
-  - "Heart (depends heavily on fatty acid oxidation)"
-  - "Skeletal muscles"
-  - "Liver"
-  - "Kidneys (synthesis and reabsorption)"
+  - Heart (depends heavily on fatty acid oxidation)
+  - Skeletal muscles
+  - Liver
+  - Kidneys (synthesis and reabsorption)
 cellularFunctions:
-  - "Fatty acid transport into mitochondria for beta-oxidation"
-  - "Toxic acyl group removal from mitochondria"
-  - "CoA pool maintenance"
-  - "Energy production from fat"
+  - Fatty acid transport into mitochondria for beta-oxidation
+  - Toxic acyl group removal from mitochondria
+  - CoA pool maintenance
+  - Energy production from fat
 supplementForms:
-  - form: "L-carnitine"
-    bioavailability: "Moderate"
-    notes: "Standard form, ~15-18% oral bioavailability"
-  - form: "Acetyl-L-carnitine (ALCAR)"
-    bioavailability: "High"
-    notes: "Crosses blood-brain barrier, neuroprotective, supports cognition"
-  - form: "L-carnitine L-tartrate"
-    bioavailability: "High"
-    notes: "Rapidly absorbed, studied for exercise recovery"
-  - form: "Propionyl-L-carnitine"
-    bioavailability: "Moderate"
-    notes: "Studied for cardiovascular and peripheral circulation"
+  - form: L-carnitine
+    bioavailability: Moderate
+    notes: 'Standard form, ~15-18% oral bioavailability'
+  - form: Acetyl-L-carnitine (ALCAR)
+    bioavailability: High
+    notes: 'Crosses blood-brain barrier, neuroprotective, supports cognition'
+  - form: L-carnitine L-tartrate
+    bioavailability: High
+    notes: 'Rapidly absorbed, studied for exercise recovery'
+  - form: Propionyl-L-carnitine
+    bioavailability: Moderate
+    notes: Studied for cardiovascular and peripheral circulation
 ---
+
