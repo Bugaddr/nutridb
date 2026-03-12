@@ -62,7 +62,11 @@ deficiency:
     - Osteopenia — reduced bone density (precursor)
     - Rickets (children) / Osteomalacia (adults)
     - Tetany — severe muscle spasms
-  mimickingConditions:\n    - "Hypomagnesemia (low magnesium causes similar neuromuscular excitability)"\n    - "Hyperventilation syndrome (respiratory alkalosis causes similar tingling and tetany)"\n    - "Vitamin D deficiency (can present with similar bone and muscle symptoms)"\n  riskGroups:
+  mimickingConditions:
+    - "Hypomagnesemia (low magnesium causes similar neuromuscular excitability)"
+    - "Hyperventilation syndrome (respiratory alkalosis causes similar tingling and tetany)"
+    - "Vitamin D deficiency (can present with similar bone and muscle symptoms)"
+  riskGroups:
     - Postmenopausal women
     - Lactose intolerant / dairy-avoiders
     - Vegans

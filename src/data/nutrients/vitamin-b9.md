@@ -66,7 +66,10 @@ deficiency:
     - Neural tube defects (spina bifida, anencephaly) in offspring
     - Megaloblastic anemia
     - Hyperhomocysteinemia (cardiovascular risk)
-  mimickingConditions:\n    - "B12 deficiency (causes identical megaloblastic anemia and fatigue)"\n    - "Hypothyroidism (fatigue and cognitive changes)"\n  riskGroups:
+  mimickingConditions:
+    - "B12 deficiency (causes identical megaloblastic anemia and fatigue)"
+    - "Hypothyroidism (fatigue and cognitive changes)"
+  riskGroups:
     - Women of childbearing age (especially pre-conception)
     - Pregnant women
     - Alcoholics

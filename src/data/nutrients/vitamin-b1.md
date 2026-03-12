@@ -58,7 +58,11 @@ deficiency:
   conditions:
     - Beriberi — wet (cardiovascular) or dry (neurological)
     - Wernicke-Korsakoff syndrome — brain damage from alcohol-related deficiency
-  mimickingConditions:\n    - "Alcohol withdrawal syndrome (can mimic Wernicke-Korsakoff syndrome)"\n    - "Guillain-Barré syndrome (mimics dry beriberi neuropathy)"\n    - "Heart failure (mimics wet beriberi)"\n  riskGroups:
+  mimickingConditions:
+    - "Alcohol withdrawal syndrome (can mimic Wernicke-Korsakoff syndrome)"
+    - "Guillain-Barré syndrome (mimics dry beriberi neuropathy)"
+    - "Heart failure (mimics wet beriberi)"
+  riskGroups:
     - Chronic alcoholics (most common cause in developed countries)
     - People with HIV/AIDS
     - Bariatric surgery patients

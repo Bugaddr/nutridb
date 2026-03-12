@@ -63,7 +63,11 @@ deficiency:
     - Hypomagnesemia
     - May contribute to hypertension, type 2 diabetes, osteoporosis
     - Migraines
-  mimickingConditions:\n    - "Hypocalcemia (low calcium causes similar muscle spasms and cramps)"\n    - "Hypokalemia (low potassium causes similar muscle weakness and arrhythmias)"\n    - "Restless leg syndrome (muscle twitching and discomfort)"\n  riskGroups:
+  mimickingConditions:
+    - "Hypocalcemia (low calcium causes similar muscle spasms and cramps)"
+    - "Hypokalemia (low potassium causes similar muscle weakness and arrhythmias)"
+    - "Restless leg syndrome (muscle twitching and discomfort)"
+  riskGroups:
     - People with GI diseases (Crohn's, celiac)
     - Type 2 diabetics (30-40% are deficient)
     - Alcoholics

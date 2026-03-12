@@ -57,7 +57,11 @@ deficiency:
   conditions:
     - Pellagra — historically endemic in corn-dependent populations
     - Hartnup disease (genetic impaired tryptophan absorption)
-  mimickingConditions:\n    - "Sunburn or contact dermatitis (mimics the pellagra rash)"\n    - "Schizophrenia or Alzheimer's (mimics pellagra dementia)"\n    - "Tryptophan deficiency (can cause similar symptoms since it converts to B3)"\n  riskGroups:
+  mimickingConditions:
+    - "Sunburn or contact dermatitis (mimics the pellagra rash)"
+    - "Schizophrenia or Alzheimer's (mimics pellagra dementia)"
+    - "Tryptophan deficiency (can cause similar symptoms since it converts to B3)"
+  riskGroups:
     - Alcoholics
     - People with carcinoid syndrome (tryptophan diverted to serotonin)
     - Populations dependent on untreated corn/maize

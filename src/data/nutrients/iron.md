@@ -71,7 +71,12 @@ deficiency:
     - Iron deficiency anemia — most common anemia worldwide
     - Impaired cognitive development in children
     - Decreased work capacity
-  mimickingConditions:\n    - "B12 deficiency (can cause similar fatigue and weakness)"\n    - "Hypothyroidism (shares symptoms of fatigue, cold intolerance, and hair loss)"\n    - "Chronic fatigue syndrome"\n    - "Lead poisoning (can cause microcytic anemia mimicking iron deficiency)"\n  riskGroups:
+  mimickingConditions:
+    - "B12 deficiency (can cause similar fatigue and weakness)"
+    - "Hypothyroidism (shares symptoms of fatigue, cold intolerance, and hair loss)"
+    - "Chronic fatigue syndrome"
+    - "Lead poisoning (can cause microcytic anemia mimicking iron deficiency)"
+  riskGroups:
     - Premenopausal women (menstrual blood loss)
     - Pregnant women (expanded blood volume)
     - Infants and toddlers (rapid growth)

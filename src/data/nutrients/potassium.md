@@ -57,7 +57,11 @@ deficiency:
     - Hypokalemia — can be life-threatening
     - Cardiac arrhythmias
     - Paralytic ileus (gut paralysis)
-  mimickingConditions:\n    - "Hypomagnesemia (causes similar muscle weakness and arrhythmias)"\n    - "Guillain-Barré syndrome (can cause ascending muscle weakness)"\n    - "Periodic paralyses (genetic channelopathies)"\n  riskGroups:
+  mimickingConditions:
+    - "Hypomagnesemia (causes similar muscle weakness and arrhythmias)"
+    - "Guillain-Barré syndrome (can cause ascending muscle weakness)"
+    - "Periodic paralyses (genetic channelopathies)"
+  riskGroups:
     - People on diuretics
     - Chronic diarrhea or vomiting
     - Excessive sweating (athletes)

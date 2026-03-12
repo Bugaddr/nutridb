@@ -60,7 +60,11 @@ deficiency:
   conditions:
     - Sideroblastic anemia
     - Seizures in infants (B6-dependent epilepsy)
-  mimickingConditions:\n    - "B12 deficiency (similar peripheral neuropathy)"\n    - "Diabetic neuropathy"\n    - "Eczema or seborrheic dermatitis (similar skin lesions)"\n  riskGroups:
+  mimickingConditions:
+    - "B12 deficiency (similar peripheral neuropathy)"
+    - "Diabetic neuropathy"
+    - "Eczema or seborrheic dermatitis (similar skin lesions)"
+  riskGroups:
     - Alcoholics
     - Women on oral contraceptives
     - Elderly
