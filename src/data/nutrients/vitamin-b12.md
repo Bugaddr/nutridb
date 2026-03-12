@@ -63,6 +63,10 @@ deficiency:
     - Pernicious anemia (autoimmune destruction of intrinsic factor)
     - Subacute combined degeneration of the spinal cord
     - Irreversible neurological damage if untreated
+  mimickingConditions:
+    - "Folate (B9) deficiency (causes identical megaloblastic anemia)"
+    - "Multiple sclerosis (shares similar neurological symptoms like paresthesia and gait issues)"
+    - "Copper deficiency (can cause similar myelopathy and neuropathy)"
   riskGroups:
     - Vegans and strict vegetarians (NO plant sources)
     - Elderly (reduced absorption due to atrophic gastritis — affects 10-30%)

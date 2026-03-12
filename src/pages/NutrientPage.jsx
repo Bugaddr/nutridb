@@ -141,6 +141,7 @@ export default function NutrientPage() {
                 { label: 'Long-term', content: sym.longTerm?.length > 0 && <List items={sym.longTerm} /> },
               ] : []),
               { label: 'Conditions', content: n.deficiency.conditions?.length > 0 && <List items={n.deficiency.conditions} /> },
+              { label: 'Mimicking Conditions', content: (n.deficiency.mimickingConditions || n.mimickingConditions)?.length > 0 && <List items={n.deficiency.mimickingConditions || n.mimickingConditions} /> },
               { label: 'Who\'s At Risk', content: n.deficiency.riskGroups?.length > 0 && <List items={n.deficiency.riskGroups} /> },
             ]} />
           </div>
