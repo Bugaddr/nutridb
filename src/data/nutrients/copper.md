@@ -57,7 +57,7 @@ deficiency:
   conditions:
     - Menkes disease (genetic copper malabsorption — fatal in infancy)
     - Copper deficiency myelopathy (mimics B12 deficiency)
-  riskGroups:
+  mimickingConditions:\n    - "B12 deficiency (similar neurological symptoms and anemia)"\n    - "Iron deficiency (similar microcytic anemia)"\n    - "Zinc toxicity (excess zinc causes copper deficiency, simulating the condition)"\n  riskGroups:
     - People taking high-dose zinc supplements (>50 mg/day)
     - Bariatric surgery patients
     - Infants on cow's milk exclusive diets

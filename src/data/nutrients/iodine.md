@@ -61,7 +61,7 @@ deficiency:
     - Goiter
     - Cretinism (severe intellectual disability in children of deficient mothers)
     - Hypothyroidism
-  riskGroups:
+  mimickingConditions:\n    - "Hashimoto's thyroiditis (autoimmune cause of hypothyroidism sharing the same symptoms)"\n    - "Chronic fatigue syndrome"\n    - "Pituitary disorders (causing secondary hypothyroidism)"\n  riskGroups:
     - People in mountainous/inland regions far from ocean
     - Pregnant women (increased demand)
     - People who don't use iodized salt

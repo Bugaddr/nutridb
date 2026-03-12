@@ -65,7 +65,7 @@ deficiency:
     - Scurvy — connective tissue breakdown (historically fatal for sailors)
     - Impaired immune response
     - Iron-deficiency anemia (secondary)
-  riskGroups:
+  mimickingConditions:\n    - "Gingivitis or periodontal disease (bleeding gums)"\n    - "Bleeding disorders like von Willebrand disease (easy bruising)"\n    - "Vasculitis (petechiae and skin hemorrhages)"\n  riskGroups:
     - Smokers and passive smoke exposed
     - People with limited diet variety
     - People with malabsorption disorders

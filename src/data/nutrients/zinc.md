@@ -67,7 +67,7 @@ deficiency:
     - Acrodermatitis enteropathica (genetic zinc malabsorption)
     - Hypogonadism in males
     - Growth stunting
-  riskGroups:
+  mimickingConditions:\n    - "Hypothyroidism (can cause similar hair loss and dry skin)"\n    - "Alopecia areata (hair loss)"\n    - "COVID-19 or viral infections (can cause similar loss of taste/smell)"\n  riskGroups:
     - Vegetarians/vegans (phytates reduce absorption)
     - Pregnant/lactating women
     - Alcoholics

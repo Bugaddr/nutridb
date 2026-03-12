@@ -57,7 +57,7 @@ deficiency:
       - "Gait instability"
   conditions:
     - Hyponatremia — can be life-threatening (especially exercise-associated)
-  riskGroups:
+  mimickingConditions:\n    - "Dehydration (can cause similar dizziness and confusion)"\n    - "Hypoglycemia (similar weakness and confusion)"\n  riskGroups:
     - Endurance athletes (exercise-associated hyponatremia)
     - Elderly on diuretics
     - MDMA/ecstasy users + excessive water intake

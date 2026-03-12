@@ -56,7 +56,7 @@ deficiency:
     - Keshan disease (cardiomyopathy in selenium-deficient regions of China)
     - Kashin-Beck disease (osteoarthropathy)
     - Myxedematous cretinism (with concurrent iodine deficiency)
-  riskGroups:
+  mimickingConditions:\n    - "Iodine deficiency or hypothyroidism (similar fatigue and metabolic slowdown)"\n    - "Vitamin E deficiency (similar oxidative stress and muscle weakness)"\n  riskGroups:
     - People in selenium-poor soil regions (parts of China, Europe)
     - HIV patients
     - Dialysis patients

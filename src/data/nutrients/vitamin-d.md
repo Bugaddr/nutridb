@@ -63,7 +63,7 @@ deficiency:
     - Osteomalacia (adults) — bone softening
     - Osteoporosis — reduced bone density
     - Seasonal Affective Disorder (SAD) — linked to low vitamin D
-  riskGroups:
+  mimickingConditions:\n    - "Fibromyalgia (bone and muscle pain)"\n    - "Osteoarthritis (joint pain)"\n    - "Polymyalgia rheumatica (muscle stiffness)"\n    - "Hyperparathyroidism (can cause similar bone issues)"\n  riskGroups:
     - People with dark skin (reduced UV synthesis)
     - Elderly (reduced skin synthesis capacity)
     - People in northern latitudes or who stay indoors

@@ -74,7 +74,7 @@ deficiency:
     - Xerophthalmia — leading cause of preventable childhood blindness worldwide
     - Keratomalacia — corneal necrosis
     - Measles complications — vitamin A deficiency worsens outcomes
-  riskGroups:
+  mimickingConditions:\n    - "Cataracts or Glaucoma (vision loss/night blindness)"\n    - "Sjogren's syndrome (dry eyes)"\n    - "Eczema or psoriasis (dry, scaling skin)"\n  riskGroups:
     - Premature infants
     - Children in developing countries
     - Pregnant/lactating women in low-income regions
