@@ -46,7 +46,6 @@ export default function HomePage() {
   return (
     <div className="wrap">
       <div className="home-hero">
-        <p className="hero-label">NutriDB</p>
         <h1>The Micronutrient<br />Encyclopedia</h1>
         <p className="hero-desc">
           {nutrients.length} nutrients with RDA from multiple agencies, deficiency symptoms by severity,

@@ -58,7 +58,6 @@ footer { margin-top: auto; padding: 32px 0 16px; border-top: 1px solid var(--bor
 
 /* Home Hero */
 .home-hero { padding: 64px 0 40px; border-bottom: 1px solid var(--border); }
-.hero-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); font-weight: 600; margin-bottom: 12px; }
 .home-hero h1 { font-size: 2.2rem; font-weight: 700; margin-bottom: 12px; line-height: 1.2; }
 .hero-desc { color: var(--text2); max-width: 540px; font-size: 0.9rem; line-height: 1.6; }
 .hero-search { display: flex; align-items: center; gap: 8px; margin-top: 24px; max-width: 460px; padding: 8px 14px; background: var(--bg2); border: 1px solid var(--border); border-radius: 8px; }
